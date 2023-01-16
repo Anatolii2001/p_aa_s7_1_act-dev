@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Passport Users</title>
+    <link rel="stylesheet" type="text/css"
+          th:href="@{/css/style.css}"/>
+    <style>
+        tbody {
+            font-size: 90%;
+            font-style: italic;
+        }
+
+        tfoot {
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+<h1>Passenger</h1>
+<div>
+    <table border="3">
+        <caption><b>Passport Users</b></caption>
+        <tr>
+            <th>Id</th>
+            <th>Type</th>
+            <th>CodeOfIssuingState</th>
+            <th>PassportNo</th>
+            <th>Surname</th>
+            <th>GivenNames</th>
+            <th>Nationality</th>
+            <th>PersonalNo</th>
+            <th>DateOfBirth</th>
+            <th>PlaceOfBirth</th>
+            <th>Sex</th>
+            <th>DateOfIssue</th>
+            <th>DateOfExpiry</th>
+            <th>Authority</th>
+        </tr>
+        <tr th:each="passport:${passports}">
+            <td th:utext="${passport.getId()}"></td>
+            <td th:utext="${passport.getType()}"></td>
+            <td th:utext="${passport.getCodeOfIssuingState()}"></td>
+            <td th:utext="${passport.getPassportNo()}"></td>
+            <td th:utext="${passport.getSurname()}"></td>
+            <td th:utext="${passport.getGivenNames()}"></td>
+            <td th:utext="${passport.getNationality()}"></td>
+            <td th:utext="${passport.getPersonalNo()}"></td>
+            <td th:utext="${passport.getDateOfBirth()}"></td>
+            <td th:utext="${passport.getPlaceOfBirth()}"></td>
+            <td th:utext="${passport.getSex()}"></td>
+            <td th:utext="${passport.getDateOfIssue()}"></td>
+            <td th:utext="${passport.getDateOfExpiry()}"></td>
+            <td th:utext="${passport.getAuthority()}"></td>
+
+            <td><a th:href="@{/{id}/insertPassport(id=${passport.getId()})}">
+                <input type="submit" value="Edit">
+            </a></td>
+
+            <td>
+                <form th:method="DELETE" th:action="@{/{id}/deletePassport(id=${passport.getId()})}">
+                    <input type="submit" value="Delete">
+                </form>
+            </td>
+
+        </tr>
+    </table>
+    <br/>
+    <a href="getPagePassport">
+        <input type="submit" value="Create new user">
+    </a>
+</div>
+</body>
+</html>
