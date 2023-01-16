@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html
+>
+
+<head data-page="search">
+  <title>Поиск</title>
+  <meta charset='UTF-8'>
+  <meta http-equiv="Content-Language" content="ru" data-rh="true"/>
+
+  <script class="__r_scripts">
+    var __r_ibe_conversation = "3.28:5833807f-41af-4dd6-aa6c-5da9fc4bb9fb";
+    var __r_execution = "e1s1";
+    var __r_client_id = "ibe";
+    var __r_show_social_tinkoff = true;
+    var __r_payment_multicontacts_enabled = true;
+    var __r_b2b_react_shopping_cart_available = true;
+    var __r_react_shopping_cart_available =true;
+    var __r_common_static = "https:\/\/ibe.s7cdn.online\/common\/static\/";
+    var __r_login_widget_x_cast_enabled = false;
+    var __r_profile = null;
+    var __r_prepay_duration  = 0;
+    var __r_redux_devtool_enabled = true;
+    var __r_new_year_spinner_enabled = false;
+    var __r_async_locations_autocomplete_url = "https:\/\/locations.api.s7.ru\/completion\/completions\/locations\/airports";
+    var __r_b2b_search_locations_suggest_enabled = true;
+    var __r_b2b_search_locations_suggest_use_cache = false;
+    var __r_b2b_search_locations_airports_cities_url = "https:\/\/locations.api.s7.ru\/completion\/completions\/locations\/airports-cities";
+    var __r_b2b_search_locations_airports_cities_extended_url = "https:\/\/locations.api.s7.ru\/completion\/completions\/locations\/airports-cities-extended";
+    var __r_b2b_search_locations_airports_railway_stations_cities_url = "https:\/\/locations.api.s7.ru\/completion\/completions\/locations\/airports-railway-stations-cities";
+    var __r_b2b_search_locations_airports_railway_stations_cities_extended_url = "https:\/\/locations.api.s7.ru\/completion\/completions\/locations\/airports-railway-stations-cities-extended";
+    var __r_max_search_days = 359;
+    var __r_b2b_itinerary_page_mobile_display_enabled = false;
+  </script>
+
+
+
+
+
+  <script class="__r_scripts">
+    var __r_footer            = {
+      urls: {
+        rulesProfi           : "https:\/\/www.s7.ru\/ru\/about\/rules\/s7profi-rules.dot",
+        rulesCorporate       : "https:\/\/corp.s7.ru\/static\/\u041F\u0440\u0430\u0432\u0438\u043B\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B S7 Corporate.pdf",
+        aboutProgramProfi    : "https:\/\/www.s7.ru\/ru\/profi\/",
+        aboutProgramCorporate: "https:\/\/corp.s7.ru",
+        questionsAndAnswers  : "https:\/\/helpcenter.s7.ru\/hc\/ru\/categories\/360001781352-S7-Profi-%D0%B8-S7-Corporate",
+        feedback             : "https:\/\/www.s7.ru\/ru\/about\/contactus.dot",
+        specialOffers        : "https:\/\/www.s7.ru\/ru\/b2b-portal\/",
+        research             : "https:\/\/forms.gle\/6wryszZm2KWPEmjV8",
+        rentCar              : "https:\/\/www.s7.ru\/${lang}\/?open=auto",
+        transfer             : "https:\/\/s7.gettransfer.com\/ru\/transfers\/new?transfer",
+        partnershipProfi     : "profi.partners@s7.ru",
+        partnershipCorporate : "corp.partners@s7.ru",
+        supportMail          : "corp.support@s7.ru",
+        facebook             : "",
+        vk                   : "https:\/\/vk.com\/s7airlines",
+        instagram            : "",
+        odnoklassniki        : "https:\/\/ok.ru\/s7airlines",
+        youtube              : "https:\/\/www.youtube.com\/user\/S7Group",
+        bookingUrl           : "",
+        settlementUrl        : "corp.doc@s7.ru"
+      },
+      phoneNumbers: {
+        supportPhoneNumber   : "8 800 500-5077",
+      }
+    };
+  </script>
+
+
+
+  <link rel="stylesheet" href="https://ibe.s7cdn.online/3.28-28/commonStyles/global/css-base-s7.css">
+  <script nomodule src="https://ibe.s7cdn.online/3.28-28/scripts/common/polyfill.min.js"></script>
+
+
+  <script nomodule src="https://ibe.s7cdn.online/3.28-28/scripts/build/common/libs/css-vars-ponyfill@2.js"></script>
+  <script nomodule>
+    window.cssVars && window.cssVars({ rootElement: document });
+  </script>
+
+
+
+
+  <script defer src="https://www.s7.ru/servlets/DefineLocationServlet?ip=2a00:1370:81ac:32f0:15d8:d0b8:6fc:bc63&amp;jsonV=true"></script>
+
+
+
+  <script src="https://ibe.s7cdn.online/3.28-28/scripts/build/common/libs/react.production.min.js"></script>
+  <script src="https://ibe.s7cdn.online/3.28-28/scripts/build/common/libs/react-dom.production.min.js"></script>
+
+
+
+
+  <link rel='stylesheet' href="https://ibe.s7cdn.online/3.28-28/redesign/styles/b2b_global.css"/>
+
+
+  <link rel='stylesheet' href="https://ibe.s7cdn.online/3.28-28/redesign/styles/b2b_search.css"/>
+  <link rel="shortcut icon" href="https://ibe.s7cdn.online/3.28-28/image/common/favicons/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="https://ibe.s7cdn.online/3.28-28/image/common/favicons/touch-icon.png">
+  <link rel="yandex-tableau-widget" href="https://ibe.s7cdn.online/3.28-28/image/common/favicons/tableau.json">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://ibe.s7cdn.online/3.28-28/image/common/favicons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://ibe.s7cdn.online/3.28-28/image/common/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="https://ibe.s7cdn.online/3.28-28/image/common/favicons/android-icon-96x96.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="https://ibe.s7cdn.online/3.28-28/image/common/favicons/android-icon-192x192.png">
+  <link rel="manifest" href="https://ibe.s7cdn.online/3.28-28/image/common/favicons/manifest.json">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    window.DY = window.DY || {};
+    DY.recommendationContext = { type: "OTHER" };
+  </script>
+  <link rel="preconnect" href="//cdn-eu.dynamicyield.com">
+  <link rel="preconnect" href="//st-eu.dynamicyield.com">
+  <link rel="preconnect" href="//rcom-eu.dynamicyield.com">
+  <link rel="dns-prefetch" href="//cdn-eu.dynamicyield.com">
+  <link rel="dns-prefetch" href="//st-eu.dynamicyield.com">
+  <link rel="dns-prefetch" href="//rcom-eu.dynamicyield.com">
+  <script type="text/javascript" src="//cdn-eu.dynamicyield.com/api/9876650/api_dynamic.js"></script>
+  <script type="text/javascript" src="//cdn-eu.dynamicyield.com/api/9876650/api_static.js"></script>
+
+
+
+
+  <script defer>
+    (function (w, d, s, l, i) {
+      if (typeof(dataLayerUpdate) === 'function') dataLayerUpdate();
+      w[l] = w[l] || [];
+      w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+      var f = d.getElementsByTagName(s)[0],
+              j = d.createElement(s),
+              dl = l != 'dataLayer' ? '&amp;l=' + l : '';
+      j.async = true;
+      j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', "GTM-MWTWZW");
+  </script>
+
+
+
+  <script>
+    document.addEventListener("yacounter4173733inited", function(e) {
+      window.dataLayer = window.dataLayer || [];
+      dataLayer.push(
+              { 'event' : 'YaCounter4173733Inited' });
+    });
+  </script>
+
+
+  <link rel="stylesheet" href="https://ibe.s7cdn.online/3.28-28/styles/ibe-multi-city.css">
+
+  <script class="__r_scripts">
+    var __r_async_locations_autocomplete_url = "https:\/\/locations.api.s7.ru\/completion\/completions\/locations\/airports";
+    var __r_youth_passengers_enabled = true;
+    var __r_children_passengers_enabled = true;
+    var __r_infant_passengers_enabled = true;
+  </script>
+
+  <script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"true","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"SJ-9a0319c3-84ab-41b1-9bf0-92eda6dde6ee","rua.cook":"true","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch"}]);</script>
+  <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="B68X8-Q4J2Q-E9XJ5-KYV4D-UBSQ4",function(){function e(){if(!o){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,i.parentNode.appendChild(e),o=!0}}function t(e){o=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(i.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",i.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"B68X8-Q4J2Q-E9XJ5-KYV4D-UBSQ4";var i=document.currentScript||document.getElementsByTagName("script")[0],o=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!o)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),i.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n="true"=="true"?1:0,t="cookiepresent",a="fiabg4ebvqzpakqce3yaaqiaabrpvcuh-f-79906ba96-clienttons-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"32","ak.cp":"1264678","ak.ai":parseInt("678495",10),"ak.ol":"0","ak.cr":30,"ak.ipv":6,"ak.proto":"h2","ak.rid":"c63fc46e","ak.r":23469,"ak.a2":n,"ak.m":"dsca","ak.n":"essl","ak.bpcip":"2a00:1370:81ac:32f0::","ak.cport":59201,"ak.gh":"2.22.31.142","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"","ak.t":"1660586631","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==HJNRXWcO6l3qU1PWk/LhcrUgUjAKnmaN8n3Df7QKPP71pDc+UGC3isDTVxTWdqTYVlLzzaixY+XtcOxIi1pzk99nMpKc0DMxL/YM8R5vQ46jeNZtE4S3lS9pn/GLpbuFETUj97TmNQL9DgeP+c3mMJW/F5K/tOuHBMgA+qhjesMLUPipH818Wi3Obc5J4OJ4v9IkQ/aCXrR9oj2IKyeSSuoXpcWPGiGK2jPsq+o2rOiUEdCZMHv9D142KENi3IdOifXh/qhcRxlebPO1vuA9B7ojofJBHnDaUzg/+snaOzwrawS38JLRVGnbN0yD4UJcB5Hl0U634RW1oF8TTjNPupqvhNFMNOmDrP0rD6fQid1F/Cc1lrUIer0zKfKEtRKRLjE+RpXbpG7PfoOALPCwqGLVGPz6huqIxTzo+9jtCLY=","ak.pv":"77","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+<body class='body ots-device-normal' data-project="ibe"
+      data-client-id="ibe"
+      data-log-error="true"
+      data-log-load="false"
+      data-amplitude-id="679952ed3ce450461b912e009bcd2460"
+      data-currency="RUB"
+      data-owner-label="S7 Airlines"
+      data-owner-country="RU"
+      data-authenticated="false"
+      data-google-merchant-id="06427057681959075836"
+      data-google-pay-environment="PRODUCTION"
+      data-google-pay-sistems="[VISA, MASTERCARD, JCB]"
+      data-static-prefix="https://ibe.s7cdn.online/3.28-28"
+      data-social-login-stand="production"
+      data-amplitude-b2cb="false"
+>
+
+<input id="progress_step" value="1" type="hidden"/>
+
+
+
+<script charset='UTF-8'>
+  window['adrum-start-time'] = new Date().getTime();
+  (function(config){
+    config.appKey = "EUM-AAB-AVD";
+    config.adrumExtUrlHttp = 'http://cdn.appdynamics.com';
+    config.adrumExtUrlHttps = 'https://cdn.appdynamics.com';
+    config.beaconUrlHttp = 'http://eum.s7.ru';
+    config.beaconUrlHttps = 'https://eum.s7.ru';
+    config.xd = {enable : true};
+
+
+    config.useHTTPSAlways = true;
+
+    (function(info) {
+      info.PageView = extractUserData;
+    })(config.userEventInfo || (config.userEventInfo = {}));
+
+
+  })(window['adrum-config'] || (window['adrum-config'] = {}));
+
+
+  function extractUserData() {
+    var pageName;
+    var obj     = document.getElementById('ibe_conversation');
+    var ibeConv = obj && obj.value;
+    if (!document.head.dataset.page) {
+      return {
+        userData: {
+          ibe_conversation: ibeConv
+        }
+      };
+    }
+
+    switch (document.head.dataset.page) {
+      case 'search':
+        pageName = 'Search';
+        break;
+      case 'select':
+        pageName = 'Select';
+        break;
+      case 'itinerary':
+        pageName = 'Itinerary';
+        break;
+      case 'travelServices':
+        pageName = 'Options';
+        break;
+      case 'passengers':
+        pageName = 'Passengers';
+        break;
+      case 'payment':
+        pageName = 'Payment';
+        break;
+      case 'confirmation':
+        pageName = 'Confirmation';
+        break;
+      default:
+        pageName = 'unknown_page_name';
+    }
+
+    var origTotAmt = 0;
+    var totAmt = 0;
+    var ticAmt = 0;
+    var cur = "";
+
+    if(pageName !== "Search" && pageName !== "unknown_page_name") {
+      try {
+        origTotAmt = parseFloat(document.getElementById("shopping_cart_total_amount").getAttribute("data-original-amount"));
+        totAmt = parseFloat(document.getElementById("TOTAL_AMT").value);
+        ticAmt = parseFloat(document.getElementById("TICKET_AMT").value);
+        cur = document.getElementById("CURRENCY").value;
+      } catch(err) {}
+    }
+
+    return {
+      userPageName: pageName,
+      userData: {
+        ibe_conversation: ibeConv,
+        currency: cur
+      },
+      userDataDouble: {
+        originalTotalAmount: origTotAmt,
+        totalAmount: totAmt,
+        ticketAmount: ticAmt
+      }
+    };
+  }
+
+</script>
+<script src='https://static.s7cdn.online/js/external_libs/adrum/adrum-latest.js'></script>
+
+
+
+
+
+<noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-MWTWZW"
+          height="0"
+          width="0"
+          style="display:none;visibility:hidden;"></iframe>
+</noscript>
+
+<input type="hidden" id="storage_url" value="https://service.s7.ru/storage.html">
+<input type="hidden" id="ibe_airlines_url" value="https://www.s7.ru/">
+<div class="page-wrapper"
+     id="page-inner">
+  <div class="cookie-usage hidden js_cookie_policy_wrapper">
+    <div class="cookie-usage__wrapper">
+      <div class="cookie-usage__text">
+        <i class="icon icon_inf-outline"></i>
+        <span>Оставаясь на сайте, вы соглашаетесь с фактом использования cookies и user id в соответствии с их  <a href=https://www.s7.ru/about/confidentiality.dot?language_id=3 class=dotted-link target=_blank rel=noopener><span>политикой</span></a>.</span>
+        <i class="icon icon_close js_cookie_policy"></i>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <header class="header js-page-header header_search">
+
+
+    <input id="executionId" value="e1s1" type="hidden"/>
+
+    <input id="ibe_conversation" value="3.28:5833807f-41af-4dd6-aa6c-5da9fc4bb9fb" type="hidden"/>
+    <input id="js-agent" value="" type="hidden"/>
+    <input id="now" value="" type="hidden"/>
+    <input id="locale_language" value="ru" type="hidden"/>
+    <input id="redemption" value="false" type="hidden"/>
+    <input id="ip" value="2a00:1370:81ac:32f0:15d8:d0b8:6fc:bc63" type="hidden"/>
+    <input id="redirect" value="true" type="hidden"/>
+
+    <input id="preloaderLocationService" value="/locations/data/{code}?locale={locale}&amp;version=3.28.0-SN-28" type="hidden"/>
+    <input id="ga_route" value="" type="hidden"/>
+    <input name="" value="/air?execution=e1s1?" id="deeplinkRequestParams" type="hidden">
+    <input type="hidden" value="" id="deeplink"/>
+
+
+
+
+
+
+
+    <a class="header__back" href="/air?execution=e1s1&amp;_eventId=search&amp;ibe_conversation=3.28:5833807f-41af-4dd6-aa6c-5da9fc4bb9fb">
+      <span class="header__back-icon icon icon_switch-back"></span>
+    </a>
+
+
+
+
+
+
+
+    <div id="backBtn"></div>
+
+
+    <div class="header__headline">
+      <h1 class="header__logo header__logo-profi"><a target="_blank" rel="noopener"
+                                                     href="https://www.s7.ru/">S7 Profi</a></h1>
+      <ul class="header__bar">
+
+        <li class="header__bar-item header__locale">
+          <select class="js-select selectbox selectbox--locale selectbox--without-border nicescroll-select js_switch_locale">
+
+            <option data-text="&lt;span class=&#39;icons&#39;&gt;&lt;span class=&#39;name&#39;&gt;&lt;i class=&#39;icon&#39; style=&#39;background-image:url(https://ibe.s7cdn.online/3.28-28/redesign/images/flags/en_n.svg)&#39;&gt;&lt;/i&gt; &lt;span&gt;English&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;"
+                    value="/air?execution=e1s1&amp;locale=en&amp;ibe_conversation=3.28:5833807f-41af-4dd6-aa6c-5da9fc4bb9fb"></option>
+
+            <option data-text="&lt;span class=&#39;icons&#39;&gt;&lt;span class=&#39;name&#39;&gt;&lt;i class=&#39;icon&#39; style=&#39;background-image:url(https://ibe.s7cdn.online/3.28-28/redesign/images/flags/ru_n.svg)&#39;&gt;&lt;/i&gt; &lt;span&gt;Русский&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;"
+                    value="/air?execution=e1s1&amp;locale=ru&amp;ibe_conversation=3.28:5833807f-41af-4dd6-aa6c-5da9fc4bb9fb" selected="selected"></option>
+
+            <option data-text="&lt;span class=&#39;icons&#39;&gt;&lt;span class=&#39;name&#39;&gt;&lt;i class=&#39;icon&#39; style=&#39;background-image:url(https://ibe.s7cdn.online/3.28-28/redesign/images/flags/zh_n.svg)&#39;&gt;&lt;/i&gt; &lt;span&gt;中文&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;"
+                    value="/air?execution=e1s1&amp;locale=zh&amp;ibe_conversation=3.28:5833807f-41af-4dd6-aa6c-5da9fc4bb9fb"></option>
+
+            <option data-text="&lt;span class=&#39;icons&#39;&gt;&lt;span class=&#39;name&#39;&gt;&lt;i class=&#39;icon&#39; style=&#39;background-image:url(https://ibe.s7cdn.online/3.28-28/redesign/images/flags/de_n.svg)&#39;&gt;&lt;/i&gt; &lt;span&gt;Deutsch&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;"
+                    value="/air?execution=e1s1&amp;locale=de&amp;ibe_conversation=3.28:5833807f-41af-4dd6-aa6c-5da9fc4bb9fb"></option>
+
+            <option data-text="&lt;span class=&#39;icons&#39;&gt;&lt;span class=&#39;name&#39;&gt;&lt;i class=&#39;icon&#39; style=&#39;background-image:url(https://ibe.s7cdn.online/3.28-28/redesign/images/flags/es_n.svg)&#39;&gt;&lt;/i&gt; &lt;span&gt;Español&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;"
+                    value="/air?execution=e1s1&amp;locale=es&amp;ibe_conversation=3.28:5833807f-41af-4dd6-aa6c-5da9fc4bb9fb"></option>
+
+            <option data-text="&lt;span class=&#39;icons&#39;&gt;&lt;span class=&#39;name&#39;&gt;&lt;i class=&#39;icon&#39; style=&#39;background-image:url(https://ibe.s7cdn.online/3.28-28/redesign/images/flags/it_n.svg)&#39;&gt;&lt;/i&gt; &lt;span&gt;Italiano&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;"
+                    value="/air?execution=e1s1&amp;locale=it&amp;ibe_conversation=3.28:5833807f-41af-4dd6-aa6c-5da9fc4bb9fb"></option>
+
+          </select>
+        </li>
+
+
+        <li class="header__bar-item header__account header__account">
+          <a class="header__login-button js-top-menu-link" data-link="login">Войти</a>
+        </li>
+
+      </ul>
+    </div>
+
+
+
+
+
+    <div class="header-dropdown js-top-menu-item js_on_login_logout_replace_panel hidden" data-link="login" data-qa="loginProfile_block">
+      <div class="wrapper">
+        <div class="wrap-login wrap-login--ibe js-profile-block">
+          <form method="post" id="login-form" name="loginForm">
+            <div class="not-authorized-user">
+              <label for="login">Логин</label>
+              <input id="login" name="id" class="js-username"
+                     placeholder="Email/Телефон/№ карты"
+                     data-qa="login_loginProfile"
+                     data-qa-error="loginError_loginProfile">
+            </div>
+            <div class="not-authorized-user">
+              <label for="password">Пароль</label>
+              <input type="password" id="password" name="password"
+                     class="js-password"
+                     placeholder="Пароль/ПИН"
+                     data-qa="password_loginProfile"
+                     data-qa-error="passwordError_loginProfile">
+            </div>
+            <div class="not-authorized-user submit">
+              <button class="button button--default js-submit-profile" type="button" id="authButton" data-qa="submit_loginProfile">
+                Войти
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="register-links">
+          <p>
+            <a data-qa="forgotPassword" href="https://www.s7.ru/priority/ffpforgotpassword.dot?language_id=3" target="_blank" rel="noopener">
+              Забыли пароль?<i class="icon icon--grey-right-arrow"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+  </header>
+
+
+
+  <div class="breadcrumbs js-breadcrumbs">
+
+    <ul id="progress_bar" class="progressNav progressNav_search">
+
+
+      <li class="progressNav__item progressNav__item_current">
+
+
+
+        Поиск
+
+      </li>
+
+      <li class="progressNav__item">
+
+
+
+        Выбор
+
+      </li>
+
+      <li class="progressNav__item">
+
+
+
+        Багаж и места
+
+      </li>
+
+      <li class="progressNav__item">
+
+
+
+        Отели и авто
+
+      </li>
+
+
+
+      <li class="progressNav__item">
+
+
+
+        Оплата
+
+      </li>
+
+      <li class="progressNav__item">
+
+
+
+        Подтверждение
+
+      </li>
+
+
+    </ul>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  </th:block>
+
+
+  <main class="main-content main-content_1024">
+    <input type="hidden" id="g_a">
+    <input type="hidden" id="g_a_ccm_errors">
+
+    <input type="hidden" id="ibeMultiSearch">
+
+    <h2 class="heading heading_search">Куда вы планируете поехать?</h2>
+    <div class="form-search">
+      <script>
+        if (!window.clientMessages) {
+          window.clientMessages = {};
+        }
+        window.clientMessages['search.mix.from'] = "\u041E\u0442\u043A\u0443\u0434\u0430";
+        window.clientMessages['search.mix.destination'] = "\u041A\u0443\u0434\u0430";
+        window.clientMessages['search.mix.departure.date'] = "\u0414\u0430\u0442\u0430";
+        window.clientMessages['search.mix.add.flight.between'] = "\u041A\u043B\u0438\u043A\u043D\u0438 \u0441\u044E\u0434\u0430 \u0447\u0442\u043E\u0431\u044B \u0434\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0435\u043B\u0435\u0442";
+        window.clientMessages['search.no.results'] = "\u041F\u043E \u0432\u0430\u0448\u0435\u043C\u0443 \u0437\u0430\u043F\u0440\u043E\u0441\u0443 \u043D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u043D\u0430\u0439\u0434\u0435\u043D\u043E. \u041F\u0440\u043E\u0432\u0435\u0440\u044C\u0442\u0435 \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u043E\u0441\u0442\u044C \u043D\u0430\u043F\u0438\u0441\u0430\u043D\u0438\u044F.";
+        window.clientMessages['airports.all'] = "\u0412\u0441\u0435 \u0430\u044D\u0440\u043E\u043F\u043E\u0440\u0442\u044B";
+        window.clientMessages['validation.field.location.required'] = "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u0433\u043E\u0440\u043E\u0434\u0430 \u0438\u043B\u0438 \u043A\u043E\u0434 \u0430\u044D\u0440\u043E\u043F\u043E\u0440\u0442\u0430.";
+        window.clientMessages['helper.field.required'] = "\u041F\u043E\u043B\u0435 \u043E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u043E \u0434\u043B\u044F \u0437\u0430\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F";
+        window.clientMessages['common.performing.request'] = "\u0412\u044B\u043F\u043E\u043B\u043D\u044F\u0435\u043C \u0432\u0430\u0448 \u0437\u0430\u043F\u0440\u043E\u0441";
+        window.clientMessages['spinner.new.year.title'] = "Happy New Air!";
+        window.clientMessages['common.header.profile.placeholder.password'] = "\u041F\u0430\u0440\u043E\u043B\u044C\/\u041F\u0418\u041D";
+        window.clientMessages['common.header.profile.placeholder.password.email'] = "\u041F\u0430\u0440\u043E\u043B\u044C";
+        window.clientMessages['common.header.profile.placeholder.password.ffp'] = "\u041F\u0418\u041D";
+        window.clientMessages['validation.field.required'] = "\u0417\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435";
+        window.clientMessages['validation.field.invalid'] = "\u041D\u0435\u0432\u0435\u0440\u043D\u044B\u0439 {0} \u0434\u0430\u043D\u043D\u044B\u0445";
+        window.clientMessages['validation.field.invalid.placeholder'] = "\u0444\u043E\u0440\u043C\u0430\u0442";
+        window.clientMessages['ccm.cc.api.status.inactive'] = "\u041D\u0435\u0430\u043A\u0442\u0438\u0432\u043D\u044B\u0439";
+        window.clientMessages['helper.date.not.in.future'] = "\u0414\u0430\u0442\u0430 \u043D\u0435 \u043C\u043E\u0436\u0435\u0442 \u0431\u044B\u0442\u044C \u0440\u0430\u043D\u044C\u0448\u0435 \u0442\u0435\u043A\u0443\u0449\u0435\u0439 \u0434\u0430\u0442\u044B";
+        window.clientMessages['search.mix.add.flight'] = "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0435\u043B\u0435\u0442 (\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u043E";
+        window.clientMessages['search.mix.add.flight.of'] = "\u0438\u0437 9)";
+        window.clientMessages['search.mix.no.flights.found'] = "\u041D\u0435 \u043D\u0430\u0439\u0434\u0435\u043D\u043E \u043D\u0438 \u043E\u0434\u043D\u043E\u0433\u043E \u043F\u0435\u0440\u0435\u043B\u0435\u0442\u0430 \u0432 \u0434\u0430\u043D\u043D\u043E\u043C \u0441\u0435\u0433\u043C\u0435\u043D\u0442\u0435, \u0432\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0440\u0443\u0433\u0443\u044E \u0434\u0430\u0442\u0443";
+        window.clientMessages['static.version'] = "3.28.0-SN-28";
+        window.clientMessages['payment.passenger.email.invalid'] = "\u042D\u043B\u0435\u043A\u0442\u0440\u043E\u043D\u043D\u0430\u044F \u043F\u043E\u0447\u0442\u0430 \u0434\u043E\u043B\u0436\u043D\u0430 \u0431\u044B\u0442\u044C \u0443\u043A\u0430\u0437\u0430\u043D\u0430 \u0432 \u0444\u043E\u0440\u043C\u0430\u0442\u0435 name@host.ru. \u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439\u0442\u0435 \u0442\u043E\u043B\u044C\u043A\u043E \u043B\u0430\u0442\u0438\u043D\u0441\u043A\u0438\u0435 \u0441\u0438\u043C\u0432\u043E\u043B\u044B";
+      </script>
+
+      <input type="hidden" id="storage_url" value="https://service.s7.ru/storage.html">
+      <input type="hidden" id="preselectSearchParams" value="true">
+      <input type="checkbox" class="js-routeType" checked="checked" style="display:none">
+
+      <form id="processFlightsSearch">
+        <div class="js_react_search_destinations">
+          <div class="form-search__row search-form">
+            <input type="hidden" name="route-id" value="0"/>
+            <div class="form-search__col">
+              <input type="text"
+                      name="origin"
+                      class="form-search__textfield"
+                      required
+                      placeholder="ОткудA"/>
+
+              <input type="hidden" name="origin-iata" value=""/>
+            </div>
+            <div class="form-search__col">
+              <input type="text"
+                      name="destination"
+                      class="form-search__textfield"
+                      required
+                      placeholder="Куда"/>
+              <input type="hidden" name="destination-iata" value=""/>
+            </div>
+
+            <div class="form-search__col form-search__col_date date-item form-item form-item--calendar">
+              <input type="text"
+                     class="form-search__textfield textfield js_datepicker js_date_mask js_flight_date"
+                     name="departureDate"
+                     placeholder="Дата"
+                     data-validator="departureDate"
+                     data-validator-ga="DATE"
+                     autocomplete="off"
+                     required/>
+              <span class="icon icon_calendar"></span>
+            </div>
+            <span class="form-search__row__close icon icon_close-big icon_grey"></span>
+            <a href="#" class="form-search__hover">
+              <span class="form-search__hover__text">Кликни сюда чтобы добавить перелет</span>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="form-search__controls">
+          <div class="counter-input" id="adults_counter" data-qa="adultsCounter_block">
+            <small class="counter-input__label">от 18 лет</small>
+            <div class="counter-input__value">
+              <span class="counter-input__visible-value value js_value_container" data-qa="value_counter">1</span>
+              Взрослые
+
+            </div>
+            <button class="counter-input__minus minus js_minus" data-qa="minus_counter" type="button"> - </button>
+            <button class="counter-input__plus plus js_plus" data-qa="plus_counter" type="button"> + </button>
+            <input class="js_counter_value js_model_container" type="hidden" id="adultsCount" name="passengersAmount"
+                   value="1"/>
+          </div>
+
+          <div class="counter-input" id="youth_counter" data-qa="youthCounter_block"
+          >
+            <small class="counter-input__label dotted-link js-tooltip" data-content="Для пассажиров с детьми и подростками до 18 лет на ряде направлений могут быть доступны субсидированные тарифы" data-class="multi" data-max-width="200">от 12 до 18 лет</small>
+            <div class="counter-input__value">
+              <span class="counter-input__visible-value value js_value_container" data-qa="value_counter">0</span>
+              Подростки
+            </div>
+            <button class="counter-input__minus minus js_minus" data-qa="minus_counter" type="button"> - </button>
+            <button class="counter-input__plus plus js_plus" data-qa="plus_counter" type="button"> + </button>
+            <input class="js_counter_value js_model_container" id="youthCount" type="hidden" name="passengersAmountYouth"
+                   value="0"/>
+          </div>
+          <div class="counter-input" id="children_counter" data-qa="childrenCounter_block">
+            <small class="counter-input__label dotted-link js-tooltip" data-content="Возраст ребенка должен быть от 0 до 12 лет. Если на момент перелета ему уже исполнится 12 лет, бронируйте билет на взрослого пассажира" data-class="multi" data-max-width="200">0-12 лет (с местом)</small>
+            <div class="counter-input__value">
+              <span class="counter-input__visible-value value js_value_container" data-qa="value_counter">0</span>
+              Дети
+            </div>
+            <button class="counter-input__minus minus js_minus" data-qa="minus_counter" type="button"> - </button>
+            <button class="counter-input__plus plus js_plus" data-qa="plus_counter" type="button"> + </button>
+            <input class="js_counter_value js_model_container" id="childrenCount" type="hidden" name="passengersAmountChildren"
+                   value="0"/>
+          </div>
+          <div class="counter-input" id="infants_counter" data-qa="infantsCounter_block">
+            <small class="counter-input__label dotted-link js-tooltip" data-content="Возраст младенца должен быть от 0 до 2 лет. Если на момент перелета ему уже исполнится 2 года, бронируйте билет на ребенка от 0 до 12 лет (с местом). Взрослый&amp;nbsp;пассажир может перевезти 1 младенца в возрасте до 2 лет без места." data-class="multi" data-max-width="200">до 2 лет (без места)</small>
+            <div class="counter-input__value">
+              <span class="counter-input__visible-value value js_value_container" data-qa="value_counter">0</span>
+              Младенцы
+            </div>
+            <button class="counter-input__minus minus js_minus" data-qa="minus_counter" type="button"> - </button>
+            <button class="counter-input__plus plus js_plus" data-qa="plus_counter" type="button"> + </button>
+            <input class="js_counter_value js_model_container" id="infantsCount" type="hidden" name="passengersAmountInfants"
+                   value="0"/>
+          </div>
+
+        </div>
+
+        <div class="form-search__button form-search__standalone_button">
+          <button type="submit" class='button button_primary js_multiSearch_submit' value="submitButton">
+            Найти
+          </button>
+        </div>
+
+      </form>
+    </div>
+  </main>
+  <div class="preloader preloader_slider_block">
+    <div class="preloader__overlay">&nbsp;</div>
+    <div class="preloader__wrapper">
+      <div class="preloader__spinner preloader__spinner_b2b">
+        <div class="preloader__spinner-tail"></div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script>
+    function updateUrl() {
+      var schema = window.location.protocol + '//',
+              host = window.location.hostname,
+              port = window.location.port ? ':' + window.location.port : '',
+              path = window.location.pathname,
+              search = [
+                '?execution=' + document.getElementById('executionId').value,
+                'ibe_conversation=' + (document.getElementById('ibe_conversation') ? document.getElementById('ibe_conversation').value : ''),
+                'id=multiSearch'
+              ].join('&'),
+              url = schema + host + port + path + search;
+
+      window.history.replaceState('', '', url);
+    }
+    updateUrl();
+  </script>
+
+
+
+  <footer class="footer">
+
+    <div class="footer__nav-bar">
+      <ul class="footer__nav">
+        <li class="footer__nav-item">Свяжитесь с нами:</li>
+        <li class="footer__nav-item"><a href="//zingaya.com/widget/220b598f3c5b71dbe337ff7fd197fd04" target="_blank" rel="noopener">Звонок онлайн</a></li>
+      </ul>
+      <dl class="footer__contacts">
+        <dt class="footer__contacts-term">Бесплатно по России:</dt>
+        <dd class="footer__contacts-def"><a href="tel:8 800 700-0707" target="_blank"
+                                            rel="noopener">8 800 700-0707</a></dd>
+        <dt class="footer__contacts-term">Москва:</dt>
+        <dd class="footer__contacts-def">+7 495 783-0707</dd>
+      </dl>
+    </div>
+
+    <div class="footer__social-links-bar">
+      <ul class="footer__social-links-list">
+
+        <li class="footer__social-links-item">
+          <a class="footer__social-link" href="https://vk.com/s7airlines" target="_blank" rel="noopener">
+            <span class="icon icon_social icon_social_vk"></span>
+          </a>
+        </li>
+        <li class="footer__social-links-item">
+          <a class="footer__social-link" href="https://ok.ru/s7airlines" target="_blank" rel="noopener">
+            <span class="icon icon_social icon_social_ok"></span>
+          </a>
+        </li>
+
+        <li class="footer__social-links-item">
+          <a class="footer__social-link" href="https://www.youtube.com/user/S7Group" target="_blank" rel="noopener">
+            <span class="icon icon_social icon_social_youtube"></span>
+          </a>
+        </li>
+      </ul>
+      <span class="footer__copyright">&copy; 2022 <span>S7 Airlines — Все пpава защищены</span></span>
+
+    </div>
+
+
+
+
+  </footer>
+
+
+
+  <div class="page-locker js_page_locker"></div>
+
+
+</div>
+
+
+
+<div class="js_b2b_popup">
+
+</div>
+
+
+
+
+<div>
+
+  <div class="popup js-session-expired-popup hidden"
+       data-session-timeout="600">
+    <div class="popup-table" data-current-step="search">
+      <div class="popup-cell">
+        <div class="popup-box popup-box--upload js_popup_box">
+
+          <div class="popup-head">
+            <h2>Результаты поиска</h2>
+          </div>
+
+          <form action="#" method="post" data-validator-id="subscriptionForm">
+
+            <div class="popup-content">
+              <div class="content">
+                <p>Мы рады, что вы вернулись! Однако пока вас не было, результаты могли устареть. Пожалуйста, обновите страницу.</p>
+                <p>Давайте начнем новый поиск и обновим результаты.</p>
+              </div>
+            </div>
+
+            <div class="popup-footer">
+              <div class="buttons buttons--justify">
+                <div class="buttons-col-left">
+                  <a href="/trip"
+                     class="button button_transparent">Новый поиск</a>
+                </div>
+                <div class="buttons-col-right">
+                  <button id="updateSessionButton"
+                          class="button button_primary js_update_search"
+                          disabled>Обновить результаты</button>
+                </div>
+
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+<div>
+
+</div>
+
+
+
+
+
+<input type="hidden" data-fff="common_scripts"/>
+<script defer src="https://ibe.s7cdn.online/3.28-28/scripts/build/common/libs/jquery-3.5.1.min.js"></script>
+<script defer src="https://ibe.s7cdn.online/3.28-28/scripts/build/common/libs/jquery-ui-1.12.1.min.js"></script>
+<script defer src="https://ibe.s7cdn.online/3.28-28/scripts/build/common/libs/date.js"></script>
+<script defer src="https://ibe.s7cdn.online/3.28-28/scripts/build/common/plugins/jquery.maskedinput.min.js"></script>
+<script defer src="https://ibe.s7cdn.online/3.28-28/scripts/build/common/plugins/jquery.selectBoxIt.min.js"></script>
+
+
+
+
+
+
+<script defer src="https://ibe.s7cdn.online/3.28-28/scripts/build/common/plugins/jquery.nicescroll.min.js"></script>
+<script defer src="https://ibe.s7cdn.online/3.28-28/scripts/build/common/global.js"></script>
+<script defer src="https://ibe.s7cdn.online/3.28-28/scripts/build/ibe/common.js"></script>
+<script defer src="https://ibe.s7cdn.online/3.28-28/scripts/build/common/user-profile.js"></script>
+<script defer src="https://ibe.s7cdn.online/locations/data?version=3.28.0-SN-28"></script>
+<script defer src="https://ibe.s7cdn.online/3.28-28/scripts/build/ibe-search-multi.js"></script>
+<script defer src="https://ibe.s7cdn.online/3.28-28/scripts/build/b2b-search.js"></script>
+
+
+
+
+
+<!-- Yandex.Metrika counter -->
+
+<!-- /Yandex.Metrika counter -->
+
+<script type="text/javascript"  src="/8tU0/5KY3/L/5/ZPTeyiMQ/ucEYLmfbp91m/LRJ3AEFcVA/VidNQG4k/cAc"></script></body>
+
+
+<script
+        async
+        id="html-logger"
+>
+  (function () {
+    var shouldLogHtml = false;
+    var htmlLogEndpoint = "\/web\/error\/html";
+
+    function track (message) {
+      const xhr = new XMLHttpRequest();
+      xhr.open('POST', htmlLogEndpoint, true);
+      xhr.timeout = 1500;
+      xhr.setRequestHeader('Content-type', 'application/json');
+      xhr.send(message);
+    }
+
+    function logHtml () {
+      var html = document.querySelector('html');
+
+      if (!html) return;
+
+      var conversationIdContainer = document.querySelector('#ibe_conversation') || document.querySelector('[name=ibe_conversation]');
+      var conversationId = conversationIdContainer && conversationIdContainer.value || '';
+      var pageName = document.head.dataset.page || '';
+      var device = document.body.className.match('ots-device-mobile') ? 'mobile' : 'desktop';
+      var deeplinkContainer = document.querySelector('#deeplink');
+      var deeplink = deeplinkContainer && deeplinkContainer.value || '';
+      var url = window.location.origin
+              + window.location.pathname
+              + (pageName ? '//' + pageName : '')
+              + (device ? '//' + device : '')
+              + (html.lang ? '//' + html.lang : '');
+
+      var message = {
+        p: url,
+        i: conversationId,
+        d: deeplink,
+        m: html.outerHTML
+      };
+
+      track(JSON.stringify(message));
+    }
+
+    shouldLogHtml && logHtml();
+  })();
+</script>
+
+
+
+</html>

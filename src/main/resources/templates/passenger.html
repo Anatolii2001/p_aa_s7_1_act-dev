@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://thymeleaf.org">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Account</title>
+    <link rel="shortcut icon" type="image/x-icon" th:href="@{/img/favicon.ico}"/>
+</head>
+<body>
+
+<!--NAVBAR-->
+<nav class="navbar navbar-expand-xl navbar-dark text-muted bg-Light shadow p-3 mb-0 bg-white rounded" >
+    <div style="width: 25%; margin: 0 auto; text-align: right;">
+        <img src= "/img/favicon.ico" alt="" width="40" height="40">
+    </div>
+    <div class="container-fluid">
+        <h4>Airlines</h4>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <a class="font-weight-bold ml-5" id="headInfo"></a>
+        </div>
+        <div style="width: 30%; margin: 0 auto; text-align: left;">
+        <form th:action="@{/logout}" method="post">
+            <button type="submit" class="btn btn-outline-info">Logout</button>
+        </form>
+        </div>
+    </div>
+</nav>
+
+<!--BREADCRUMB-NAVIGATION-->
+<div class="container-fluid">
+    <div style="width: 63%; margin: 0 auto; text-align: left;">
+        <div class="row">
+            <div class="col-1,5">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/index">Main</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Profile</li>
+                    </ol>
+                </nav>
+                <br>
+            </div>
+        </div>
+    </div>
+
+<!--    USER'S INFORMATION-->
+<!--    MAIN PANEL, IN FUTURE: ADD AN AVATAR UPLOAD, STATUS MILES etc.-->
+    <div class="row">
+        <div style="width: 40%; margin: 0 auto; text-align: center">
+            <div class="row" id="userInfo">
+            </div>
+            <br><br>
+        </div>
+    </div>
+
+<!--TABS-->
+    <div class="row">
+        <div class="col-7" style="width: 0%; margin: 0 auto; text-align: center;">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active" id="nav-users-tab" data-toggle="tab" href="#userProfile" role="tab" aria-selected="true">Profile</a>
+                    <a class="nav-item nav-link" id="nav-newUser-tab" data-toggle="tab" href="#userAccountSettings" role="tab" aria-selected="false">Account Settings</a>
+                </div>
+            </nav>
+            <!--    PROFILE TAB-->
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="userProfile" role="tabpanel" aria-labelledby="userProfileTab">
+                    <div class="col-12" style="width: 100%; margin: 0 auto; text-align: center;">
+                        <br><br>
+                        <!--                PERSONAL DATA-->
+                        <h5 style="text-align: left">Personal Data</h5>
+                        <table class="table table-bordered" id="personalDataTable">
+                            <thead>
+                            <tr>
+                                <th scope="col">First Name</th>
+                                <th scope="col">Last Name</th>
+                                <th scope="col">Middle Name</th>
+                                <th scope="col">Date of Birth</th>
+                                <th scope="col">Edit</th>
+                            </tr>
+                            </thead>
+                            <tbody id="personalData">
+                            </tbody>
+                        </table>
+                        <br><br>
+                        <!--                PERSONAL CONTACTS-->
+                        <h5 style="text-align: left">Personal Contacts</h5>
+                        <table class="table table-bordered" id="personalContactsTable">
+                            <thead>
+                            <tr>
+                                <th scope="col">E-mail</th>
+                                <th scope="col">Phone Number</th>
+                                <th scope="col">Edit</th>
+                            </tr>
+                            </thead>
+                            <tbody id="personalContacts">
+                            </tbody>
+                        </table>
+                        <br><br>
+                        <!--                PERSONAL DOCUMENTS-->
+                        <h5 style="text-align: left">Personal Documents</h5>
+                        <table class="table table-bordered" id="personalDocumentsTable">
+                            <thead>
+                            <tr>
+                                <th scope="col">Passport Number</th>
+                                <th scope="col">Expiry Date</th>
+                                <th scope="col">Edit</th>
+                            </tr>
+                            </thead>
+                            <tbody id="personalDocuments">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+<!--                ACCOUNT SETTING TAB-->
+                <div class="tab-pane fade" id="userAccountSettings" role="tabpanel" aria-labelledby="userAccountSettingsTab">
+                    <div class="col-12" style="width: 100%; margin: 0 auto; text-align: center;">
+                        <br><br>
+                        <h5 style="text-align: left">Personal Account Settings</h5>
+                        <table class="table table-bordered" id="personalAccountSettingsTable">
+                            <thead>
+                                <tr>
+                                    <th scope="col">E-mail</th>
+                                    <th scope="col">Password</th>
+                                    <th scope="col">Edit</th>
+                                </tr>
+                            </thead>
+                            <tbody id="personalAccountSettings">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--MODAL PERSONAL DATA-->
+<div class="modal fade" id="modalPersonalData" tabindex="-1" role="dialog" aria-labelledby="defaultModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="titleEditPersonalData">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"></span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+<!--MODAL PERSONAL CONTACTS-->
+<div class="modal fade" id="modalPersonalContacts" tabindex="-1" role="dialog" aria-labelledby="defaultModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="titleEditPersonalContacts">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"></span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+<!--MODAL PERSONAL DOCUMENTS-->
+<div class="modal fade" id="modalPersonalDocuments" tabindex="-1" role="dialog" aria-labelledby="defaultModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="titleEditPersonalDocuments">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"></span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+<!--MODAL PERSONAL ACCOUNT SETTING-->
+<div class="modal fade" id="modalPersonalAccountSettings" tabindex="-1" role="dialog" aria-labelledby="defaultModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="titleEditPersonalAccountSettings">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"></span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="webjars/jquery/3.5.1/jquery.js"></script>
+<script src="webjars/popper.js/1.16.0/umd/popper.js"></script>
+<script src="webjars/bootstrap/4.5.3/js/bootstrap.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="/passengerAccount.js"></script>
+
+<script>
+    function toggleButton()
+    {
+        let email = document.getElementById('emailConfirm').value;
+        let password = document.getElementById('passwordConfirm').value;
+
+        if (email && password) {
+            document.getElementById('editButtonPersonalAccountSettings').disabled = false;
+        } else {
+            document.getElementById('editButtonPersonalAccountSettings').disabled = true;
+        }
+    }
+</script>
+
+</body>
+</html>

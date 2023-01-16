@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title></title>
+    <link rel="shortcut icon" type="image/x-icon" th:href="@{/img/favicon.ico}"/>
+</head>
+<body>
+    <nav class="navbar navbar-expand-xl navbar-dark text-muted bg-Light shadow p-3 mb-5 bg-white rounded " >
+        <img src= "/img/favicon.ico" alt="" width="40" height="40">
+        <div class="container-fluid">
+            <h3>Airlines   </h3>
+            <div class="collapse navbar-collapse show ml-5"  id="headInfo">
+            </div>
+            <form th:action="@{/logout}" method="post">
+                <button type="submit" class="btn btn-Light ml-auto ">Logout</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!--панель слева-->
+            <div class="col-md-2  my-2 " style="height:100vh">
+                <!-- Nav tabs -->
+                <div class="nav flex-column nav-pills"  id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="allUsers-pills-tab" data-toggle="pill" href="#allUsers-pills" role="tab" aria-controls="allUsers-pills" aria-selected="true">Users</a>
+                    <a class="nav-link" id="allRoles-pills-tab" data-toggle="pill" href="#allRoles-pills" role="tab" aria-controls="allRoles-pills" aria-selected="false">Roles</a>
+                </div>
+            </div>
+            <div class="col-md-10 my-2 bg-light">
+                <div class="tab-content mt-3" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="allUsers-pills" role="tabpanel" aria-labelledby="allUsers-pills-tab">
+                        <!--панель справа - Users-->
+                        <h1>Users</h1>
+                        <nav>
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link active" id="nav-users-tab" data-toggle="tab" href="#allUsers" role="tab" aria-selected="true">All Users</a>
+                                <a class="nav-item nav-link" id="nav-newUser-tab" data-toggle="tab" href="#newUser" role="tab" aria-selected="false">New User</a>
+                                <a class="nav-item nav-link" id="nav-sendEmails-tab" data-toggle="tab" href="#sendEmails" role="tab" aria-selected="false">Send Email</a>
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContentUser">
+                            <div class="tab-pane fade show active" id="allUsers" role="tabpanel" aria-labelledby="nav-users-tab">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <!--таблица юзеров-->
+                                        <table class="table table-hover">
+                                            <thead>
+                                            <tr>
+                                                <th>Id</th>
+                                                <th>Email</th>
+                                                <th>Role</th>
+                                                <th>Edit</th>
+                                                <th>Delete</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody id="tableWithUsers">
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+<!--                                                                         добавление нового пользователя-->
+                            <div class="tab-pane fade" id="newUser"  role="tabpanel" aria-labelledby="nav-newUser-tab">
+                                <form id="createUserForm">
+                                    <nav>
+                                        <div class="nav nav-tabs" id="nav-new-tab" role="tablist">
+                                            <a class="nav-item nav-link active" id="nav-newAdmin-tab" data-toggle="tab" href="#newAdmin" role="tab" aria-selected="true">New Admin</a>
+                                            <a class="nav-item nav-link" id="nav-newManager-tab" data-toggle="tab" href="#newManager" role="tab" aria-selected="false">New Manager</a>
+                                        </div>
+                                    </nav>
+                                    <div class="tab-content" id="nav-new-content-tab">
+                                        <div class="tab-pane fade show active" id="newAdmin" role="tabpanel" aria-labelledby="nav-newAdmin-tab">
+                                            <div class="col-md-3 offset-md-4 text-center">
+                                                <div class="form-group">
+                                                    <span class="font-weight-bold">Email</span>
+                                                    <input type="email" class="form-control" id="newAdminEmail" name="email">
+                                                </div>
+                                                <div class="form-group">
+                                                    <span class="font-weight-bold">Password</span>
+                                                    <input type="password" class="form-control" id="newAdminPassword" name="password">
+                                                </div>
+                                                <div class="form-group">
+                                                    <span class="font-weight-bold">Role</span>
+
+                                                    <select multiple class="form-control"
+                                                            name="adminRoles" size="2" id = "newAdminRoles">
+                                                    </select>
+                                                </div>
+                                                <span class="font-weight-bold"></span>
+                                                <button type="submit" class="btn btn-success btn-lg" id="createAdminButton">Add new admin</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-pane fade" id="newManager" role="tabpanel" aria-labelledby="nav-newManager-tab">
+                                            <div class="col-md-3 offset-md-4 text-center">
+                                                <div class="form-group">
+                                                    <span class="font-weight-bold">Email</span>
+                                                    <input type="email" class="form-control" id="newManagerEmail" name="email">
+                                                </div>
+                                                <div class="form-group">
+                                                    <span class="font-weight-bold">Password</span>
+                                                    <input type="password" class="form-control" id="newManagerPassword" name="password">
+                                                </div>
+                                                <div class="form-group">
+                                                    <span class="font-weight-bold">Role</span>
+                                                    <select multiple class="form-control"
+                                                            name="managerRoles" size="2" id = "newManagerRoles">
+                                                    </select>
+                                                </div>
+                                                <span class="font-weight-bold"></span>
+                                                <button type="submit" class="btn btn-success btn-lg" id="createManagerButton">Add new manager</button>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </form>
+                            </div>
+                                <!-- рассылка-->
+                                <div class="tab-pane fade" id="sendEmails" role="tabpanel" aria-labelledby="nav-sendEmails-tab">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <form id="sendEmail" name="search">
+                                                <div class="text-left">
+                                                    <div class="form-group" id="buttonsForSending">
+
+                                                        <label  class="font-weight-bold"> Выберите адресата </label>
+                                                        <p>
+                                                            <label>
+                                                                <input type = "checkbox" name ="toAddress" value = "Users" />
+                                                            </label> Все пользователи
+                                                            <label>
+                                                                <input type = "checkbox" name = "toAddress" value = "Passengers" />
+                                                            </label> Только пассажиры
+                                                            <label>
+                                                                <input type = "checkbox" name = "toAddress" value = "Managers" />
+                                                            </label> Только менеджеры
+                                                            <label>
+                                                                <input type = "checkbox" name = "toAddress" value = "Admins" />
+                                                            </label> Только администраторы
+                                                        </p>
+
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <span class="font-weight-bold">Тема письма</span>
+                                                        <input type="text" class="form-control" id="textSubject" name="subject">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <span class="font-weight-bold">Текст письма</span>
+                                                        <textarea rows="10" cols="100" class="form-control" id="textMessage" name="message"
+                                                                  required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                                                    </div>
+                                                    <span class="font-weight-bold"></span>
+                                                    <button type="submit" class="btn btn-success btn-lg" id="sendEmailButton" data-toggle="modal" data-target="#modalSendEmail">Отправить письмо</button>
+                                                </div>
+                                            </form>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                        </div>
+                    </div> <!--нужен для отделения от ролей-->
+
+                    <!--панель справа -roles-->
+                    <div class="tab-pane fade" id="allRoles-pills" role="tabpanel" aria-labelledby="allRoles-pills-tab">
+                        <h1>Roles</h1>
+                        <nav>
+                            <div class="nav nav-tabs" id="nav-tab-role" role="tablist">
+                                <a class="nav-item nav-link active" id="nav-roles-tab" data-toggle="tab" href="#allRoles" role="tab" aria-selected="true">All Roles</a>
+                                <a class="nav-item nav-link" id="nav-newRole-tab" data-toggle="tab" href="#newRole" role="tab" aria-selected="false">New role</a>
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContentRole">
+                            <div class="tab-pane fade show active" id="allRoles" role="tabpanel" aria-labelledby="nav-roles-tab">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <table class="table table-hover">
+                                            <tr>
+                                                <th>Id</th>
+                                                <th>Name</th>
+                                                <th>Delete</th>
+                                            </tr>
+                                            <tbody id="tableWithRoles">
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!--                                             добавление новой роли-->
+                            <div class="tab-pane fade" id="newRole"  role="tabpanel" aria-labelledby="nav-newRole-tab">
+                                <div class="card"> <h5 class="card-header">Add new user</h5>
+                                    <div class="card-body">
+                                        <form id="createRoleForm">
+                                            <div class="col-md-3 offset-md-4 text-center">
+                                                <div class="form-group">
+                                                    <span class="font-weight-bold">Name</span>
+                                                    <input type="text" class="form-control" id="newRoleName" name="name">
+                                                </div>
+                                                <span class="font-weight-bold"></span>
+                                                <button type="submit" class="btn btn-success btn-lg" id="createRoleButton">Add new role</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="someDefaultModal" tabindex="-1" role="dialog" aria-labelledby="someDefaultModalLabel"
+                 aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true"></span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                        </div>
+                        <div class="modal-footer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!--    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"-->
+<!--            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"-->
+<!--            crossorigin="anonymous"></script>-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+    <script src="/adminApp.js"></script>
+</body>
+</html>

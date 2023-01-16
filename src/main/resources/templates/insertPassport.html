@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update</title>
+    <style>
+
+    </style>
+</head>
+<body>
+
+<form th:method="POST"
+      th:action="@{/passports/{id}(id=${passport.getId()})}"
+      th:object="${passport}">
+    <br/>
+    <label for="type"><b>Enter Type</b></label>
+    <br/>
+    <input type="text" th:field="*{type}" id="type" placeholder="Type">
+    <br/>
+    <label for="codeOfIssuingState"><b>Enter CodeOfIssuingState:</b></label>
+    <br/>
+    <input type="text" th:field="*{codeOfIssuingState}" id="codeOfIssuingState" placeholder="CodeOfIssuingState">
+    <br/>
+    <label for="passportNo"><b>Enter PassportNo:</b></label>
+    <br/>
+    <input type="text" th:field="*{passportNo}" id="passportNo" placeholder="PassportNo">
+    <br/>
+    <label for="surname"><b>Enter Surname:</b></label>
+    <br/>
+    <input type="text" th:field="*{surname}" id="surname" placeholder="Surname">
+    <br/>
+    <label for="givenNames"><b>Enter GivenNames:</b></label>
+    <br/>
+    <input type="text" th:field="*{givenNames}" id="givenNames" placeholder="GivenNames">
+    <br/>
+    <label for="nationality"><b>Enter Nationality:</b></label>
+    <br/>
+    <input type="text" th:field="*{nationality}" id="nationality" placeholder="Nationality">
+    <br/>
+    <label for="personalNo"><b>Enter PersonalNo:</b></label>
+    <br/>
+    <input type="text" th:field="*{personalNo}" id="personalNo" placeholder="PersonalNo">
+    <br/>
+    <label for="dateOfBirth"><b>Enter DateOfBirth:</b></label>
+    <br/>
+    <input type="text" th:field="*{dateOfBirth}" id="dateOfBirth" placeholder="DateOfBirth">
+    <br/>
+    <label for="placeOfBirth"><b>Enter PlaceOfBirth:</b></label>
+    <br/>
+    <input type="text" th:field="*{placeOfBirth}" id="placeOfBirth" placeholder="PlaceOfBirth">
+    <br/>
+    <label for="sex"><b>Enter Sex:</b></label>
+    <br/>
+    <input type="text" th:field="*{sex}" id="sex" placeholder="Sex">
+    <br/>
+    <label for="dateOfIssue"><b>Enter DateOfIssue:</b></label>
+    <br/>
+    <input type="text" th:field="*{dateOfIssue}" id="dateOfIssue" placeholder="DateOfIssue">
+    <br/>
+    <label for="dateOfExpiry"><b>Enter DateOfExpiry:</b></label>
+    <br/>
+    <input type="text" th:field="*{dateOfExpiry}" id="dateOfExpiry" placeholder="DateOfExpiry">
+    <br/>
+    <label for="authority"><b>Enter Authority:</b></label>
+    <br/>
+    <input type="text" th:field="*{authority}" id="authority" placeholder="Authority">
+    <br/>
+    <br/>
+    <input type="submit" value="Update">
+</form>
+</body>
+</html>

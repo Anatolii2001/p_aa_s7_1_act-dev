@@ -1,0 +1,7700 @@
+
+.logo-doly {
+    margin: 0 0 -4px;
+    vertical-align: bottom;
+    height: 44px;
+    position: relative;
+    display: inline-block !important;
+}
+
+@media (max-width: 768px) {
+    .logo-doly {
+        margin: 0 0 -4px;
+        vertical-align: bottom;
+        height: 24px;
+        position: relative;
+        display: inline-block !important;
+    }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .cookie-usage {
+        top: 0px;
+    }
+}
+
+
+ #onesignal-slidedown-container.slide-down #onesignal-slidedown-dialog {
+     position: relative;
+     top: 20px;
+     box-shadow: 0px 0px 1px rgba(34, 42, 55, 0.15), 0px 8px 16px rgba(34, 42, 55, 0.13);
+     border-radius: 12px;
+ }
+
+#onesignal-slidedown-container #onesignal-slidedown-dialog .slidedown-button.primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 140px;
+    height: 48px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background: #97BA1E !important;
+    border-radius: 8px;
+}
+
+#onesignal-slidedown-container #onesignal-slidedown-dialog .primary.slidedown-button + .secondary.slidedown-button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #97BA1E !important;
+}
+
+#onesignal-slidedown-container #onesignal-slidedown-dialog .slidedown-body-icon {
+    position: relative;
+    top: -8px;
+}
+
+@media screen and (max-width: 767px) {
+    #onesignal-slidedown-container #onesignal-slidedown-dialog .slidedown-button.primary {
+        min-width: auto;
+        font-size: 12px;
+    }
+
+    #onesignal-slidedown-container #onesignal-slidedown-dialog .primary.slidedown-button + .secondary.slidedown-button {
+        font-size: 12px;
+    }
+}
+.DS__CssUtils__color_W100 {
+
+                          color: #ffffff
+                      }
+
+.DS__CssUtils__color_W100-o-90 {
+
+    color: rgba(255, 255, 255, 0.9)
+}
+
+.DS__CssUtils__color_W100-o-70 {
+
+    color: rgba(255, 255, 255, 0.7)
+}
+
+.DS__CssUtils__color_W100-o-60 {
+
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.DS__CssUtils__color_W100-o-50 {
+
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.DS__CssUtils__color_W100-o-15 {
+
+    color: rgba(255, 255, 255, 0.15)
+}
+
+.DS__CssUtils__color_N900 {
+
+    color: #222a37
+}
+
+.DS__CssUtils__color_N500 {
+
+    color: #27344b
+}
+
+.DS__CssUtils__color_N300 {
+
+    color: #505f79
+}
+
+.DS__CssUtils__color_N100 {
+
+    color: #7a869a
+}
+
+.DS__CssUtils__color_N80 {
+
+    color: #95a0b3
+}
+
+.DS__CssUtils__color_N60 {
+
+    color: #d0d6e1
+}
+
+.DS__CssUtils__color_N50 {
+
+    color: #dde3ed
+}
+
+.DS__CssUtils__color_N40 {
+
+    color: #eceff5
+}
+
+.DS__CssUtils__color_N30 {
+
+    color: #f1f3f8
+}
+
+.DS__CssUtils__color_N20 {
+
+    color: #f6f8fc
+}
+
+.DS__CssUtils__color_N900-o-4 {
+
+    color: rgba(34, 42, 55, 0.04)
+}
+
+.DS__CssUtils__color_N900-o-15 {
+
+    color: rgba(34, 42, 55, 0.15)
+}
+
+.DS__CssUtils__color_N900-o-13 {
+
+    color: rgba(34, 42, 55, 0.13)
+}
+
+.DS__CssUtils__color_N900-o-40 {
+
+    color: rgba(34, 42, 55, 0.4)
+}
+
+.DS__CssUtils__color_T900 {
+
+    color: #075c68
+}
+
+.DS__CssUtils__color_T800 {
+
+    color: #0b7483
+}
+
+.DS__CssUtils__color_T600 {
+
+    color: #00a4ba
+}
+
+.DS__CssUtils__color_T600-o-50 {
+
+    color: rgba(0, 164, 186, 0.5)
+}
+
+.DS__CssUtils__color_T250 {
+
+    color: #8ce3ea
+}
+
+.DS__CssUtils__color_T200 {
+
+    color: #94dee4
+}
+
+.DS__CssUtils__color_T50 {
+
+    color: #e8f9fb
+}
+
+.DS__CssUtils__color_G900 {
+
+    color: #547012
+}
+
+.DS__CssUtils__color_G800 {
+
+    color: #81a11a
+}
+
+.DS__CssUtils__color_G600 {
+
+    color: #97ba1e
+}
+
+.DS__CssUtils__color_G600-o-50 {
+
+    color: rgba(151, 186, 30, 0.5)
+}
+
+.DS__CssUtils__color_G200 {
+
+    color: #d4e3ac
+}
+
+.DS__CssUtils__color_G50 {
+
+    color: #f4f9e6
+}
+
+.DS__CssUtils__color_O900 {
+
+    color: #965817
+}
+
+.DS__CssUtils__color_O800 {
+
+    color: #c87520
+}
+
+.DS__CssUtils__color_O600 {
+
+    color: #ff991f
+}
+
+.DS__CssUtils__color_O600-o-50 {
+
+    color: rgba(255, 153, 31, 0.5)
+}
+
+.DS__CssUtils__color_O200 {
+
+    color: #fcd3a9
+}
+
+.DS__CssUtils__color_O50 {
+
+    color: #fff4e9
+}
+
+.DS__CssUtils__color_R900 {
+
+    color: #912e34
+}
+
+.DS__CssUtils__color_R800 {
+
+    color: #c13e45
+}
+
+.DS__CssUtils__color_R600 {
+
+    color: #f14d56
+}
+
+.DS__CssUtils__color_R600-o-50 {
+
+    color: rgba(241, 77, 86, 0.5)
+}
+
+.DS__CssUtils__color_R200 {
+
+    color: #f7949a
+}
+
+.DS__CssUtils__color_R50 {
+
+    color: #feedee
+}
+
+.DS__CssUtils__color_B900 {
+
+    color: #19468d
+}
+
+.DS__CssUtils__color_B800 {
+
+    color: #395cb1
+}
+
+.DS__CssUtils__color_B600 {
+
+    color: #577edc
+}
+
+.DS__CssUtils__color_B200 {
+
+    color: #aabffc
+}
+
+.DS__CssUtils__color_B50 {
+
+    color: #ebf1ff
+}
+
+.DS__CssUtils__color_E900 {
+
+    color: #0e6a5e
+}
+
+.DS__CssUtils__color_E800 {
+
+    color: #1b897a
+}
+
+.DS__CssUtils__color_E600 {
+
+    color: #21a795
+}
+
+.DS__CssUtils__color_E200 {
+
+    color: #a1e1d9
+}
+
+.DS__CssUtils__color_E50 {
+
+    color: #e8faf7
+}
+
+.DS__CssUtils__color_V900 {
+
+    color: #4e3479
+}
+
+.DS__CssUtils__color_V800 {
+
+    color: #62419b
+}
+
+.DS__CssUtils__color_V600 {
+
+    color: #7e57c2
+}
+
+.DS__CssUtils__color_V200 {
+
+    color: #beabe0
+}
+
+.DS__CssUtils__color_V50 {
+
+    color: #f6f0ff
+}
+
+.DS__CssUtils__color_P900 {
+
+    color: #972f47
+}
+
+.DS__CssUtils__color_P800 {
+
+    color: #c94c6a
+}
+
+.DS__CssUtils__color_P600 {
+
+    color: #f85b80
+}
+
+.DS__CssUtils__color_P200 {
+
+    color: #fbadbf
+}
+
+.DS__CssUtils__color_P50 {
+
+    color: #ffedf3
+}
+
+.DS__CssUtils__color_Y900 {
+
+    color: #967500
+}
+
+.DS__CssUtils__color_Y800 {
+
+    color: #e4bc00
+}
+
+.DS__CssUtils__color_Y600 {
+
+    color: #ffdd41
+}
+
+.DS__CssUtils__color_Y200 {
+
+    color: #ffec94
+}
+
+.DS__CssUtils__color_Y50 {
+
+    color: #fffae1
+}
+
+.DS__CssUtils__color_inherit {
+
+    color: inherit
+}
+
+.DS__CssUtils__backgroundColor_W100 {
+
+    background-color: #ffffff
+}
+
+.DS__CssUtils__backgroundColor_W100-o-90 {
+
+    background-color: rgba(255, 255, 255, 0.9)
+}
+
+.DS__CssUtils__backgroundColor_W100-o-70 {
+
+    background-color: rgba(255, 255, 255, 0.7)
+}
+
+.DS__CssUtils__backgroundColor_W100-o-60 {
+
+    background-color: rgba(255, 255, 255, 0.6)
+}
+
+.DS__CssUtils__backgroundColor_W100-o-50 {
+
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+.DS__CssUtils__backgroundColor_W100-o-15 {
+
+    background-color: rgba(255, 255, 255, 0.15)
+}
+
+.DS__CssUtils__backgroundColor_N900 {
+
+    background-color: #222a37
+}
+
+.DS__CssUtils__backgroundColor_N500 {
+
+    background-color: #27344b
+}
+
+.DS__CssUtils__backgroundColor_N300 {
+
+    background-color: #505f79
+}
+
+.DS__CssUtils__backgroundColor_N100 {
+
+    background-color: #7a869a
+}
+
+.DS__CssUtils__backgroundColor_N80 {
+
+    background-color: #95a0b3
+}
+
+.DS__CssUtils__backgroundColor_N60 {
+
+    background-color: #d0d6e1
+}
+
+.DS__CssUtils__backgroundColor_N50 {
+
+    background-color: #dde3ed
+}
+
+.DS__CssUtils__backgroundColor_N40 {
+
+    background-color: #eceff5
+}
+
+.DS__CssUtils__backgroundColor_N30 {
+
+    background-color: #f1f3f8
+}
+
+.DS__CssUtils__backgroundColor_N20 {
+
+    background-color: #f6f8fc
+}
+
+.DS__CssUtils__backgroundColor_N900-o-4 {
+
+    background-color: rgba(34, 42, 55, 0.04)
+}
+
+.DS__CssUtils__backgroundColor_N900-o-15 {
+
+    background-color: rgba(34, 42, 55, 0.15)
+}
+
+.DS__CssUtils__backgroundColor_N900-o-13 {
+
+    background-color: rgba(34, 42, 55, 0.13)
+}
+
+.DS__CssUtils__backgroundColor_N900-o-40 {
+
+    background-color: rgba(34, 42, 55, 0.4)
+}
+
+.DS__CssUtils__backgroundColor_T900 {
+
+    background-color: #075c68
+}
+
+.DS__CssUtils__backgroundColor_T800 {
+
+    background-color: #0b7483
+}
+
+.DS__CssUtils__backgroundColor_T600 {
+
+    background-color: #00a4ba
+}
+
+.DS__CssUtils__backgroundColor_T600-o-50 {
+
+    background-color: rgba(0, 164, 186, 0.5)
+}
+
+.DS__CssUtils__backgroundColor_T250 {
+
+    background-color: #8ce3ea
+}
+
+.DS__CssUtils__backgroundColor_T200 {
+
+    background-color: #94dee4
+}
+
+.DS__CssUtils__backgroundColor_T50 {
+
+    background-color: #e8f9fb
+}
+
+.DS__CssUtils__backgroundColor_G900 {
+
+    background-color: #547012
+}
+
+.DS__CssUtils__backgroundColor_G800 {
+
+    background-color: #81a11a
+}
+
+.DS__CssUtils__backgroundColor_G600 {
+
+    background-color: #97ba1e
+}
+
+.DS__CssUtils__backgroundColor_G600-o-50 {
+
+    background-color: rgba(151, 186, 30, 0.5)
+}
+
+.DS__CssUtils__backgroundColor_G200 {
+
+    background-color: #d4e3ac
+}
+
+.DS__CssUtils__backgroundColor_G50 {
+
+    background-color: #f4f9e6
+}
+
+.DS__CssUtils__backgroundColor_O900 {
+
+    background-color: #965817
+}
+
+.DS__CssUtils__backgroundColor_O800 {
+
+    background-color: #c87520
+}
+
+.DS__CssUtils__backgroundColor_O600 {
+
+    background-color: #ff991f
+}
+
+.DS__CssUtils__backgroundColor_O600-o-50 {
+
+    background-color: rgba(255, 153, 31, 0.5)
+}
+
+.DS__CssUtils__backgroundColor_O200 {
+
+    background-color: #fcd3a9
+}
+
+.DS__CssUtils__backgroundColor_O50 {
+
+    background-color: #fff4e9
+}
+
+.DS__CssUtils__backgroundColor_R900 {
+
+    background-color: #912e34
+}
+
+.DS__CssUtils__backgroundColor_R800 {
+
+    background-color: #c13e45
+}
+
+.DS__CssUtils__backgroundColor_R600 {
+
+    background-color: #f14d56
+}
+
+.DS__CssUtils__backgroundColor_R600-o-50 {
+
+    background-color: rgba(241, 77, 86, 0.5)
+}
+
+.DS__CssUtils__backgroundColor_R200 {
+
+    background-color: #f7949a
+}
+
+.DS__CssUtils__backgroundColor_R50 {
+
+    background-color: #feedee
+}
+
+.DS__CssUtils__backgroundColor_B900 {
+
+    background-color: #19468d
+}
+
+.DS__CssUtils__backgroundColor_B800 {
+
+    background-color: #395cb1
+}
+
+.DS__CssUtils__backgroundColor_B600 {
+
+    background-color: #577edc
+}
+
+.DS__CssUtils__backgroundColor_B200 {
+
+    background-color: #aabffc
+}
+
+.DS__CssUtils__backgroundColor_B50 {
+
+    background-color: #ebf1ff
+}
+
+.DS__CssUtils__backgroundColor_E900 {
+
+    background-color: #0e6a5e
+}
+
+.DS__CssUtils__backgroundColor_E800 {
+
+    background-color: #1b897a
+}
+
+.DS__CssUtils__backgroundColor_E600 {
+
+    background-color: #21a795
+}
+
+.DS__CssUtils__backgroundColor_E200 {
+
+    background-color: #a1e1d9
+}
+
+.DS__CssUtils__backgroundColor_E50 {
+
+    background-color: #e8faf7
+}
+
+.DS__CssUtils__backgroundColor_V900 {
+
+    background-color: #4e3479
+}
+
+.DS__CssUtils__backgroundColor_V800 {
+
+    background-color: #62419b
+}
+
+.DS__CssUtils__backgroundColor_V600 {
+
+    background-color: #7e57c2
+}
+
+.DS__CssUtils__backgroundColor_V200 {
+
+    background-color: #beabe0
+}
+
+.DS__CssUtils__backgroundColor_V50 {
+
+    background-color: #f6f0ff
+}
+
+.DS__CssUtils__backgroundColor_P900 {
+
+    background-color: #972f47
+}
+
+.DS__CssUtils__backgroundColor_P800 {
+
+    background-color: #c94c6a
+}
+
+.DS__CssUtils__backgroundColor_P600 {
+
+    background-color: #f85b80
+}
+
+.DS__CssUtils__backgroundColor_P200 {
+
+    background-color: #fbadbf
+}
+
+.DS__CssUtils__backgroundColor_P50 {
+
+    background-color: #ffedf3
+}
+
+.DS__CssUtils__backgroundColor_Y900 {
+
+    background-color: #967500
+}
+
+.DS__CssUtils__backgroundColor_Y800 {
+
+    background-color: #e4bc00
+}
+
+.DS__CssUtils__backgroundColor_Y600 {
+
+    background-color: #ffdd41
+}
+
+.DS__CssUtils__backgroundColor_Y200 {
+
+    background-color: #ffec94
+}
+
+.DS__CssUtils__backgroundColor_Y50 {
+
+    background-color: #fffae1
+}
+
+.DS__CssUtils__backgroundColor_inherit {
+
+    background-color: inherit
+}
+
+.DS__CssUtils__hidden {
+
+    display: none
+}
+
+.DS__CssUtils__flex {
+
+    display: flex
+}
+
+.DS__CssUtils__block {
+
+    display: block
+}
+
+@media (max-width: 767px) {
+
+    .DS__CssUtils__xs-hidden {
+
+        display: none
+    }
+
+    .DS__CssUtils__xs-flex {
+
+        display: flex
+    }
+
+    .DS__CssUtils__xs-block {
+
+        display: block
+    }
+}
+.DS__SvgIcon__block {
+                          display: block;
+                      }
+
+.DS__SvgIcon__size_auto {
+    width: 100%;
+    height: 100%;
+}
+
+.DS__SvgIcon__size_sm {
+    width: 12px;
+    height: 12px;
+}
+
+.DS__SvgIcon__size_md {
+    width: 20px;
+    height: 20px;
+}
+
+.DS__SvgIcon__size_lg {
+    width: 32px;
+    height: 32px;
+}
+
+.DS__SvgIcon__size_xl {
+    width: 40px;
+    height: 40px;
+}
+.DS__FieldSubText__root {
+                            display: flex;
+                            overflow: hidden;
+                        }
+
+.DS__FieldSubText__inner {
+    display: flex;
+    width: 100%;
+    padding: 14px 16px 16px;
+    margin-top: 6px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #222a37;
+    background-color: #f4f9e6;
+    border-radius: 8px;
+}
+
+.DS__FieldSubText__invalid {
+    padding: 16px;
+    background-color: #feedee;
+}
+
+.DS__FieldSubText__text {
+    padding: 0;
+    margin: 0;
+}
+
+.DS__FieldSubText__icon {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    margin-right: 11px;
+    color: #f14d56;
+}
+.DS__TextBase__root {
+                            margin-top: 0;
+                            margin-bottom: 0;
+                            font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Arial',
+                            'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+                            sans-serif;
+                            text-decoration: inherit;
+                            white-space: pre-wrap;
+                            -webkit-text-size-adjust: none;
+                            -moz-text-size-adjust: none;
+                            text-size-adjust: none;
+                        }
+
+@media print {
+    .DS__TextBase__root {
+        color: #000000
+    }
+}
+
+.DS__TextBase__size_xl {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.DS__TextBase__size_l {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.DS__TextBase__size_m {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.DS__TextBase__size_s {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+}
+
+.DS__TextBase__indent {
+    text-indent: 8px;
+}
+
+.DS__TextBase__alignment_center {
+    text-align: center;
+}
+
+.DS__TextBase__alignment_right {
+    text-align: right;
+}
+
+.DS__TextBase__alignment_left {
+    text-align: left;
+}
+
+.DS__TextBase__noWrap {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+}
+
+.DS__TextBase__block {
+    width: 100%;
+}
+
+.DS__TextBase__weight_semibold {
+    font-weight: 600;
+}
+
+.DS__TextBase__weight_inherit {
+    font-weight: inherit;
+}
+
+.DS__TextBase__display_flex {
+    display: flex;
+}
+
+.DS__TextBase__display_block {
+    display: block;
+}
+
+.DS__TextBase__display_inline {
+    display: inline;
+}
+
+.DS__TextBase__display_inline_block {
+    display: inline-block;
+}
+.DS__FieldTooltip__root {
+                          display: block;
+                          margin-top: 4px;
+                          margin-left: 16px;
+                          color: #7a869a;
+                      }
+
+.DS__FieldTooltip__invalid {
+    color: #f14d56;
+}
+
+.DS__FieldTooltip__success {
+    color: #81a11a;
+}
+
+.DS__FieldTooltip__absolute {
+    position: absolute;
+    top: calc(100% + 15px);
+    left: 16px;
+    margin: 0;
+}
+.DS__FieldRoot__root {
+                            position: relative;
+                            display: flex;
+                            flex-direction: column;
+                            width: 100%;
+                            font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Arial',
+                            'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+                            sans-serif;
+                        }
+
+.DS__FieldRoot__container {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+    padding-left: 16px;
+    background-color: #ffffff;
+    border: 1px solid #d0d6e1;
+    border-radius: 8px;
+}
+
+.DS__FieldRoot__size_medium {
+    height: 56px;
+}
+
+.DS__FieldRoot__size_small {
+    height: 40px;
+}
+
+.DS__FieldRoot__theme_b2c.DS__FieldRoot__focused {
+    border-color: #97ba1e;
+}
+
+.DS__FieldRoot__theme_b2b.DS__FieldRoot__focused {
+    border-color: #00a4ba;
+}
+
+.DS__FieldRoot__success.DS__FieldRoot__theme_b2c {
+    border-color: #97ba1e;
+}
+
+.DS__FieldRoot__success.DS__FieldRoot__theme_b2b {
+    border-color: #00a4ba;
+}
+
+.DS__FieldRoot__invalid,
+.DS__FieldRoot__invalid.DS__FieldRoot__focused {
+    border-color: #f14d56;
+}
+
+.DS__FieldRoot__readonly {
+    border-color: #eceff5;
+}
+
+.DS__FieldRoot__autofill {
+    background-color: #e8f0fe;
+}
+
+.DS__FieldRoot__disabled {
+    pointer-events: none;
+    background-color: #f6f8fc;
+}
+.DS__FieldIcon__root {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            min-width: 20px;
+                            min-height: 20px;
+                            padding: 0;
+                            color: #95a0b3;
+                            cursor: pointer;
+                            background: transparent;
+                            border: none;
+                            opacity: 1;
+                            transition: color 0.3s ease;
+                        }
+
+@media screen and (prefers-reduced-motion: reduce) {
+    .DS__FieldIcon__root {
+        transition: none
+    }
+}
+
+.DS__FieldIcon__position_right {
+    margin-left: 12px;
+}
+
+.DS__FieldIcon__position_left {
+    margin-right: 12px;
+}
+
+.DS__FieldIcon__theme_b2c:hover,
+.DS__FieldIcon__theme_b2c:focus {
+    color: #97ba1e;
+}
+
+.DS__FieldIcon__theme_b2b:hover,
+.DS__FieldIcon__theme_b2b:focus {
+    color: #00a4ba;
+}
+
+.DS__FieldIcon__invalid,
+.DS__FieldIcon__invalid:hover,
+.DS__FieldIcon__invalid:focus {
+    color: #f14d56;
+}
+.DS__InputBase__root {
+                          flex: 1 1 auto;
+                          width: 100%;
+                          padding: 0;
+                          margin: 0;
+                          overflow: hidden;
+                          font-size: 16px;
+                          line-height: 24px;
+                          color: #222a37;
+                          text-overflow: ellipsis;
+                          white-space: nowrap;
+                          background-color: transparent;
+                          border: 0;
+                          outline: none;
+                      }
+
+.DS__InputBase__root::-webkit-input-placeholder {
+    font-weight: inherit;
+    color: #7a869a;
+    opacity: 1;
+}
+
+.DS__InputBase__root:-ms-input-placeholder {
+    font-weight: inherit;
+    color: #7a869a;
+    opacity: 1;
+}
+
+.DS__InputBase__root::placeholder {
+    font-weight: inherit;
+    color: #7a869a;
+    opacity: 1;
+}
+
+.DS__InputBase__root:disabled {
+    /* Мобильный ios для disable поля добавляет opacity 0.4000000059604645. */
+    opacity: 1;
+}
+
+.DS__InputBase__root::-ms-clear,
+.DS__InputBase__root::-ms-reveal {
+    display: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+
+.DS__InputBase__root[type='number']::-webkit-inner-spin-button,
+.DS__InputBase__root[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+
+.DS__InputBase__root[type='number'] {
+    -moz-appearance: textfield;
+}
+
+.DS__InputBase__root:-webkit-autofill {
+    background-color: transparent;
+    -webkit-box-shadow: 0 0 0 1000px #e8f0fe inset;
+    -webkit-animation-name: DS__InputBase__onautofillstart;
+    animation-name: DS__InputBase__onautofillstart;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+
+    .DS__InputBase__root:-webkit-autofill {
+        -webkit-animation: none;
+        animation: none
+    }
+}
+
+.DS__InputBase__root:not(:-webkit-autofill) {
+    -webkit-animation-name: DS__InputBase__onautofillcancel;
+    animation-name: DS__InputBase__onautofillcancel;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+
+    .DS__InputBase__root:not(:-webkit-autofill) {
+        -webkit-animation: none;
+        animation: none
+    }
+}
+
+@-webkit-keyframes DS__InputBase__onautofillstart {
+    /* stylelint-disable-next-line block-no-empty */
+    from {
+    }
+}
+
+@keyframes DS__InputBase__onautofillstart {
+    /* stylelint-disable-next-line block-no-empty */
+    from {
+    }
+}
+
+@-webkit-keyframes DS__InputBase__onautofillcancel {
+    /* stylelint-disable-next-line block-no-empty */
+    from {
+    }
+}
+
+@keyframes DS__InputBase__onautofillcancel {
+    /* stylelint-disable-next-line block-no-empty */
+    from {
+    }
+}
+.DS__FieldLabel__root {
+                            display: block;
+                            max-width: 100%;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            pointer-events: none;
+                            transition: -webkit-transform 0.3s ease;
+                            transition: transform 0.3s ease;
+                            transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+                            -webkit-transform: translate(0, 0) scale(1);
+                            transform: translate(0, 0) scale(1);
+                            -webkit-transform-origin: top left;
+                            transform-origin: top left;
+                        }
+
+@media screen and (prefers-reduced-motion: reduce) {
+    .DS__FieldLabel__root {
+        transition: none
+    }
+}
+.DS__FieldInput__root {
+                            position: relative;
+                            box-sizing: border-box;
+                            display: flex;
+                            flex: 1 1 auto;
+                            flex-direction: column-reverse;
+                            justify-content: center;
+                        }
+
+.DS__FieldInput__theme_b2c:not(.DS__FieldInput__invalid) .DS__FieldInput__input:focus + .DS__FieldInput__label {
+    color: #97ba1e;
+}
+
+.DS__FieldInput__theme_b2b:not(.DS__FieldInput__invalid) .DS__FieldInput__input:focus + .DS__FieldInput__label {
+    color: #00a4ba;
+}
+
+.DS__FieldInput__has_label .DS__FieldInput__input::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.DS__FieldInput__has_label .DS__FieldInput__input:-ms-input-placeholder {
+    color: transparent;
+}
+
+.DS__FieldInput__has_label .DS__FieldInput__input::placeholder {
+    color: transparent;
+}
+
+.DS__FieldInput__has_label.DS__FieldInput__has_value .DS__FieldInput__input,
+.DS__FieldInput__has_label .DS__FieldInput__input:focus,
+.DS__FieldInput__has_label .DS__FieldInput__input:-webkit-autofill {
+    margin-top: 16px;
+}
+
+.DS__FieldInput__input:focus + .DS__FieldInput__label, .DS__FieldInput__has_value .DS__FieldInput__input + .DS__FieldInput__label, .DS__FieldInput__input:-webkit-autofill + .DS__FieldInput__label {
+    -webkit-transform: translate(0, -10px) scale(0.75);
+    transform: translate(0, -10px) scale(0.75);
+}
+
+.DS__FieldInput__label {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 0;
+    pointer-events: none;
+}
+.DS__Circle__root {
+                          all: unset;
+                          position: relative;
+                          display: inline-flex;
+                          align-items: center;
+                          justify-content: center;
+                          pointer-events: inherit;
+                      }
+
+.DS__Circle__size_normal {
+    width: 32px;
+    height: 32px;
+}
+
+.DS__Circle__size_normal .DS__Circle__content {
+    top: 0;
+    left: 0;
+}
+
+.DS__Circle__size_small {
+    width: 24px;
+    height: 24px;
+}
+
+.DS__Circle__size_small .DS__Circle__content {
+    top: -4px;
+    left: -4px;
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75);
+}
+
+.DS__Circle__size_x-small {
+    width: 16px;
+    height: 16px;
+}
+
+.DS__Circle__size_x-small .DS__Circle__content {
+    top: -8px;
+    left: -8px;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+}
+
+.DS__Circle__content {
+    all: unset;
+    position: absolute;
+    display: inline-block;
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    pointer-events: inherit;
+}
+
+.DS__Circle__dot {
+    all: unset;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    pointer-events: inherit;
+    background: currentColor;
+    border-radius: 50%;
+    -webkit-animation: DS__Circle__loader 1.2s linear infinite;
+    animation: DS__Circle__loader 1.2s linear infinite;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+
+    .DS__Circle__dot {
+        -webkit-animation: none;
+        animation: none
+    }
+}
+
+.DS__Circle__dot:nth-child(1) {
+    top: 0px;
+    left: 13px;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.DS__Circle__dot:nth-child(2) {
+    top: 5px;
+    left: 22px;
+    -webkit-animation-delay: -0.1s;
+    animation-delay: -0.1s;
+}
+
+.DS__Circle__dot:nth-child(3) {
+    top: 15px;
+    left: 27px;
+    -webkit-animation-delay: -0.2s;
+    animation-delay: -0.2s;
+}
+
+.DS__Circle__dot:nth-child(4) {
+    top: 25px;
+    left: 22px;
+    -webkit-animation-delay: -var(--transition-time);
+    animation-delay: -var(--transition-time);
+}
+
+.DS__Circle__dot:nth-child(5) {
+    top: 30px;
+    left: 13px;
+    -webkit-animation-delay: -0.4s;
+    animation-delay: -0.4s;
+}
+
+.DS__Circle__dot:nth-child(6) {
+    top: 25px;
+    left: 3px;
+    -webkit-animation-delay: -0.5s;
+    animation-delay: -0.5s;
+}
+
+.DS__Circle__dot:nth-child(7) {
+    top: 15px;
+    left: -3px;
+    -webkit-animation-delay: -0.6s;
+    animation-delay: -0.6s;
+}
+
+.DS__Circle__dot:nth-child(8) {
+    top: 5px;
+    left: 2px;
+    -webkit-animation-delay: -0.7s;
+    animation-delay: -0.7s;
+}
+
+@-webkit-keyframes DS__Circle__loader {
+    0%,
+    20%,
+    80%,
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+}
+
+@keyframes DS__Circle__loader {
+    0%,
+    20%,
+    80%,
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+}
+.DS__Flow__root {
+                            all: unset;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 40px;
+                            height: 8px;
+                        }
+
+.DS__Flow__dot {
+    all: unset;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: currentColor;
+
+    border-radius: 50%;
+    -webkit-animation: DS__Flow__sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: DS__Flow__sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.DS__Flow__dot:not(:last-child) {
+    margin-right: 8px;
+}
+
+.DS__Flow__dot1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.DS__Flow__dot2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+@-webkit-keyframes DS__Flow__sk-bouncedelay {
+    0%,
+    80%,
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    40% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes DS__Flow__sk-bouncedelay {
+    0%,
+    80%,
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    40% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+.DS__Loader__root {
+                            display: inline-flex;
+                        }
+.DS__Textfield__button_eye {
+                            color: #95a0b3;
+                            visibility: hidden;
+                        }
+
+.DS__Textfield__button_eye_show {
+    visibility: visible;
+}
+
+.DS__Textfield__success {
+    color: #97ba1e;
+    visibility: hidden;
+}
+
+.DS__Textfield__success_show {
+    visibility: visible;
+}
+.DS__SocialName__SocialName,
+                      .DS__SocialName__Caption,
+                      .DS__SocialName__Icon,
+                      .DS__SocialName__CheckIcon {
+                          all: initial;
+                          font-family: var(--font-family);
+                      }
+
+.DS__SocialName__SocialName {
+    display: flex;
+    /* stylelint-enable color-no-hex */
+}
+
+/* stylelint-disable color-no-hex */
+
+.DS__SocialName__SocialName_fb .DS__SocialName__Caption > *:first-child {
+    color: #325797;
+}
+
+.DS__SocialName__SocialName_vk .DS__SocialName__Caption > *:first-child {
+    color: #4680c2;
+}
+
+.DS__SocialName__SocialName_google .DS__SocialName__Caption > *:first-child {
+    color: #4285f4;
+}
+
+.DS__SocialName__SocialName_instagram .DS__SocialName__Caption > *:first-child {
+    color: #e1306c;
+}
+
+.DS__SocialName__Caption {
+    overflow: hidden;
+}
+
+.DS__SocialName__Caption > * {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.DS__SocialName__Icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+    border-radius: 50%;
+    /* stylelint-enable color-no-hex */
+}
+
+/* stylelint-disable color-no-hex */
+
+.DS__SocialName__Icon_apple {
+    background-color: #000000;
+}
+
+.DS__SocialName__Icon_fb {
+    background-color: #325797;
+}
+
+.DS__SocialName__Icon_vk {
+    background-color: #4680c2;
+}
+
+.DS__SocialName__Icon_google {
+    background-color: #4285f4;
+}
+
+.DS__SocialName__Icon_instagram {
+    background-color: #e1306c;
+}
+
+.DS__SocialName__Icon_tinkoff {
+    background-color: #ffdd2d;
+}
+
+.DS__SocialName__CheckIcon {
+    position: absolute;
+    right: -4px;
+    bottom: 0;
+    z-index: 1;
+    color: #97ba1e;
+}
+
+.DS__SocialName__CheckIcon:before {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    z-index: -1;
+    display: block;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    content: '';
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.DS__SocialButton__SocialButton {
+                            all: initial;
+                            font-family: var(--font-family)
+                        }
+
+.DS__SocialButton__SocialButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    border-radius: 50%;
+    outline: none;
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+    transition-property: box-shadow, background-color;
+    will-change: box-shadow, background-color;
+    /* stylelint-enable color-no-hex, function-blacklist */
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+    .DS__SocialButton__SocialButton {
+        transition: none
+    }
+}
+
+.DS__SocialButton__SocialButton.DS__SocialButton__focus-visible {
+    outline: 2px auto #577edc;
+    outline-offset: 2px;
+}
+
+/* stylelint-disable color-no-hex, function-blacklist */
+
+.DS__SocialButton__SocialButton_apple {
+    background-color: #000000;
+}
+
+.DS__SocialButton__SocialButton_apple:hover,
+.DS__SocialButton__SocialButton_apple:focus {
+    background-color: #1a1a1a;
+}
+
+.DS__SocialButton__SocialButton_apple:active {
+    background-color: #333333;
+}
+
+.DS__SocialButton__SocialButton_apple:focus {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.DS__SocialButton__SocialButton_apple:disabled {
+    background-color: #999999;
+}
+
+.DS__SocialButton__SocialButton_fb {
+    background-color: #325797;
+}
+
+.DS__SocialButton__SocialButton_fb:hover,
+.DS__SocialButton__SocialButton_fb:focus {
+    background-color: #2c4c83;
+}
+
+.DS__SocialButton__SocialButton_fb:active {
+    background-color: #213962;
+}
+
+.DS__SocialButton__SocialButton_fb:focus {
+    box-shadow: 0px 2px 8px rgba(50, 87, 151, 0.5);
+}
+
+.DS__SocialButton__SocialButton_fb:disabled {
+    background-color: #adbcd5;
+}
+
+.DS__SocialButton__SocialButton_vk {
+    background-color: #4680c2;
+}
+
+.DS__SocialButton__SocialButton_vk:hover,
+.DS__SocialButton__SocialButton_vk:focus {
+    background-color: #3d6fa9;
+}
+
+.DS__SocialButton__SocialButton_vk:active {
+    background-color: #2e537e;
+}
+
+.DS__SocialButton__SocialButton_vk:focus {
+    box-shadow: 0px 2px 8px rgba(70, 128, 194, 0.5);
+}
+
+.DS__SocialButton__SocialButton_vk:disabled {
+    background-color: #b5cce7;
+}
+
+.DS__SocialButton__SocialButton_google {
+    background-color: #4285f4;
+}
+
+.DS__SocialButton__SocialButton_google:hover,
+.DS__SocialButton__SocialButton_google:focus {
+    background-color: #3974d4;
+}
+
+.DS__SocialButton__SocialButton_google:active {
+    background-color: #2b569f;
+}
+
+.DS__SocialButton__SocialButton_google:focus {
+    box-shadow: 0px 2px 8px rgba(66, 133, 244, 0.5);
+}
+
+.DS__SocialButton__SocialButton_google:disabled {
+    background-color: #b3cefb;
+}
+
+.DS__SocialButton__SocialButton_instagram {
+    background-color: #e1306c;
+}
+
+.DS__SocialButton__SocialButton_instagram:hover,
+.DS__SocialButton__SocialButton_instagram:focus {
+    background-color: #bf295c;
+}
+
+.DS__SocialButton__SocialButton_instagram:active {
+    background-color: #bf295c;
+}
+
+.DS__SocialButton__SocialButton_instagram:focus {
+    box-shadow: 0px 2px 8px rgba(66, 133, 244, 0.5);
+}
+
+.DS__SocialButton__SocialButton_instagram:disabled {
+    background-color: #b3cefb;
+}
+
+.DS__SocialButton__SocialButton_tinkoff {
+    background-color: #ffdd2d;
+}
+
+.DS__SocialButton__SocialButton_tinkoff:hover,
+.DS__SocialButton__SocialButton_tinkoff:focus {
+    background-color: #f0d02a;
+}
+
+.DS__SocialButton__SocialButton_tinkoff:active {
+    background-color: #d9bc26;
+}
+
+.DS__SocialButton__SocialButton_tinkoff:focus {
+    box-shadow: 0px 2px 8px rgba(255, 221, 45, 0.5);
+}
+
+.DS__SocialButton__SocialButton_tinkoff:disabled {
+    background-color: #fff2ad;
+}
+.DS__SocialButtons__root,
+                        .DS__SocialButtons__Buttons,
+                        .DS__SocialButtons__Title,
+                        .DS__SocialButtons__Text,
+                        .DS__SocialButtons__MoreHoriz {
+                            all: initial;
+                            font-family: var(--font-family);
+                        }
+
+.DS__SocialButtons__root {
+    display: block;
+}
+
+.DS__SocialButtons__Buttons {
+    display: flex;
+    align-items: center;
+}
+
+.DS__SocialButtons__Button + .DS__SocialButtons__Button {
+    margin-left: 8px;
+}
+
+.DS__SocialButtons__Title {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #7a869a;
+    letter-spacing: 0.2px;
+}
+
+.DS__SocialButtons__Text {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.DS__SocialButtons__MoreHoriz {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    margin: 0 0 0 8px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #eceff5;
+    border-radius: 50%;
+    outline: none;
+}
+.DS__Title__root {
+                          display: block;
+                          width: 100%;
+                          margin-top: 0;
+                          margin-bottom: 0;
+                          font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Arial',
+                          'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+                          sans-serif;
+                          font-weight: 600;
+                          -webkit-text-size-adjust: none;
+                          -moz-text-size-adjust: none;
+                          text-size-adjust: none;
+                      }
+
+.DS__Title__level_1 {
+    font-size: 44px;
+    line-height: 52px;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+
+    .DS__Title__level_1 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px
+    }
+}
+
+@media (max-width: 767px) {
+
+    .DS__Title__level_1 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 36px
+    }
+}
+
+.DS__Title__level_2 {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+
+    .DS__Title__level_2 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 36px
+    }
+}
+
+@media (max-width: 767px) {
+
+    .DS__Title__level_2 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px
+    }
+}
+
+.DS__Title__level_3 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+@media (max-width: 767px) {
+
+    .DS__Title__level_3 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px
+    }
+}
+
+.DS__Title__level_4 {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+@media (max-width: 767px) {
+
+    .DS__Title__level_4 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22px
+    }
+}
+
+.DS__Title__level_5 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media (max-width: 767px) {
+
+    .DS__Title__level_5 {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px
+    }
+}
+
+.DS__Title__ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.DS__Title__alignment_left {
+    text-align: left;
+}
+
+.DS__Title__alignment_right {
+    text-align: right;
+}
+
+.DS__Title__alignment_center {
+    text-align: center;
+}
+.DS__ButtonBase__root {
+                            padding: 0;
+                            cursor: pointer;
+                            background-color: transparent;
+                            border: 0;
+                        }
+.DS__CloseButton__CloseIcon {
+                            all: initial;
+                            font-family: var(--font-family);
+                        }
+
+.DS__CloseButton__CloseIcon {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    color: #7a869a;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+}
+.DS__Button__root {
+                          position: relative;
+                          box-sizing: border-box;
+                          display: inline-flex;
+                          align-items: center;
+                          justify-content: center;
+                          padding: 0 12px;
+                          line-height: 20px;
+                          color: #ffffff;
+                          text-decoration: none;
+                          cursor: pointer;
+                          background-color: #27344b;
+                          border: none;
+                          border-radius: 8px;
+                          transition: background-color 0.3s ease,
+                          border-color 0.3s ease;
+                      }
+
+@media screen and (prefers-reduced-motion: reduce) {
+    .DS__Button__root {
+        transition: none
+    }
+}
+
+.DS__Button__root:hover,
+.DS__Button__root:focus {
+    background-color: #7a869a;
+}
+
+.DS__Button__root.DS__Button__focus-visible {
+    outline: 2px auto #577edc;
+    outline-offset: 2px;
+}
+
+.DS__Button__root:focus:not(:active) {
+    box-shadow: 0 2px 6px -12px rgba(34, 42, 55, 0.13);
+}
+
+.DS__Button__root:active {
+    background-color: #222a37;
+}
+
+.DS__Button__root.DS__Button__loading {
+    background-color: #27344b;
+}
+
+.DS__Button__root.DS__Button__disabled {
+    cursor: default;
+    background-color: #7a869a;
+}
+
+.DS__Button__root.DS__Button__disabled,
+.DS__Button__root.DS__Button__loading {
+    pointer-events: none;
+}
+
+.DS__Button__root svg {
+    flex-shrink: 0;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.DS__Button__root svg:first-child {
+    margin-left: 0;
+}
+
+.DS__Button__root svg:last-child {
+    margin-right: 0;
+}
+
+.DS__Button__block {
+    justify-content: center;
+    width: 100%;
+}
+
+.DS__Button__block .DS__Button__content {
+    justify-content: center;
+    width: 100%;
+}
+
+.DS__Button__loading .DS__Button__content {
+    opacity: 0;
+}
+
+.DS__Button__theme_b2c {
+    background-color: #97ba1e;
+}
+
+.DS__Button__theme_b2c:hover,
+.DS__Button__theme_b2c:focus {
+    background-color: #81a11a;
+}
+
+.DS__Button__theme_b2c:focus:not(:active) {
+    background-color: #97ba1e;
+    box-shadow: 0px 2px 4px #97ba1e;
+}
+
+.DS__Button__theme_b2c:active {
+    background-color: #547012;
+}
+
+.DS__Button__theme_b2c.DS__Button__loading {
+    background-color: #97ba1e;
+}
+
+.DS__Button__theme_b2c.DS__Button__disabled {
+    background-color: #d4e3ac;
+}
+
+.DS__Button__theme_b2b {
+    background-color: #00a4ba;
+}
+
+.DS__Button__theme_b2b:hover,
+.DS__Button__theme_b2b:focus {
+    background-color: #0b7483;
+}
+
+.DS__Button__theme_b2b:focus:not(:active) {
+    background-color: #00a4ba;
+    box-shadow: 0px 2px 4px #00a4ba;
+}
+
+.DS__Button__theme_b2b:active {
+    background-color: #075c68;
+}
+
+.DS__Button__theme_b2b.DS__Button__loading {
+    background-color: #00a4ba;
+}
+
+.DS__Button__theme_b2b.DS__Button__disabled {
+    background-color: #94dee4;
+}
+
+.DS__Button__theme_warning {
+    background-color: #ff991f;
+}
+
+.DS__Button__theme_warning:hover,
+.DS__Button__theme_warning:focus {
+    background-color: #c87520;
+}
+
+.DS__Button__theme_warning:focus:not(:active) {
+    background-color: #ff991f;
+    box-shadow: 0 3px 6px -2px #ff991f;
+}
+
+.DS__Button__theme_warning:active {
+    background-color: #965817;
+}
+
+.DS__Button__theme_warning.DS__Button__loading {
+    background-color: #ff991f;
+}
+
+.DS__Button__theme_warning.DS__Button__disabled {
+    background-color: #fcd3a9;
+}
+
+.DS__Button__theme_destructive {
+    background-color: #f14d56;
+}
+
+.DS__Button__theme_destructive:hover,
+.DS__Button__theme_destructive:focus {
+    background-color: #c13e45;
+}
+
+.DS__Button__theme_destructive:focus:not(:active) {
+    background-color: #f14d56;
+    box-shadow: 0px 2px 4px #f14d56;
+}
+
+.DS__Button__theme_destructive:active {
+    background-color: #912e34;
+}
+
+.DS__Button__theme_destructive.DS__Button__loading {
+    background-color: #f14d56;
+}
+
+.DS__Button__theme_destructive.DS__Button__disabled {
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #f7949a;
+}
+
+.DS__Button__theme_blue {
+    background-color: #577edc;
+}
+
+.DS__Button__theme_blue:hover,
+.DS__Button__theme_blue:focus {
+    background-color: #395cb1;
+}
+
+.DS__Button__theme_blue:focus:not(:active) {
+    background-color: #577edc;
+    box-shadow: 0px 2px 8px rgba(87, 126, 220, 0.5);
+}
+
+.DS__Button__theme_blue:active {
+    background-color: #19468d;
+}
+
+.DS__Button__theme_blue.DS__Button__loading {
+    background-color: #577edc;
+}
+
+.DS__Button__theme_blue.DS__Button__disabled {
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #aabffc;
+}
+
+.DS__Button__theme_secondary {
+    color: #222a37;
+    background-color: #eceff5;
+}
+
+.DS__Button__theme_secondary:hover,
+.DS__Button__theme_secondary:focus {
+    background-color: #d0d6e1;
+}
+
+.DS__Button__theme_secondary:focus:not(:active) {
+    background-color: #eceff5;
+    box-shadow: 0px 2px 4px rgba(80, 95, 121, 0.5);
+}
+
+.DS__Button__theme_secondary:active {
+    background-color: #95a0b3;
+}
+
+.DS__Button__theme_secondary.DS__Button__loading {
+    background-color: #eceff5;
+}
+
+.DS__Button__theme_secondary.DS__Button__disabled {
+    color: #95a0b3;
+    background-color: #eceff5;
+}
+
+.DS__Button__theme_secondaryWhite {
+    color: #505f79;
+    background-color: #ffffff;
+}
+
+.DS__Button__theme_secondaryWhite:hover,
+.DS__Button__theme_secondaryWhite:focus {
+    color: #ffffff;
+    background-color: #505f79;
+}
+
+.DS__Button__theme_secondaryWhite:focus:not(:active) {
+    color: #ffffff;
+    background-color: #505f79;
+    box-shadow: 0px 2px 4px rgba(80, 95, 121, 0.5);
+}
+
+.DS__Button__theme_secondaryWhite:active {
+    color: #ffffff;
+    background-color: #505f79;
+}
+
+.DS__Button__theme_secondaryWhite.DS__Button__loading {
+    background-color: #ffffff;
+}
+
+.DS__Button__theme_secondaryWhite.DS__Button__disabled {
+    color: #95a0b3;
+    background-color: #ffffff;
+}
+
+.DS__Button__theme_basic {
+    color: #222a37;
+    background: #ffffff;
+    border: 1px solid #eceff5;
+}
+
+.DS__Button__theme_basic:hover,
+.DS__Button__theme_basic:focus {
+    background-color: #f6f8fc;
+    border-color: #95a0b3;
+}
+
+.DS__Button__theme_basic:active {
+    background-color: #f1f3f8;
+    border-color: #f1f3f8;
+}
+
+.DS__Button__theme_basic.DS__Button__loading {
+    background: #ffffff;
+    border-color: #eceff5;
+}
+
+.DS__Button__theme_basic.DS__Button__disabled {
+    color: #505f79;
+    background: #ffffff;
+    border-color: #eceff5;
+}
+
+.DS__Button__theme_white {
+    color: #222a37;
+    background: #ffffff;
+}
+
+.DS__Button__theme_white:hover,
+.DS__Button__theme_white:focus {
+    background-color: #f6f8fc;
+}
+
+.DS__Button__theme_white:focus:not(:active) {
+    border: 1px solid #d0d6e1;
+    box-shadow: 0 3px 6px -2px #d0d6e1;
+}
+
+.DS__Button__theme_white:active {
+    background-color: #d0d6e1;
+}
+
+.DS__Button__theme_white.DS__Button__loading {
+    background: #ffffff;
+}
+
+.DS__Button__theme_white.DS__Button__disabled {
+    color: #222a37;
+    background: #ffffff;
+}
+
+.DS__Button__theme_outline {
+    color: #222a37;
+    background-color: #ffffff;
+    border: 1px solid #d0d6e1;
+}
+
+.DS__Button__theme_outline:hover,
+.DS__Button__theme_outline:focus {
+    background-color: #eceff5;
+    border-color: #d0d6e1;
+}
+
+.DS__Button__theme_outline:focus:not(:active) {
+    background-color: #ffffff;
+    border: 1px solid #95a0b3;
+    box-shadow: 0 3px 6px -2px #d0d6e1;
+}
+
+.DS__Button__theme_outline:active {
+    background-color: #d0d6e1;
+    border-color: #95a0b3;
+}
+
+.DS__Button__theme_outline.DS__Button__loading {
+    background-color: #ffffff;
+    border-color: #d0d6e1;
+}
+
+.DS__Button__theme_outline.DS__Button__disabled {
+    color: #95a0b3;
+    background-color: #eceff5;
+    border-color: #d0d6e1;
+}
+
+.DS__Button__theme_outlineWhite {
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.DS__Button__theme_outlineWhite:hover,
+.DS__Button__theme_outlineWhite:focus {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.9);
+}
+
+.DS__Button__theme_outlineWhite:focus:not(:active) {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    box-shadow: 0 3px 6px -2px rgba(255, 255, 255, 0.6);
+}
+
+.DS__Button__theme_outlineWhite:active {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: #ffffff;
+}
+
+.DS__Button__theme_outlineWhite.DS__Button__loading {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+.DS__Button__theme_outlineWhite.DS__Button__disabled {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+.DS__Button__theme_b2cGradient {
+    background: linear-gradient(
+            84deg,
+            #c4d600 0%,
+            #5bb784 100%
+    );
+}
+
+.DS__Button__theme_b2cGradient:focus:not(:active) {
+    box-shadow: 0px 2px 8px rgba(151, 186, 30, 0.5);
+}
+
+.DS__Button__theme_b2cGradient.DS__Button__loading {
+    background: linear-gradient(
+            84deg,
+            #c4d600 0%,
+            #5bb784 100%
+    );
+}
+
+.DS__Button__theme_b2cGradient.DS__Button__disabled {
+    opacity: 0.5;
+}
+
+.DS__Button__theme_b2bGradient {
+    background: linear-gradient(
+            70.03deg,
+            #00a4ba 0%,
+            #89abfb 98.59%
+    );
+}
+
+.DS__Button__theme_b2bGradient:focus:not(:active) {
+    box-shadow: 0px 2px 8px rgba(87, 126, 220, 0.5);
+}
+
+.DS__Button__theme_b2bGradient.DS__Button__loading {
+    background: linear-gradient(
+            70.03deg,
+            #00a4ba 0%,
+            #89abfb 98.59%
+    );
+}
+
+.DS__Button__theme_b2bGradient.DS__Button__disabled {
+    opacity: 0.5;
+}
+
+.DS__Button__size_small {
+    min-width: 48px;
+    height: 32px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+.DS__Button__size_medium {
+    min-width: 56px;
+    height: 40px;
+    font-size: 14px;
+}
+
+.DS__Button__size_large {
+    min-width: 72px;
+    height: 48px;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 16px;
+}
+
+.DS__Button__size_x-large {
+    min-width: 72px;
+    height: 56px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.DS__Button__color_N900 {
+    color: #222a37;
+}
+
+.DS__Button__color_T600 {
+    color: #00a4ba;
+}
+
+.DS__Button__color_G600 {
+    color: #97ba1e;
+}
+
+.DS__Button__color_B600 {
+    color: #577edc;
+}
+
+.DS__Button__color_O600 {
+    color: #ff991f;
+}
+
+.DS__Button__round {
+    width: 24px;
+    min-width: 0;
+    height: 24px;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.DS__Button__round.DS__Button__disabled {
+    color: #95a0b3;
+    background-color: #f6f8fc;
+}
+
+.DS__Button__round:not(.DS__Button__primary) {
+    color: #505f79;
+    background-color: #eceff5;
+}
+
+.DS__Button__round:not(.DS__Button__primary):hover,
+.DS__Button__round:not(.DS__Button__primary):focus:not(:active),
+.DS__Button__round:not(.DS__Button__primary):active,
+.DS__Button__round:not(.DS__Button__primary).DS__Button__active {
+    color: #ffffff;
+    background-color: #505f79;
+}
+
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_b2c {
+    color: #97ba1e;
+    background-color: #f4f9e6;
+}
+
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_b2c:hover,
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_b2c:focus:not(:active),
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_b2c:active {
+    color: #ffffff;
+    background-color: #97ba1e;
+}
+
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_b2c:focus:not(:active) {
+    box-shadow: 0 2px 4px rgba(151, 186, 30, 0.5);
+}
+
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_b2b {
+    color: #00a4ba;
+    background-color: #e8f9fb;
+}
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_b2b:hover,
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_b2b:focus:not(:active),
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_b2b:active {
+    color: #ffffff;
+    background-color: #00a4ba;
+}
+
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_b2b:focus:not(:active) {
+    box-shadow: 0 2px 4px rgba(0, 164, 186, 0.5);
+}
+
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_warning {
+    color: #ff991f;
+    background-color: #fff4e9;
+}
+
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_warning:hover,
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_warning:focus:not(:active),
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_warning:active {
+    color: #ffffff;
+    background-color: #ff991f;
+}
+
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_warning:focus:not(:active) {
+    box-shadow: 0 2px 4px rgba(255, 153, 31, 0.5);
+}
+
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_destructive {
+    color: #f14d56;
+    background-color: #feedee;
+}
+
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_destructive:hover,
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_destructive:focus:not(:active),
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_destructive:active {
+    color: #ffffff;
+    background-color: #f14d56;
+}
+
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_destructive:focus:not(:active) {
+    box-shadow: 0 2px 4px rgba(241, 77, 86, 0.5);
+}
+
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_secondary {
+    color: #505f79;
+    background-color: #eceff5;
+}
+
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_secondary:hover,
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_secondary:focus {
+    color: #505f79;
+    background-color: #d0d6e1;
+}
+
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_secondary:focus:not(:active) {
+    color: #505f79;
+    background-color: #eceff5;
+    box-shadow: 0 2px 4px rgba(34, 42, 55, 0.15);
+}
+
+.DS__Button__round:not(.DS__Button__primary).DS__Button__theme_secondary:active {
+    color: #505f79;
+    background-color: #95a0b3;
+}
+
+/* Elements */
+.DS__Button__loader {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.DS__Button__content {
+    display: inline-flex;
+    align-items: center;
+}
+.DS__Depth__root,
+                        .DS__Depth__flex {
+                            all: initial;
+                            font-family: var(--font-family);
+                        }
+
+.DS__Depth__root {
+    display: block;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+
+.DS__Depth__depth_z0 {
+    border: 1px solid #dde3ed;
+}
+
+.DS__Depth__depth_z50 {
+    box-shadow: 0px 4px 12px rgba(34, 42, 55, 0.04),
+    0px 0px 4px rgba(34, 42, 55, 0.04);
+}
+
+.DS__Depth__depth_z100 {
+    box-shadow: 0 4px 10px rgba(34, 42, 55, 0.13);
+}
+
+.DS__Depth__depth_z100W {
+    box-shadow: 0 0 1px 0 rgba(34, 42, 55, 0.13),
+    0 4px 10px rgba(34, 42, 55, 0.13);
+}
+
+.DS__Depth__depth_z300 {
+    box-shadow: 0 8px 16px rgba(34, 42, 55, 0.13);
+}
+
+.DS__Depth__depth_z300W {
+    box-shadow: 0 0 1px rgba(34, 42, 55, 0.13),
+    0 8px 16px rgba(34, 42, 55, 0.13);
+}
+
+.DS__Depth__depth_z300B {
+    box-shadow: 0 8px 16px #d0d6e1;
+}
+
+.DS__Depth__depth_z500 {
+    box-shadow: 0px 16px 32px rgba(34, 42, 55, 0.13);
+}
+
+.DS__Depth__depth_z500W {
+    box-shadow: 0 16px 32px rgba(34, 42, 55, 0.13);
+}
+
+.DS__Depth__enable_overflow {
+    overflow: visible;
+}
+
+.DS__Depth__flex {
+    display: flex;
+}
+.DS__Divider__Wrapper {
+                            all: initial;
+                            font-family: var(--font-family);
+                        }
+
+.DS__Divider__Wrapper {
+    display: block;
+    flex-shrink: 0;
+    width: 100%;
+    height: 1px;
+    margin: 0;
+    border: none;
+}
+
+.DS__Divider__Wrapper_color_N50 {
+    background-color: #dde3ed;
+}
+.DS__perfect-scrollbar-side__ps {
+                          all: initial;
+                          font-family: var(--font-family);
+                      }
+
+/*
+* Container style
+*/
+.DS__perfect-scrollbar-side__ps {
+    overflow: hidden !important;
+    touch-action: auto;
+    overflow-anchor: none;
+    -ms-overflow-style: none;
+}
+
+/*
+* Scrollbar rail styles
+*/
+.DS__perfect-scrollbar-side__ps__rail-x {
+    /* please don't change 'position' */
+    position: absolute;
+    /* there must be 'bottom' or 'top' for ps__rail-x */
+    bottom: 0px;
+    display: none;
+    height: 15px;
+    opacity: 0;
+    transition: background-color 0.2s linear, opacity 0.2s linear;
+}
+
+.DS__perfect-scrollbar-side__ps__rail-y {
+    /* please don't change 'position' */
+    position: absolute;
+    /* there must be 'right' or 'left' for ps__rail-y */
+    right: 0;
+    display: none;
+    width: 15px;
+    opacity: 0;
+    transition: background-color 0.2s linear, opacity 0.2s linear;
+}
+
+.DS__perfect-scrollbar-side__ps--active-x > .DS__perfect-scrollbar-side__ps__rail-x,
+.DS__perfect-scrollbar-side__ps--active-y > .DS__perfect-scrollbar-side__ps__rail-y {
+    display: block;
+    background-color: transparent;
+}
+
+.DS__perfect-scrollbar-side__ps:hover > .DS__perfect-scrollbar-side__ps__rail-x,
+.DS__perfect-scrollbar-side__ps:hover > .DS__perfect-scrollbar-side__ps__rail-y,
+.DS__perfect-scrollbar-side__ps--focus > .DS__perfect-scrollbar-side__ps__rail-x,
+.DS__perfect-scrollbar-side__ps--focus > .DS__perfect-scrollbar-side__ps__rail-y,
+.DS__perfect-scrollbar-side__ps--scrolling-x > .DS__perfect-scrollbar-side__ps__rail-x,
+.DS__perfect-scrollbar-side__ps--scrolling-y > .DS__perfect-scrollbar-side__ps__rail-y {
+    opacity: 0.6;
+}
+
+.DS__perfect-scrollbar-side__ps .DS__perfect-scrollbar-side__ps__rail-x:hover,
+.DS__perfect-scrollbar-side__ps .DS__perfect-scrollbar-side__ps__rail-y:hover,
+.DS__perfect-scrollbar-side__ps .DS__perfect-scrollbar-side__ps__rail-x:focus,
+.DS__perfect-scrollbar-side__ps .DS__perfect-scrollbar-side__ps__rail-y:focus,
+.DS__perfect-scrollbar-side__ps .DS__perfect-scrollbar-side__ps__rail-x.DS__perfect-scrollbar-side__ps--clicking,
+.DS__perfect-scrollbar-side__ps .DS__perfect-scrollbar-side__ps__rail-y.DS__perfect-scrollbar-side__ps--clicking {
+    background-color: #eee;
+    opacity: 0.9;
+}
+
+/*
+* Scrollbar thumb styles
+*/
+.DS__perfect-scrollbar-side__ps__thumb-x {
+    /* please don't change 'position' */
+    position: absolute;
+    /* there must be 'bottom' for ps__thumb-x */
+    bottom: 2px;
+    height: 6px;
+    background-color: #aaa;
+    border-radius: 6px;
+    transition: background-color 0.2s linear, height 0.2s ease-in-out;
+}
+
+.DS__perfect-scrollbar-side__ps__thumb-y {
+    /* please don't change 'position' */
+    position: absolute;
+    /* there must be 'right' for ps__thumb-y */
+    right: 2px;
+    width: 6px;
+    background-color: #aaa;
+    border-radius: 6px;
+    transition: background-color 0.2s linear, width 0.2s ease-in-out;
+}
+
+.DS__perfect-scrollbar-side__ps__rail-x:hover > .DS__perfect-scrollbar-side__ps__thumb-x,
+.DS__perfect-scrollbar-side__ps__rail-x:focus > .DS__perfect-scrollbar-side__ps__thumb-x,
+.DS__perfect-scrollbar-side__ps__rail-x.DS__perfect-scrollbar-side__ps--clicking .DS__perfect-scrollbar-side__ps__thumb-x {
+    height: 11px;
+    background-color: #999;
+}
+
+.DS__perfect-scrollbar-side__ps__rail-y:hover > .DS__perfect-scrollbar-side__ps__thumb-y,
+.DS__perfect-scrollbar-side__ps__rail-y:focus > .DS__perfect-scrollbar-side__ps__thumb-y,
+.DS__perfect-scrollbar-side__ps__rail-y.DS__perfect-scrollbar-side__ps--clicking .DS__perfect-scrollbar-side__ps__thumb-y {
+    width: 11px;
+    background-color: #999;
+}
+
+/* MS supports */
+
+@supports (-ms-overflow-style: none) {
+    .DS__perfect-scrollbar-side__ps {
+        overflow: auto !important;
+    }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .DS__perfect-scrollbar-side__ps {
+        overflow: auto !important;
+    }
+}
+.DS__styles-side__scrollbar-container {
+                            all: initial;
+                            font-family: var(--font-family);
+                        }
+
+.DS__styles-side__scrollbar-container {
+    position: relative;
+    height: 100%;
+}
+.DS__Scrollbar__scroll {
+                            all: initial;
+                            font-family: var(--font-family);
+                        }
+
+.DS__Scrollbar__scroll {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: inherit;
+    max-height: 100%;
+    pointer-events: inherit;
+}
+
+
+                      .ps {
+                          overflow: hidden !important;
+                          touch-action: auto;
+                          overflow-anchor: none;
+                          -ms-overflow-style: none;
+                      }
+
+/*
+* Scrollbar rail styles
+*/
+.ps__rail-x {
+    /* please don't change 'position' */
+    position: absolute;
+    /* there must be 'bottom' or 'top' for ps__rail-x */
+    bottom: 0px;
+    display: none;
+    height: 6px;
+    opacity: 0;
+    transition: background-color 0.2s linear, opacity 0.2s linear;
+}
+
+.ps__rail-y {
+    /* please don't change 'position' */
+    position: absolute;
+    /* there must be 'right' or 'left' for ps__rail-y */
+    right: 0;
+    display: none;
+    width: 6px;
+    opacity: 0;
+    transition: background-color 0.2s linear, opacity 0.2s linear;
+}
+
+.ps--active-x > .ps__rail-x,
+.ps--active-y > .ps__rail-y {
+    display: block;
+    background-color: transparent;
+}
+
+.ps:hover > .ps__rail-x,
+.ps:hover > .ps__rail-y,
+.ps--focus > .ps__rail-x,
+.ps--focus > .ps__rail-y,
+.ps--scrolling-x > .ps__rail-x,
+.ps--scrolling-y > .ps__rail-y {
+    opacity: 0.6;
+}
+
+.ps .ps__rail-x:hover,
+.ps .ps__rail-y:hover,
+.ps .ps__rail-x:focus,
+.ps .ps__rail-y:focus,
+.ps .ps__rail-x.ps--clicking,
+.ps .ps__rail-y.ps--clicking {
+    background-color: #eee;
+    opacity: 0.9;
+}
+
+/*
+* Scrollbar thumb styles
+*/
+.ps__thumb-x {
+    /* please don't change 'position' */
+    position: absolute;
+    /* there must be 'bottom' for ps__thumb-x */
+    bottom: 2px;
+    height: 6px;
+    background-color: #aaa;
+    border-radius: 6px;
+    transition: background-color 0.2s linear, height 0.2s ease-in-out;
+}
+
+.ps__thumb-y {
+    /* please don't change 'position' */
+    position: absolute;
+    /* there must be 'right' for ps__thumb-y */
+    right: 2px;
+    width: 6px;
+    background-color: #aaa;
+    border-radius: 6px;
+    transition: background-color 0.2s linear, width 0.2s ease-in-out;
+}
+
+.ps__rail-x:hover > .ps__thumb-x,
+.ps__rail-x:focus > .ps__thumb-x,
+.ps__rail-x.ps--clicking .ps__thumb-x {
+    height: 6px;
+    background-color: #999;
+}
+
+.ps__rail-y:hover > .ps__thumb-y,
+.ps__rail-y:focus > .ps__thumb-y,
+.ps__rail-y.ps--clicking .ps__thumb-y {
+    width: 6px;
+    background-color: #999;
+}
+
+/* MS supports */
+
+@supports (-ms-overflow-style: none) {
+    .ps {
+        overflow: auto !important;
+    }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .ps {
+        overflow: auto !important;
+    }
+}
+
+.scrollbar-container {
+    position: relative;
+    height: 100%;
+}
+
+.ps__rail-y {
+    position: absolute;
+    right: 0;
+    display: none;
+    width: 6px;
+    margin: 5px 5px 5px 0;
+    border-radius: 8px;
+    opacity: 0;
+    transition: background-color 0.2s linear, opacity 0.2s linear;
+}
+
+.ps__thumb-y {
+    position: absolute;
+    right: 0;
+    width: 6px;
+    cursor: pointer;
+    background-color: #aaa;
+    border-radius: 6px;
+    transition: background-color 0.2s linear, width 0.2s ease-in-out;
+}
+
+.ps__rail-y:hover > .ps__thumb-y,
+.ps__rail-y:focus > .ps__thumb-y,
+.ps__rail-y.ps--clicking .ps__thumb-y {
+    width: 6px;
+    background-color: #999;
+}
+.DS__Modal__root,
+                        .DS__Modal__Modal,
+                        .DS__Modal__Wrapper,
+                        .DS__Modal__Top,
+                        .DS__Modal__CloseIcon,
+                        .DS__Modal__Content,
+                        .DS__Modal__Image,
+                        .DS__Modal__Title,
+                        .DS__Modal__Subtitle,
+                        .DS__Modal__Icon,
+                        .DS__Modal__Text,
+                        .DS__Modal__Inner,
+                        .DS__Modal__Buttons,
+                        .DS__Modal__Button,
+                        .DS__Modal__track-vertical,
+                        .DS__Modal__Divider,
+                        .DS__Modal__overlay {
+                            all: initial;
+                            font-family: var(--font-family);
+                        }
+
+.DS__Modal__root {
+    position: relative;
+    z-index: 998;
+}
+
+.DS__Modal__root_view_portal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.DS__Modal__root_view_overflow .DS__Modal__Wrapper,
+.DS__Modal__root_view_overflow .DS__Modal__Content,
+.DS__Modal__root_view_overflow .DS__Modal__Text {
+    overflow: visible;
+}
+
+.DS__Modal__Modal {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-self: safe center;
+    max-height: 100%;
+}
+
+.DS__Modal__Modal_size_small {
+    max-width: 320px;
+}
+
+.DS__Modal__Modal_size_x-medium {
+    max-width: 410px;
+}
+
+.DS__Modal__Modal_size_medium {
+    max-width: 600px;
+}
+
+.DS__Modal__Modal_size_large {
+    max-width: 800px;
+}
+
+.DS__Modal__Modal_size_x-large {
+    max-width: 960px;
+}
+
+.DS__Modal__Modal_stretch {
+    max-width: none;
+    height: 100%;
+}
+
+.DS__Modal__Modal_stretch .DS__Modal__Wrapper {
+    max-width: none;
+}
+
+.DS__Modal__Modal_stretch .DS__Modal__Wrapper .DS__Modal__Content {
+    margin-bottom: auto;
+}
+
+.DS__Modal__Modal_type_error .DS__Modal__Icon {
+    color: #f14d56;
+}
+
+.DS__Modal__Wrapper {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 32px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.DS__Modal__Wrapper_size_small {
+    max-width: 320px;
+    padding: 24px;
+}
+
+.DS__Modal__Wrapper_size_x-medium {
+    max-width: 410px;
+}
+
+.DS__Modal__Wrapper_size_medium {
+    max-width: 600px;
+}
+
+.DS__Modal__Wrapper_size_large {
+    max-width: 800px;
+    padding: 48px;
+}
+
+.DS__Modal__Wrapper_size_x-large {
+    max-width: 960px;
+    padding: 48px;
+}
+
+.DS__Modal__Top {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.DS__Modal__Top_divider {
+    padding-bottom: 28px;
+}
+
+.DS__Modal__Top_closeIcon {
+    padding-right: 26px;
+}
+
+@media (min-width: 1280px) {
+    .DS__Modal__Top_autosize.DS__Modal__Top_divider {
+        padding-bottom: 48px;
+    }
+
+    .DS__Modal__Top_autosize.DS__Modal__Top_closeIcon {
+        padding-right: 16px;
+    }
+}
+
+.DS__Modal__Top_size_small.DS__Modal__Top_divider {
+    padding-bottom: 24px;
+}
+
+.DS__Modal__Top_size_small.DS__Modal__Top_closeIcon {
+    padding-right: 35px;
+}
+
+.DS__Modal__Top_size_large.DS__Modal__Top_divider, .DS__Modal__Top_size_x-large.DS__Modal__Top_divider {
+    padding-bottom: 48px;
+}
+
+.DS__Modal__Top_size_large.DS__Modal__Top_closeIcon, .DS__Modal__Top_size_x-large.DS__Modal__Top_closeIcon {
+    padding-right: 16px;
+}
+
+.DS__Modal__CloseIcon {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    color: #7a869a;
+    cursor: pointer;
+}
+
+.DS__Modal__Content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+    min-height: 0;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.DS__Modal__Image {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    padding-bottom: 45px;
+}
+
+.DS__Modal__Image_size_small {
+    width: calc(100% + 16px);
+    padding: 0 0 33px 0;
+    margin: -8px -8px 0 -8px;
+}
+
+.DS__Modal__Image_size_medium {
+    padding: 16px 16px 45px;
+}
+
+.DS__Modal__Title,
+.DS__Modal__Subtitle {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.DS__Modal__Title_centered, .DS__Modal__Subtitle_centered {
+    justify-content: center;
+}
+
+.DS__Modal__Title_Icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    margin-right: 24px;
+}
+
+.DS__Modal__Icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.DS__Modal__Text {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.DS__Modal__Text_scroll {
+    margin: 0 -32px;
+}
+
+@media (min-width: 1280px) {
+
+    .DS__Modal__Text_scroll.DS__Modal__Text_autosize {
+        margin: 0 -48px
+    }
+}
+
+.DS__Modal__Text_scroll.DS__Modal__Text_size_small {
+    margin: 0 -24px;
+}
+
+.DS__Modal__Text_scroll.DS__Modal__Text_size_large,
+.DS__Modal__Text_scroll.DS__Modal__Text_size_x-large {
+    margin: 0 -48px;
+}
+
+.DS__Modal__Text_centered {
+    justify-content: center;
+}
+
+.DS__Modal__Inner {
+    display: flex;
+    min-height: 100%;
+}
+
+.DS__Modal__Inner_topDivider {
+    padding-top: 24px;
+}
+
+.DS__Modal__Inner_withoutTopDividerGap {
+    padding-top: 0 !important;
+}
+
+.DS__Modal__Inner_scroll {
+    width: calc(100% - 64px);
+    padding: 24px 32px 32px;
+}
+
+.DS__Modal__Inner_scroll.DS__Modal__Inner_size_small {
+    width: calc(100% - 48px);
+    padding: 24px 24px 32px;
+}
+
+.DS__Modal__Inner_scroll.DS__Modal__Inner_size_large {
+    width: calc(100% - 48px);
+    padding: 24px 24px 32px;
+}
+
+.DS__Modal__Inner_scroll.DS__Modal__Inner_size_x-large {
+    width: calc(100% - 96px);
+    padding: 24px 48px 32px;
+}
+
+.DS__Modal__Inner_centered {
+    text-align: center;
+}
+
+.DS__Modal__Buttons {
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-top: 32px;
+    margin: -4px;
+}
+
+@media (min-width: 1280px) {
+
+    .DS__Modal__Buttons_autosize {
+        padding-top: 38px
+    }
+}
+
+.DS__Modal__Buttons_size_large,
+.DS__Modal__Buttons_size_x-large {
+    padding-top: 38px;
+}
+
+.DS__Modal__Buttons_orientation_vertical.DS__Modal__Buttons_size_small {
+    flex-direction: column;
+    max-width: 100%;
+    padding-top: 40px;
+}
+
+.DS__Modal__Buttons_orientation_vertical.DS__Modal__Buttons_size_small .DS__Modal__Button {
+    width: 100%;
+}
+
+.DS__Modal__Buttons_onlyButtons {
+    padding-top: 0 !important;
+}
+
+.DS__Modal__Buttons_centered {
+    justify-content: center;
+}
+
+.DS__Modal__Buttons_stretch .DS__Modal__Button {
+    flex-grow: 1;
+}
+
+@media (min-width: 1280px) {
+
+    .DS__Modal__Buttons_image.DS__Modal__Buttons_autosize {
+        padding-top: 30px
+    }
+}
+
+.DS__Modal__Buttons_image.DS__Modal__Buttons_size_small {
+    padding-bottom: 8px;
+}
+
+.DS__Modal__Buttons_image.DS__Modal__Buttons_size_medium {
+    padding-top: 50px;
+    padding-bottom: 16px;
+}
+
+.DS__Modal__Buttons_image.DS__Modal__Buttons_size_large,
+.DS__Modal__Buttons_image.DS__Modal__Buttons_size_x-large {
+    padding-top: 30px;
+}
+
+.DS__Modal__Buttons_scroll {
+    padding-top: 24px;
+}
+
+@media (min-width: 1280px) {
+
+    .DS__Modal__Buttons_scroll.DS__Modal__Buttons_autosize {
+        padding-top: 48px
+    }
+}
+
+.DS__Modal__Buttons_scroll.DS__Modal__Buttons_size_medium {
+    padding-top: 32px;
+}
+
+.DS__Modal__Buttons_scroll.DS__Modal__Buttons_size_large,
+.DS__Modal__Buttons_scroll.DS__Modal__Buttons_size_x-large {
+    padding-top: 48px;
+}
+
+.DS__Modal__Buttons_alignment_left {
+    justify-content: flex-start;
+}
+
+.DS__Modal__Buttons_alignment_center {
+    justify-content: center;
+}
+
+.DS__Modal__Buttons_alignment_right {
+    justify-content: flex-end;
+}
+
+.DS__Modal__Button {
+    margin: 4px;
+}
+
+.DS__Modal__Buttons_orientation_horizontal .DS__Modal__Button {
+    min-width: 162px;
+    cursor: pointer;
+}
+
+.DS__Modal__Buttons_orientation_horizontal .DS__Modal__Button_single {
+    min-width: 205px;
+}
+
+.DS__Modal__Buttons_orientation_horizontal .DS__Modal__Button_size_small {
+    min-width: 132px;
+}
+
+.DS__Modal__Buttons_orientation_horizontal .DS__Modal__Button_size_medium {
+    min-width: 139px;
+}
+
+@media (min-width: 768px) {
+
+    .DS__Modal__Buttons_orientation_horizontal .DS__Modal__Button_autosize.DS__Modal__Buttons_orientation_horizontal .DS__Modal__Button_image {
+        min-width: 186px
+    }
+}
+
+.DS__Modal__Buttons_orientation_horizontal .DS__Modal__Button_image.DS__Modal__Buttons_orientation_horizontal .DS__Modal__Button_size_medium,
+.DS__Modal__Buttons_orientation_horizontal .DS__Modal__Button_image.DS__Modal__Buttons_orientation_horizontal .DS__Modal__Button_size_large,
+.DS__Modal__Buttons_orientation_horizontal .DS__Modal__Button_image.DS__Modal__Buttons_orientation_horizontal .DS__Modal__Button_size_x-large {
+    min-width: 186px;
+}
+
+.DS__Modal__track-vertical {
+    position: absolute;
+    right: 8px;
+}
+
+.DS__Modal__Divider {
+    margin-right: -32px;
+    margin-left: -32px;
+}
+
+@media (min-width: 1280px) {
+
+    .DS__Modal__Divider_autosize {
+        margin-right: -48px;
+        margin-left: -48px
+    }
+}
+
+.DS__Modal__Divider_size_small {
+    margin-right: -24px;
+    margin-left: -24px;
+}
+
+.DS__Modal__Divider_size_large,
+.DS__Modal__Divider_size_x-large {
+    margin-right: -48px;
+    margin-left: -48px;
+}
+
+.DS__Modal__overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(34, 42, 55, 0.4);
+}
+
+@media (max-width: 767px) {
+    .DS__Modal__Modal_autosize {
+        max-width: 320px;
+    }
+
+    @media screen and (prefers-reduced-motion: reduce) {
+        .DS__Modal__Modal_swipe {
+            padding-bottom: 300vh;
+            transition: none;
+            -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+            will-change: transform;
+        }
+    }
+
+    .DS__Modal__Modal_swipe {
+        padding-bottom: 300vh;
+        transition: -webkit-transform 0.2s ease;
+        transition: transform 0.2s ease;
+        transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%);
+        will-change: transform;
+    }
+
+    .DS__Modal__Modal_mobile_position_bottom {
+        bottom: 0;
+        border-radius: 16px 16px 0 0;
+    }
+
+    .DS__Modal__Modal_mobile_position_full {
+        top: 0;
+        bottom: 0;
+        min-height: 100%;
+        /* Fix для 13 IOS */
+        /* stylelint-disable-next-line declaration-block-no-duplicate-properties */
+        min-height: -webkit-fill-available;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .DS__Modal__Modal_mobile_position_bottom,
+    .DS__Modal__Modal_mobile_position_full {
+        position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 999;
+        box-sizing: border-box;
+        width: 100%;
+        max-width: none;
+        padding: 0;
+        background-color: #ffffff;
+        box-shadow: 0 0 0 1px #d0d6e1,
+        0 -1px 3px 0 rgba(34, 42, 55, 0.13);
+    }
+
+    .DS__Modal__Modal_mobile_position_bottom .DS__Modal__Wrapper, .DS__Modal__Modal_mobile_position_full .DS__Modal__Wrapper {
+        max-width: none;
+        padding: 16px;
+    }
+
+    .DS__Modal__Modal_mobile_position_bottom .DS__Modal__CloseButton, .DS__Modal__Modal_mobile_position_full .DS__Modal__CloseButton {
+        top: 18px;
+        right: 16px;
+    }
+
+    .DS__Modal__Modal_mobile_position_bottom .DS__Modal__Top, .DS__Modal__Modal_mobile_position_full .DS__Modal__Top {
+        padding: 0;
+    }
+
+    .DS__Modal__Modal_mobile_position_bottom .DS__Modal__Top_autosize.DS__Modal__Top_divider, .DS__Modal__Modal_mobile_position_full .DS__Modal__Top_autosize.DS__Modal__Top_divider {
+        padding-bottom: 0;
+    }
+
+    .DS__Modal__Modal_mobile_position_bottom .DS__Modal__Image, .DS__Modal__Modal_mobile_position_full .DS__Modal__Image {
+        width: 100%;
+        padding: 16px 0 10px;
+        margin: 0;
+    }
+
+    .DS__Modal__Modal_mobile_position_bottom .DS__Modal__Title, .DS__Modal__Modal_mobile_position_full .DS__Modal__Title {
+        margin-bottom: 16px;
+    }
+
+    .DS__Modal__Modal_mobile_position_bottom .DS__Modal__Title_Icon, .DS__Modal__Modal_mobile_position_full .DS__Modal__Title_Icon {
+        width: 32px;
+        height: 32px;
+        margin-right: 16px;
+    }
+
+    .DS__Modal__Modal_mobile_position_bottom .DS__Modal__Subtitle, .DS__Modal__Modal_mobile_position_full .DS__Modal__Subtitle {
+        margin-bottom: 16px;
+    }
+
+    .DS__Modal__Modal_mobile_position_bottom .DS__Modal__Text_scroll, .DS__Modal__Modal_mobile_position_full .DS__Modal__Text_scroll {
+        margin: 0 -32px;
+    }
+
+    .DS__Modal__Modal_mobile_position_bottom .DS__Modal__Text_scroll .DS__Modal__Inner, .DS__Modal__Modal_mobile_position_full .DS__Modal__Text_scroll .DS__Modal__Inner {
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+    .DS__Modal__Modal_mobile_position_bottom .DS__Modal__Buttons, .DS__Modal__Modal_mobile_position_full .DS__Modal__Buttons {
+        padding-top: 16px;
+        padding-bottom: 0;
+        background-color: #ffffff;
+    }
+
+    .DS__Modal__Modal_mobile_position_bottom.DS__Modal__Modal_meta_Select,
+    .DS__Modal__Modal_mobile_position_bottom.DS__Modal__Modal_meta_Suggest,
+    .DS__Modal__Modal_mobile_position_bottom.DS__Modal__Modal_meta_ScrollableCalendar,
+    .DS__Modal__Modal_mobile_position_full.DS__Modal__Modal_meta_Select,
+    .DS__Modal__Modal_mobile_position_full.DS__Modal__Modal_meta_Suggest,
+    .DS__Modal__Modal_mobile_position_full.DS__Modal__Modal_meta_ScrollableCalendar {
+        padding-right: 0;
+    }
+
+    .DS__Modal__Modal_mobile_position_bottom.DS__Modal__Modal_meta_Select .DS__Modal__Wrapper, .DS__Modal__Modal_mobile_position_bottom.DS__Modal__Modal_meta_Suggest .DS__Modal__Wrapper, .DS__Modal__Modal_mobile_position_bottom.DS__Modal__Modal_meta_ScrollableCalendar .DS__Modal__Wrapper, .DS__Modal__Modal_mobile_position_full.DS__Modal__Modal_meta_Select .DS__Modal__Wrapper, .DS__Modal__Modal_mobile_position_full.DS__Modal__Modal_meta_Suggest .DS__Modal__Wrapper, .DS__Modal__Modal_mobile_position_full.DS__Modal__Modal_meta_ScrollableCalendar .DS__Modal__Wrapper {
+        padding: 0;
+    }
+
+    .DS__Modal__Modal_mobile_position_bottom.DS__Modal__Modal_meta_Select .DS__Modal__Top, .DS__Modal__Modal_mobile_position_bottom.DS__Modal__Modal_meta_Suggest .DS__Modal__Top, .DS__Modal__Modal_mobile_position_bottom.DS__Modal__Modal_meta_ScrollableCalendar .DS__Modal__Top, .DS__Modal__Modal_mobile_position_full.DS__Modal__Modal_meta_Select .DS__Modal__Top, .DS__Modal__Modal_mobile_position_full.DS__Modal__Modal_meta_Suggest .DS__Modal__Top, .DS__Modal__Modal_mobile_position_full.DS__Modal__Modal_meta_ScrollableCalendar .DS__Modal__Top {
+        padding: 0 16px;
+    }
+
+    .DS__Modal__Modal_mobile_position_bottom.DS__Modal__Modal_meta_Select .DS__Modal__Buttons, .DS__Modal__Modal_mobile_position_bottom.DS__Modal__Modal_meta_Suggest .DS__Modal__Buttons, .DS__Modal__Modal_mobile_position_bottom.DS__Modal__Modal_meta_ScrollableCalendar .DS__Modal__Buttons, .DS__Modal__Modal_mobile_position_full.DS__Modal__Modal_meta_Select .DS__Modal__Buttons, .DS__Modal__Modal_mobile_position_full.DS__Modal__Modal_meta_Suggest .DS__Modal__Buttons, .DS__Modal__Modal_mobile_position_full.DS__Modal__Modal_meta_ScrollableCalendar .DS__Modal__Buttons {
+        padding-bottom: 16px;
+    }
+
+    /* Необходимо чтобы блокировать scrollbar на мобильных  */
+    .DS__Modal__Modal .ps__rail-y {
+        pointer-events: none;
+    }
+
+    .DS__Modal__Wrapper_autosize {
+        max-width: 320px;
+        padding: 24px;
+    }
+
+    .DS__Modal__Modal_mobile_position_bottom .DS__Modal__Wrapper {
+        max-height: calc(100vh - 76px);
+    }
+
+    .DS__Modal__Top_autosize.DS__Modal__Top_divider {
+        padding-bottom: 24px;
+    }
+
+    .DS__Modal__Top_autosize.DS__Modal__Top_closeIcon {
+        padding-right: 35px;
+    }
+
+    .DS__Modal__Image_autosize {
+        width: calc(100% + 16px);
+        padding: 0 0 33px 0;
+        margin: -8px -8px 0 -8px;
+    }
+
+    .DS__Modal__Text_scroll.DS__Modal__Text_autosize {
+        margin: 0 -24px;
+    }
+
+    .DS__Modal__Inner_scroll.DS__Modal__Inner_autosize {
+        width: calc(100% - 64px);
+        padding: 24px 24px 32px;
+    }
+
+    .DS__Modal__Buttons_orientation_vertical.DS__Modal__Buttons_autosize {
+        flex-direction: column;
+        max-width: 100%;
+        padding-top: 40px;
+    }
+
+    .DS__Modal__Buttons_image.DS__Modal__Buttons_autosize {
+        padding-bottom: 8px;
+    }
+
+    .DS__Modal__Button {
+        flex-grow: 1;
+    }
+
+    .DS__Modal__Button_autosize {
+        min-width: 132px;
+    }
+
+    .DS__Modal__Divider_autosize {
+        margin-right: -24px;
+        margin-left: -24px;
+    }
+}
+
+@media (min-width: 768px) {
+    .DS__Modal__Modal_autosize {
+        max-width: 600px;
+    }
+
+    .DS__Modal__Wrapper_autosize {
+        max-width: 600px;
+    }
+
+    .DS__Modal__Image_autosize {
+        padding: 16px 16px 45px;
+    }
+
+    .DS__Modal__Buttons_image.DS__Modal__Buttons_autosize {
+        padding-top: 50px;
+        padding-bottom: 16px;
+    }
+
+    .DS__Modal__Buttons_scroll.DS__Modal__Buttons_autosize {
+        padding-top: 32px;
+    }
+
+    .DS__Modal__Button_autosize {
+        min-width: 139px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .DS__Modal__Modal_autosize {
+        max-width: 960px;
+    }
+
+    .DS__Modal__Wrapper_autosize {
+        max-width: 960px;
+        padding: 48px;
+    }
+
+    .DS__Modal__Inner_scroll.DS__Modal__Inner_autosize {
+        width: calc(100% - 96px);
+        padding: 24px 48px 32px;
+    }
+}
+
+.DS__Modal__button_back_component {
+    margin-right: 12px;
+}
+.DS__StatusMessage__root {
+                          position: relative;
+                          box-sizing: border-box;
+                          padding: 18px 20px 18px 56px;
+                          border: 1px solid transparent;
+                          border-radius: 12px;
+                      }
+
+@media (max-width: 767px) {
+    .DS__StatusMessage__root {
+        padding: 16px 16px 16px 48px
+    }
+}
+
+.DS__StatusMessage__root.DS__StatusMessage__has_close_or_toggle {
+    padding-right: 56px;
+}
+
+@media (max-width: 767px) {
+
+    .DS__StatusMessage__root.DS__StatusMessage__has_close_or_toggle {
+        padding: 16px 48px
+    }
+}
+
+.DS__StatusMessage__view_default {
+    background: #ebf1ff;
+    border-color: #ebf1ff;
+}
+
+.DS__StatusMessage__view_default .DS__StatusMessage__close,
+.DS__StatusMessage__view_default .DS__StatusMessage__icon {
+    color: #577edc;
+}
+
+.DS__StatusMessage__view_success {
+    background: #f4f9e6;
+    border-color: #f4f9e6;
+}
+
+.DS__StatusMessage__view_success .DS__StatusMessage__close,
+.DS__StatusMessage__view_success .DS__StatusMessage__icon {
+    color: #97ba1e;
+}
+
+.DS__StatusMessage__view_warning {
+    background: #fff4e9;
+    border-color: #fff4e9;
+}
+
+.DS__StatusMessage__view_warning .DS__StatusMessage__close,
+.DS__StatusMessage__view_warning .DS__StatusMessage__icon {
+    color: #ff991f;
+}
+
+.DS__StatusMessage__view_error {
+    background: #feedee;
+    border-color: #feedee;
+}
+
+.DS__StatusMessage__view_error .DS__StatusMessage__close,
+.DS__StatusMessage__view_error .DS__StatusMessage__icon {
+    color: #f14d56;
+}
+
+.DS__StatusMessage__outline {
+    background: #ffffff;
+    border-color: #d0d6e1;
+}
+
+.DS__StatusMessage__outline .DS__StatusMessage__close {
+    color: #95a0b3;
+}
+
+.DS__StatusMessage__close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DS__StatusMessage__close.DS__StatusMessage__focus-visible {
+    outline: 2px auto #577edc;
+    outline-offset: 2px;
+}
+
+.DS__StatusMessage__toggle {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DS__StatusMessage__toggle.DS__StatusMessage__focus-visible {
+    outline: 2px auto #577edc;
+    outline-offset: 2px;
+}
+
+@media (max-width: 767px) {
+
+    .DS__StatusMessage__toggle {
+        top: 16px;
+        right: 16px
+    }
+}
+
+.DS__StatusMessage__toggle.DS__StatusMessage__open {
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+}
+
+.DS__StatusMessage__icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+@media (max-width: 767px) {
+
+    .DS__StatusMessage__icon {
+        top: 16px;
+        left: 16px
+    }
+}
+
+.DS__StatusMessage__content.DS__StatusMessage__has_title.DS__StatusMessage__has_children {
+    padding-top: 8px;
+}
+
+.DS__StatusMessage__content-enter {
+    opacity: 0;
+}
+
+.DS__StatusMessage__content-enter-active {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+
+    .DS__StatusMessage__content-enter-active {
+        transition: none
+    }
+}
+
+.DS__StatusMessage__content-exit {
+    opacity: 1;
+}
+
+.DS__StatusMessage__content-exit-active {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+
+    .DS__StatusMessage__content-exit-active {
+        transition: none
+    }
+}
+
+.DS__StatusMessage__actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 20px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+}
+
+@media (max-width: 767px) {
+
+    .DS__StatusMessage__actions {
+        padding-top: 12px
+    }
+}
+
+.DS__StatusMessage__actions > .DS__StatusMessage__button,
+.DS__StatusMessage__actions > button,
+.DS__StatusMessage__actions > a {
+    min-width: 144px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 767px) {
+
+    .DS__StatusMessage__actions > .DS__StatusMessage__button,
+    .DS__StatusMessage__actions > button,
+    .DS__StatusMessage__actions > a {
+        width: 100%
+    }
+}
+/*!*****************************************************
+
+Freak Flags, Copyright ©2022 Michael P. Cohen. Freak flags is licenced under the MIT licence.
+
+For complete information visit: www.freakflagsprite.com
+
+******************************************************/
+
+                      .DS__FlagIcon__fflag {
+                          position: relative;
+                          box-sizing: content-box;
+                          display: inline-block;
+                          overflow: hidden;
+                          vertical-align: middle;
+                          background-image: url(https://portal.s7cdn.online/front-static/media/flagSprite42.a261d6f8a0f28bb00db733a2baaa2cfc.png);
+                          background-repeat: no-repeat;
+                          background-size: 100% 49494%;
+                      }
+
+.DS__FlagIcon__fflag-CH,
+.DS__FlagIcon__fflag-NP {
+    box-shadow: none !important;
+}
+
+.DS__FlagIcon__fflag-DZ {
+    background-position: center 0.2287%;
+}
+
+.DS__FlagIcon__fflag-AO {
+    background-position: center 0.4524%;
+}
+
+.DS__FlagIcon__fflag-BJ {
+    background-position: center 0.6721%;
+}
+
+.DS__FlagIcon__fflag-BW {
+    background-position: center 0.8958%;
+}
+
+.DS__FlagIcon__fflag-BF {
+    background-position: center 1.1162%;
+}
+
+.DS__FlagIcon__fflag-BI {
+    background-position: center 1.3379%;
+}
+
+.DS__FlagIcon__fflag-CM {
+    background-position: center 1.5589%;
+}
+
+.DS__FlagIcon__fflag-CV {
+    background-position: center 1.7805%;
+}
+
+.DS__FlagIcon__fflag-CF {
+    background-position: center 2.0047%;
+}
+
+.DS__FlagIcon__fflag-TD {
+    background-position: center 2.2247%;
+}
+
+.DS__FlagIcon__fflag-CD {
+    background-position: left 2.4467%;
+}
+
+.DS__FlagIcon__fflag-DJ {
+    background-position: left 2.6674%;
+}
+
+.DS__FlagIcon__fflag-EG {
+    background-position: center 2.8931%;
+}
+
+.DS__FlagIcon__fflag-GQ {
+    background-position: center 3.1125%;
+}
+
+.DS__FlagIcon__fflag-ER {
+    background-position: left 3.3325%;
+}
+
+.DS__FlagIcon__fflag-ET {
+    background-position: center 3.5542%;
+}
+
+.DS__FlagIcon__fflag-GA {
+    background-position: center 3.7759%;
+}
+
+.DS__FlagIcon__fflag-GM {
+    background-position: center 4.0015%;
+}
+
+.DS__FlagIcon__fflag-GH {
+    background-position: center 4.2229%;
+}
+
+.DS__FlagIcon__fflag-GN {
+    background-position: center 4.441%;
+}
+
+.DS__FlagIcon__fflag-GW {
+    background-position: left 4.66663%;
+}
+
+.DS__FlagIcon__fflag-CI {
+    background-position: center 4.8844%;
+}
+
+.DS__FlagIcon__fflag-KE {
+    background-position: center 5.1061%;
+}
+
+.DS__FlagIcon__fflag-LS {
+    background-position: center 5.3298%;
+}
+
+.DS__FlagIcon__fflag-LR {
+    background-position: left 5.5495%;
+}
+
+.DS__FlagIcon__fflag-LY {
+    background-position: center 5.7712%;
+}
+
+.DS__FlagIcon__fflag-MG {
+    background-position: center 5.994%;
+}
+
+.DS__FlagIcon__fflag-MW {
+    background-position: center 6.2156%;
+}
+
+.DS__FlagIcon__fflag-ML {
+    background-position: center 6.4363%;
+}
+
+.DS__FlagIcon__fflag-MR {
+    background-position: center 6.658%;
+}
+
+.DS__FlagIcon__fflag-MU {
+    background-position: center 6.8805%;
+}
+
+.DS__FlagIcon__fflag-YT {
+    background-position: center 7.1038%;
+}
+
+.DS__FlagIcon__fflag-MA {
+    background-position: center 7.3231%;
+}
+
+.DS__FlagIcon__fflag-MZ {
+    background-position: left 7.5448%;
+}
+
+.DS__FlagIcon__fflag-NA {
+    background-position: left 7.7661%;
+}
+
+.DS__FlagIcon__fflag-NE {
+    background-position: center 7.98937%;
+}
+
+.DS__FlagIcon__fflag-NG {
+    background-position: center 8.2099%;
+}
+
+.DS__FlagIcon__fflag-CG {
+    background-position: center 8.4316%;
+}
+
+.DS__FlagIcon__fflag-RE {
+    background-position: center 8.6533%;
+}
+
+.DS__FlagIcon__fflag-RW {
+    background-position: right 8.875%;
+}
+
+.DS__FlagIcon__fflag-SH {
+    background-position: center 9.0967%;
+}
+
+.DS__FlagIcon__fflag-ST {
+    background-position: center 9.32237%;
+}
+
+.DS__FlagIcon__fflag-SN {
+    background-position: center 9.5426%;
+}
+
+.DS__FlagIcon__fflag-SC {
+    background-position: left 9.7628%;
+}
+
+.DS__FlagIcon__fflag-SL {
+    background-position: center 9.9845%;
+}
+
+.DS__FlagIcon__fflag-SO {
+    background-position: center 10.2052%;
+}
+
+.DS__FlagIcon__fflag-ZA {
+    background-position: left 10.4269%;
+}
+
+.DS__FlagIcon__fflag-SS {
+    background-position: left 10.6486%;
+}
+
+.DS__FlagIcon__fflag-SD {
+    background-position: center 10.8703%;
+}
+
+.DS__FlagIcon__fflag-SR {
+    background-position: center 11.0945%;
+}
+
+.DS__FlagIcon__fflag-SZ {
+    background-position: center 11.3135%;
+}
+
+.DS__FlagIcon__fflag-TG {
+    background-position: left 11.5354%;
+}
+
+.DS__FlagIcon__fflag-TN {
+    background-position: center 11.7593%;
+}
+
+.DS__FlagIcon__fflag-UG {
+    background-position: center 11.9799%;
+}
+
+.DS__FlagIcon__fflag-TZ {
+    background-position: center 12.2005%;
+}
+
+.DS__FlagIcon__fflag-EH {
+    background-position: center 12.4222%;
+}
+
+.DS__FlagIcon__fflag-YE {
+    background-position: center 12.644%;
+}
+
+.DS__FlagIcon__fflag-ZM {
+    background-position: center 12.8664%;
+}
+
+.DS__FlagIcon__fflag-ZW {
+    background-position: left 13.0873%;
+}
+
+.DS__FlagIcon__fflag-AI {
+    background-position: center 13.309%;
+}
+
+.DS__FlagIcon__fflag-AG {
+    background-position: center 13.5307%;
+}
+
+.DS__FlagIcon__fflag-AR {
+    background-position: center 13.7524%;
+}
+
+.DS__FlagIcon__fflag-AW {
+    background-position: left 13.9741%;
+}
+
+.DS__FlagIcon__fflag-BS {
+    background-position: left 14.1958%;
+}
+
+.DS__FlagIcon__fflag-BB {
+    background-position: center 14.4175%;
+}
+
+.DS__FlagIcon__fflag-BQ {
+    background-position: center 14.6415%;
+}
+
+.DS__FlagIcon__fflag-BZ {
+    background-position: center 14.8609%;
+}
+
+.DS__FlagIcon__fflag-BM {
+    background-position: center 15.0826%;
+}
+
+.DS__FlagIcon__fflag-BO {
+    background-position: center 15.306%;
+}
+
+.DS__FlagIcon__fflag-VG {
+    background-position: center 15.528%;
+}
+
+.DS__FlagIcon__fflag-BR {
+    background-position: center 15.7496%;
+}
+
+.DS__FlagIcon__fflag-CA {
+    background-position: center 15.9694%;
+}
+
+.DS__FlagIcon__fflag-KY {
+    background-position: center 16.1911%;
+}
+
+.DS__FlagIcon__fflag-CL {
+    background-position: left 16.4128%;
+}
+
+.DS__FlagIcon__fflag-CO {
+    background-position: left 16.6345%;
+}
+
+.DS__FlagIcon__fflag-KM {
+    background-position: center 16.8562%;
+}
+
+.DS__FlagIcon__fflag-CR {
+    background-position: center 17.0779%;
+}
+
+.DS__FlagIcon__fflag-CU {
+    background-position: left 17.2996%;
+}
+
+.DS__FlagIcon__fflag-CW {
+    background-position: center 17.5213%;
+}
+
+.DS__FlagIcon__fflag-DM {
+    background-position: center 17.743%;
+}
+
+.DS__FlagIcon__fflag-DO {
+    background-position: center 17.968%;
+}
+
+.DS__FlagIcon__fflag-EC {
+    background-position: center 18.1864%;
+}
+
+.DS__FlagIcon__fflag-SV {
+    background-position: center 18.4081%;
+}
+
+.DS__FlagIcon__fflag-FK {
+    background-position: center 18.6298%;
+}
+
+.DS__FlagIcon__fflag-GF {
+    background-position: center 18.8515%;
+}
+
+.DS__FlagIcon__fflag-GL {
+    background-position: left 19.0732%;
+}
+
+.DS__FlagIcon__fflag-GD {
+    background-position: center 19.2987%;
+}
+
+.DS__FlagIcon__fflag-GP {
+    background-position: center 19.518%;
+}
+
+.DS__FlagIcon__fflag-GT {
+    background-position: center 19.7383%;
+}
+
+.DS__FlagIcon__fflag-GY {
+    background-position: center 19.96%;
+}
+
+.DS__FlagIcon__fflag-HT {
+    background-position: center 20.1817%;
+}
+
+.DS__FlagIcon__fflag-HN {
+    background-position: center 20.4034%;
+}
+
+.DS__FlagIcon__fflag-JM {
+    background-position: center 20.6241%;
+}
+
+.DS__FlagIcon__fflag-MQ {
+    background-position: center 20.8468%;
+}
+
+.DS__FlagIcon__fflag-MX {
+    background-position: center 21.0685%;
+}
+
+.DS__FlagIcon__fflag-MS {
+    background-position: center 21.2902%;
+}
+
+.DS__FlagIcon__fflag-NI {
+    background-position: center 21.5119%;
+}
+
+.DS__FlagIcon__fflag-PA {
+    background-position: center 21.7336%;
+}
+
+.DS__FlagIcon__fflag-PY {
+    background-position: center 21.9553%;
+}
+
+.DS__FlagIcon__fflag-PE {
+    background-position: center 22.177%;
+}
+
+.DS__FlagIcon__fflag-PR {
+    background-position: left 22.4002%;
+}
+
+.DS__FlagIcon__fflag-BL {
+    background-position: center 22.6204%;
+}
+
+.DS__FlagIcon__fflag-KN {
+    background-position: center 22.8421%;
+}
+
+.DS__FlagIcon__fflag-LC {
+    background-position: center 23.0638%;
+}
+
+.DS__FlagIcon__fflag-PM {
+    background-position: center 23.2855%;
+}
+
+.DS__FlagIcon__fflag-VC {
+    background-position: center 23.5072%;
+}
+
+.DS__FlagIcon__fflag-SX {
+    background-position: left 23.732%;
+}
+
+.DS__FlagIcon__fflag-TT {
+    background-position: center 23.9506%;
+}
+
+.DS__FlagIcon__fflag-TC {
+    background-position: center 24.1723%;
+}
+
+.DS__FlagIcon__fflag-US {
+    background-position: center 24.394%;
+}
+
+.DS__FlagIcon__fflag-VI {
+    background-position: center 24.6157%;
+}
+
+.DS__FlagIcon__fflag-UY {
+    background-position: left 24.8374%;
+}
+
+.DS__FlagIcon__fflag-VE {
+    background-position: center 25.0591%;
+}
+
+.DS__FlagIcon__fflag-AB {
+    background-position: center 25.279%;
+}
+
+.DS__FlagIcon__fflag-AF {
+    background-position: center 25.5025%;
+}
+
+.DS__FlagIcon__fflag-AZ {
+    background-position: center 25.7242%;
+}
+
+.DS__FlagIcon__fflag-BD {
+    background-position: center 25.9459%;
+}
+
+.DS__FlagIcon__fflag-BT {
+    background-position: center 26.1676%;
+}
+
+.DS__FlagIcon__fflag-BN {
+    background-position: center 26.3885%;
+}
+
+.DS__FlagIcon__fflag-KH {
+    background-position: center 26.611%;
+}
+
+.DS__FlagIcon__fflag-CN {
+    background-position: left 26.8327%;
+}
+
+.DS__FlagIcon__fflag-GE {
+    background-position: center 27.0544%;
+}
+
+.DS__FlagIcon__fflag-HK {
+    background-position: center 27.2761%;
+}
+
+.DS__FlagIcon__fflag-IN {
+    background-position: center 27.4978%;
+}
+
+.DS__FlagIcon__fflag-ID {
+    background-position: center 27.7195%;
+}
+
+.DS__FlagIcon__fflag-JP {
+    background-position: center 27.9412%;
+}
+
+.DS__FlagIcon__fflag-KZ {
+    background-position: center 28.1615%;
+}
+
+.DS__FlagIcon__fflag-LA {
+    background-position: center 28.3846%;
+}
+
+.DS__FlagIcon__fflag-MO {
+    background-position: center 28.6063%;
+}
+
+.DS__FlagIcon__fflag-MY {
+    background-position: center 28.829%;
+}
+
+.DS__FlagIcon__fflag-MV {
+    background-position: center 29.0497%;
+}
+
+.DS__FlagIcon__fflag-MN {
+    background-position: left 29.2714%;
+}
+
+.DS__FlagIcon__fflag-MM {
+    background-position: center 29.4931%;
+}
+
+.DS__FlagIcon__fflag-NP {
+    background-position: left 29.7148%;
+}
+
+.DS__FlagIcon__fflag-KP {
+    background-position: left 29.9365%;
+}
+
+.DS__FlagIcon__fflag-MP {
+    background-position: center 30.1582%;
+}
+
+.DS__FlagIcon__fflag-PW {
+    background-position: center 30.3799%;
+}
+
+.DS__FlagIcon__fflag-PG {
+    background-position: center 30.6016%;
+}
+
+.DS__FlagIcon__fflag-PH {
+    background-position: left 30.8233%;
+}
+
+.DS__FlagIcon__fflag-SG {
+    background-position: left 31.045%;
+}
+
+.DS__FlagIcon__fflag-KR {
+    background-position: center 31.2667%;
+}
+
+.DS__FlagIcon__fflag-LK {
+    background-position: right 31.4884%;
+}
+
+.DS__FlagIcon__fflag-TW {
+    background-position: left 31.7101%;
+}
+
+.DS__FlagIcon__fflag-TJ {
+    background-position: center 31.9318%;
+}
+
+.DS__FlagIcon__fflag-TH {
+    background-position: center 32.1535%;
+}
+
+.DS__FlagIcon__fflag-TL {
+    background-position: left 32.3752%;
+}
+
+.DS__FlagIcon__fflag-TM {
+    background-position: center 32.5969%;
+}
+
+.DS__FlagIcon__fflag-VN {
+    background-position: center 32.8186%;
+}
+
+.DS__FlagIcon__fflag-AL {
+    background-position: center 33.0403%;
+}
+
+.DS__FlagIcon__fflag-AD {
+    background-position: center 33.25975%;
+}
+
+.DS__FlagIcon__fflag-AM {
+    background-position: center 33.4837%;
+}
+
+.DS__FlagIcon__fflag-AT {
+    background-position: center 33.7054%;
+}
+
+.DS__FlagIcon__fflag-BY {
+    background-position: left 33.9271%;
+}
+
+.DS__FlagIcon__fflag-BE {
+    background-position: center 34.1488%;
+}
+
+.DS__FlagIcon__fflag-BA {
+    background-position: center 34.3705%;
+}
+
+.DS__FlagIcon__fflag-BG {
+    background-position: center 34.5922%;
+}
+
+.DS__FlagIcon__fflag-HR {
+    background-position: center 34.8139%;
+}
+
+.DS__FlagIcon__fflag-CY {
+    background-position: center 35.0356%;
+}
+
+.DS__FlagIcon__fflag-CZ {
+    background-position: left 35.2555%;
+}
+
+.DS__FlagIcon__fflag-DK {
+    background-position: center 35.479%;
+}
+
+.DS__FlagIcon__fflag-EE {
+    background-position: center 35.7007%;
+}
+
+.DS__FlagIcon__fflag-FO {
+    background-position: center 35.9224%;
+}
+
+.DS__FlagIcon__fflag-FI {
+    background-position: center 36.1441%;
+}
+
+.DS__FlagIcon__fflag-FR {
+    background-position: center 36.3658%;
+}
+
+.DS__FlagIcon__fflag-DE {
+    background-position: center 36.5875%;
+}
+
+.DS__FlagIcon__fflag-GI {
+    background-position: center 36.8092%;
+}
+
+.DS__FlagIcon__fflag-GR {
+    background-position: left 37.0309%;
+}
+
+.DS__FlagIcon__fflag-HU {
+    background-position: center 37.2526%;
+}
+
+.DS__FlagIcon__fflag-IS {
+    background-position: center 37.4743%;
+}
+
+.DS__FlagIcon__fflag-IE {
+    background-position: center 37.696%;
+}
+
+.DS__FlagIcon__fflag-IM {
+    background-position: center 37.9177%;
+}
+
+.DS__FlagIcon__fflag-IT {
+    background-position: center 38.1394%;
+}
+
+.DS__FlagIcon__fflag-JE {
+    background-position: center 38.3611%;
+}
+
+.DS__FlagIcon__fflag-XK {
+    background-position: center 38.5828%;
+}
+
+.DS__FlagIcon__fflag-LV {
+    background-position: center 38.8045%;
+}
+
+.DS__FlagIcon__fflag-LI {
+    background-position: left 39.0262%;
+}
+
+.DS__FlagIcon__fflag-LT {
+    background-position: center 39.2479%;
+}
+
+.DS__FlagIcon__fflag-LU {
+    background-position: center 39.4696%;
+}
+
+.DS__FlagIcon__fflag-MT {
+    background-position: left 39.6913%;
+}
+
+.DS__FlagIcon__fflag-MD {
+    background-position: center 39.913%;
+}
+
+.DS__FlagIcon__fflag-MC {
+    background-position: center 40.1347%;
+}
+
+.DS__FlagIcon__fflag-ME {
+    background-position: center 40.3564%;
+}
+
+.DS__FlagIcon__fflag-NL {
+    background-position: center 40.5781%;
+}
+
+.DS__FlagIcon__fflag-MK {
+    background-position: center 40.7998%;
+}
+
+.DS__FlagIcon__fflag-NO {
+    background-position: center 41.0215%;
+}
+
+.DS__FlagIcon__fflag-PL {
+    background-position: center 41.2432%;
+}
+
+.DS__FlagIcon__fflag-PT {
+    background-position: center 41.4649%;
+}
+
+.DS__FlagIcon__fflag-RO {
+    background-position: center 41.6866%;
+}
+
+.DS__FlagIcon__fflag-RU {
+    background-position: center 41.9083%;
+}
+
+.DS__FlagIcon__fflag-SM {
+    background-position: center 42.13%;
+}
+
+.DS__FlagIcon__fflag-RS {
+    background-position: center 42.3517%;
+}
+
+.DS__FlagIcon__fflag-SK {
+    background-position: center 42.5734%;
+}
+
+.DS__FlagIcon__fflag-SI {
+    background-position: center 42.7951%;
+}
+
+.DS__FlagIcon__fflag-ES {
+    background-position: left 43.0168%;
+}
+
+.DS__FlagIcon__fflag-SE {
+    background-position: center 43.2385%;
+}
+
+.DS__FlagIcon__fflag-CH {
+    background-position: center 43.4602%;
+}
+
+.DS__FlagIcon__fflag-TR {
+    background-position: center 43.6819%;
+}
+
+.DS__FlagIcon__fflag-UA {
+    background-position: center 43.9036%;
+}
+
+.DS__FlagIcon__fflag-GB {
+    background-position: center 44.1253%;
+}
+
+.DS__FlagIcon__fflag-VA {
+    background-position: right 44.347%;
+}
+
+.DS__FlagIcon__fflag-BH {
+    background-position: center 44.5687%;
+}
+
+.DS__FlagIcon__fflag-IR {
+    background-position: center 44.7904%;
+}
+
+.DS__FlagIcon__fflag-IQ {
+    background-position: center 45.0121%;
+}
+
+.DS__FlagIcon__fflag-IL {
+    background-position: center 45.2338%;
+}
+
+.DS__FlagIcon__fflag-KW {
+    background-position: left 45.4555%;
+}
+
+.DS__FlagIcon__fflag-JO {
+    background-position: left 45.6772%;
+}
+
+.DS__FlagIcon__fflag-KG {
+    background-position: center 45.897%;
+}
+
+.DS__FlagIcon__fflag-LB {
+    background-position: center 46.1206%;
+}
+
+.DS__FlagIcon__fflag-OM {
+    background-position: left 46.3423%;
+}
+
+.DS__FlagIcon__fflag-PK {
+    background-position: center 46.561%;
+}
+
+.DS__FlagIcon__fflag-PS {
+    background-position: center 46.7857%;
+}
+
+.DS__FlagIcon__fflag-QA {
+    background-position: center 47.0074%;
+}
+
+.DS__FlagIcon__fflag-SA {
+    background-position: center 47.2291%;
+}
+
+.DS__FlagIcon__fflag-SY {
+    background-position: center 47.4508%;
+}
+
+.DS__FlagIcon__fflag-AE {
+    background-position: center 47.6725%;
+}
+
+.DS__FlagIcon__fflag-UZ {
+    background-position: left 47.8942%;
+}
+
+.DS__FlagIcon__fflag-AS {
+    background-position: right 48.1159%;
+}
+
+.DS__FlagIcon__fflag-AU {
+    background-position: center 48.3376%;
+}
+
+.DS__FlagIcon__fflag-CX {
+    background-position: center 48.5593%;
+}
+
+.DS__FlagIcon__fflag-CC {
+    background-position: center 48.781%;
+}
+
+.DS__FlagIcon__fflag-CK {
+    background-position: center 49.002%;
+}
+
+.DS__FlagIcon__fflag-FJ {
+    background-position: center 49.2244%;
+}
+
+.DS__FlagIcon__fflag-PF {
+    background-position: center 49.4445%;
+}
+
+.DS__FlagIcon__fflag-GU {
+    background-position: center 49.6678%;
+}
+
+.DS__FlagIcon__fflag-KI {
+    background-position: center 49.8895%;
+}
+
+.DS__FlagIcon__fflag-MH {
+    background-position: left 50.1112%;
+}
+
+.DS__FlagIcon__fflag-FM {
+    background-position: center 50.3329%;
+}
+
+.DS__FlagIcon__fflag-NC {
+    background-position: center 50.5546%;
+}
+
+.DS__FlagIcon__fflag-NZ {
+    background-position: center 50.7763%;
+}
+
+.DS__FlagIcon__fflag-NR {
+    background-position: left 50.998%;
+}
+
+.DS__FlagIcon__fflag-NU {
+    background-position: center 51.2197%;
+}
+
+.DS__FlagIcon__fflag-NF {
+    background-position: center 51.4414%;
+}
+
+.DS__FlagIcon__fflag-WS {
+    background-position: left 51.6631%;
+}
+
+.DS__FlagIcon__fflag-SB {
+    background-position: left 51.8848%;
+}
+
+.DS__FlagIcon__fflag-TK {
+    background-position: center 52.1065%;
+}
+
+.DS__FlagIcon__fflag-TO {
+    background-position: left 52.3282%;
+}
+
+.DS__FlagIcon__fflag-TV {
+    background-position: center 52.5499%;
+}
+
+.DS__FlagIcon__fflag-VU {
+    background-position: left 52.7716%;
+}
+
+.DS__FlagIcon__fflag-WF {
+    background-position: center 52.9933%;
+}
+
+.DS__FlagIcon__fflag-EU {
+    background-position: center 53.215%;
+}
+
+.DS__FlagIcon__fflag-JR {
+    background-position: center 53.4315%;
+}
+
+.DS__FlagIcon__fflag-OLY {
+    background-position: center 53.6584%;
+}
+
+.DS__FlagIcon__fflag-UN {
+    background-position: center 53.875%;
+}
+
+.DS__FlagIcon__fflag.DS__FlagIcon__ff-sm {
+    width: 18px;
+    height: 11px;
+}
+
+.DS__FlagIcon__fflag.DS__FlagIcon__ff-md {
+    width: 27px;
+    height: 17px;
+}
+
+.DS__FlagIcon__fflag.DS__FlagIcon__ff-lg {
+    width: 42px;
+    height: 27px;
+}
+
+.DS__FlagIcon__fflag.DS__FlagIcon__ff-xl {
+    width: 60px;
+    height: 37px;
+}
+
+.DS__FlagIcon__custom_size {
+    width: 20px;
+    height: 13px;
+}
+.DS__Select__root,
+                      .DS__Select__Select,
+                      .DS__Select__Control,
+                      .DS__Select__ValueContainer,
+                      .DS__Select__ValueContainerInner,
+                      .DS__Select__SingleValue,
+                      .DS__Select__Placeholder,
+                      .DS__Select__HiddenTagsIndicator,
+                      .DS__Select__MultiValue,
+                      .DS__Select__MultiValueLabel,
+                      .DS__Select__MultiValueRemove,
+                      .DS__Select__ClearIcon,
+                      .DS__Select__IndicatorsContainer,
+                      .DS__Select__DropdownIndicator,
+                      .DS__Select__Search,
+                      .DS__Select__Group,
+                      .DS__Select__List,
+                      .DS__Select__OptionContainer,
+                      .DS__Select__Option,
+                      .DS__Select__NoOptionsMessage,
+                      .DS__Select__LoadingMessage,
+                      .DS__Select__TrackVertical,
+                      .DS__Select__tooltip,
+                      .DS__Select__disable-scroll,
+                      .DS__Select__FlexibleHeight,
+                      .DS__Select__ellipsis,
+                      .DS__Select__full-width,
+                      .DS__Select__disabled,
+                      .DS__Select__modal-content,
+                      .DS__Select__indicator,
+                      .DS__Select__indicator-icon {
+                          all: initial;
+                          font-family: var(--font-family);
+                      }
+
+.DS__Select__root {
+    position: relative;
+    display: block;
+}
+
+.DS__Select__root_invalid .DS__Select__Control {
+    border-color: #f14d56;
+}
+
+.DS__Select__root_invalid .DS__Select__Placeholder {
+    color: #f14d56;
+}
+
+.DS__Select__Select {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    color: #222a37;
+    cursor: pointer;
+}
+
+.DS__Select__Select_theme_b2c:hover .DS__Select__DropdownIndicator, .DS__Select__Select_theme_b2c:focus .DS__Select__DropdownIndicator {
+    color: #97ba1e;
+}
+
+.DS__Select__Select_theme_b2c .DS__Select__MultiValue {
+    background-color: #f4f9e6;
+}
+
+.DS__Select__Select_theme_b2c .DS__Select__MultiValue.DS__Select__disabled {
+    background-color: #eceff5;
+}
+
+.DS__Select__Select_theme_b2c .DS__Select__MultiValue.DS__Select__disabled .DS__Select__MultiValueRemove {
+    color: #95a0b3;
+}
+
+.DS__Select__Select_theme_b2c .DS__Select__MultiValueRemove {
+    color: #81a11a;
+}
+
+.DS__Select__Select_theme_b2c .DS__Select__DropdownIndicator_open,
+.DS__Select__Select_theme_b2c .DS__Select__DropdownIndicator:hover,
+.DS__Select__Select_theme_b2c .DS__Select__DropdownIndicator_open,
+.DS__Select__Select_theme_b2c .DS__Select__DropdownIndicator:focus {
+    color: #97ba1e;
+}
+
+.DS__Select__Select_theme_b2c .DS__Select__Option__icon {
+    color: #97ba1e;
+}
+
+.DS__Select__Select_theme_b2b:hover .DS__Select__DropdownIndicator, .DS__Select__Select_theme_b2b:focus .DS__Select__DropdownIndicator {
+    color: #00a4ba;
+}
+
+.DS__Select__Select_theme_b2b .DS__Select__MultiValue {
+    background-color: #e8f9fb;
+}
+
+.DS__Select__Select_theme_b2b .DS__Select__MultiValue.DS__Select__disabled {
+    background-color: #eceff5;
+}
+
+.DS__Select__Select_theme_b2b .DS__Select__MultiValue.DS__Select__disabled .DS__Select__MultiValueRemove {
+    color: #95a0b3;
+}
+
+.DS__Select__Select_theme_b2b .DS__Select__MultiValueRemove {
+    color: #0b7483;
+}
+
+.DS__Select__Select_theme_b2b .DS__Select__DropdownIndicator_open,
+.DS__Select__Select_theme_b2b .DS__Select__DropdownIndicator:hover,
+.DS__Select__Select_theme_b2b .DS__Select__DropdownIndicator_open,
+.DS__Select__Select_theme_b2b .DS__Select__DropdownIndicator:focus {
+    color: #00a4ba;
+}
+
+.DS__Select__Select_theme_b2b .DS__Select__Option__icon {
+    color: #00a4ba;
+}
+
+.DS__Select__Select_size_small .DS__Select__Control {
+    min-height: 38px;
+}
+
+.DS__Select__Select_size_small .DS__Select__Placeholder {
+    top: 19px;
+}
+
+.DS__Select__Select_multiple_selected {
+    padding: 10px;
+}
+
+.DS__Select__Select_type_date:hover .DS__Select__DropdownIndicator, .DS__Select__Select_type_date:focus .DS__Select__DropdownIndicator {
+    color: #222a37;
+}
+
+.DS__Select__Select_type_date .DS__Select__Control {
+    background-color: #f6f8fc;
+    border: none;
+}
+
+.DS__Select__Select_type_date .DS__Select__Control_opened {
+    background-color: #ffffff;
+    border: 1px solid #d0d6e1;
+}
+
+.DS__Select__Select_type_date .DS__Select__DropdownIndicator_open,
+.DS__Select__Select_type_date .DS__Select__DropdownIndicator:hover,
+.DS__Select__Select_type_date .DS__Select__DropdownIndicator_open,
+.DS__Select__Select_type_date .DS__Select__DropdownIndicator:focus {
+    color: #222a37;
+}
+
+.DS__Select__Select_type_unbordered .DS__Select__Control {
+    display: flex;
+    border: none;
+}
+
+.DS__Select__Select_type_unbordered .DS__Select__ValueContainer {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #505f79;
+}
+
+.DS__Select__Select_type_unbordered .DS__Select__DropdownIndicator {
+    color: #505f79;
+}
+
+.DS__Select__Select_type_unbordered .DS__Select__List {
+    min-width: 147px;
+    border-top: 1px solid #d0d6e1;
+}
+
+.DS__Select__Select_rightMenu .DS__Select__List {
+    right: 0;
+}
+
+.DS__Select__Control {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    min-height: 56px;
+    padding-right: 16px;
+    padding-left: 16px;
+    background-color: #ffffff;
+    border: 1px solid #d0d6e1;
+    border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+
+    .DS__Select__Control_opened {
+        border-radius: 8px 8px 0 0
+    }
+}
+
+.DS__Select__Control_disabled {
+    background-color: #f6f8fc;
+    border-color: #d0d6e1;
+}
+
+.DS__Select__Control_autofill {
+    background-color: #e8f0fe;
+}
+
+.DS__Select__ValueContainer {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    max-height: 54px;
+    overflow: hidden;
+    font-weight: 400;
+    color: #222a37;
+}
+
+.DS__Select__ValueContainer_multiple_selected {
+    align-items: flex-start;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+@media not all and (max-width: 767px) {
+
+    .DS__Select__ValueContainer_open {
+        max-height: none
+    }
+}
+
+.DS__Select__ValueContainer.DS__Select__autoFieldHeight {
+    min-height: 54px;
+    max-height: 100%;
+}
+
+.DS__Select__ValueContainerInner {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    max-width: 100%;
+    max-height: 54px;
+}
+
+.DS__Select__ValueContainer_multiple_selected .DS__Select__ValueContainerInner {
+    flex-wrap: wrap;
+    margin: -6px -6px;
+}
+
+.DS__Select__ValueContainer_multiple_selected .DS__Select__ValueContainerInner input {
+    position: absolute;
+    top: 0;
+}
+
+@media not all and (max-width: 767px) {
+
+    .DS__Select__ValueContainer_open .DS__Select__ValueContainerInner {
+        max-height: 100%
+    }
+}
+
+.DS__Select__ValueContainer.DS__Select__autoFieldHeight .DS__Select__ValueContainerInner {
+    min-height: 54px;
+    max-height: 100%;
+}
+
+.DS__Select__keepPlaceholder.DS__Select__searchable .DS__Select__Placeholder {
+    margin-left: 0;
+}
+
+.DS__Select__keepPlaceholder.DS__Select__searchable .DS__Select__ValueContainer_open .DS__Select__Placeholder {
+    -webkit-transform: translateY(-21px) scale(0.75);
+    transform: translateY(-21px) scale(0.75);
+}
+
+.DS__Select__keepPlaceholder.DS__Select__searchable .DS__Select__Input {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+}
+
+.DS__Select__keepPlaceholder .DS__Select__SingleValue {
+    padding-top: 26px;
+    padding-bottom: 10px;
+}
+
+.DS__Select__keepPlaceholder.DS__Select__hasValue .DS__Select__Placeholder {
+    width: 133%;
+    -webkit-transform: translateY(-21px) scale(0.75);
+    transform: translateY(-21px) scale(0.75);
+}
+
+.DS__Select__SingleValue {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.DS__Select__SingleValue.DS__Select__autoFieldHeight {
+    white-space: normal;
+    white-space: initial;
+}
+
+.DS__Select__searchable .DS__Select__Placeholder {
+    margin-left: 1px;
+}
+
+.DS__Select__Placeholder {
+    position: absolute;
+    top: 27px;
+    box-sizing: border-box;
+    color: #7a869a;
+    transition: 0.3s ease;
+    transition-property: top, -webkit-transform;
+    transition-property: top, transform;
+    transition-property: top, transform, -webkit-transform;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transform-origin: left;
+    transform-origin: left;
+    -webkit-text-size-adjust: 100%;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+
+    .DS__Select__Placeholder {
+        transition: none
+    }
+}
+
+.DS__Select__Placeholder_disabled {
+    color: #7a869a;
+    cursor: default;
+}
+
+.DS__Select__Placeholder_ellipsis {
+    width: 100%;
+}
+
+.DS__Select__Input:disabled {
+    pointer-events: none;
+}
+
+.DS__Select__Input::-ms-clear,
+.DS__Select__Input::-ms-reveal {
+    display: none;
+}
+
+.DS__Select__Input input:-webkit-autofill {
+    background-color: transparent;
+    -webkit-box-shadow: 0 0 0px 1000px #e8f0fe inset;
+    -webkit-animation-name: DS__Select__onAutoFillStart;
+    animation-name: DS__Select__onAutoFillStart;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+
+    .DS__Select__Input input:-webkit-autofill {
+        -webkit-animation: none;
+        animation: none
+    }
+}
+
+.DS__Select__Input input:not(:-webkit-autofill) {
+    -webkit-animation-name: DS__Select__onAutoFillCancel;
+    animation-name: DS__Select__onAutoFillCancel;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+
+    .DS__Select__Input input:not(:-webkit-autofill) {
+        -webkit-animation: none;
+        animation: none
+    }
+}
+
+.DS__Select__HiddenTagsIndicator {
+    display: flex;
+    align-self: center;
+    margin-left: 10px;
+    color: #7a869a;
+}
+
+.DS__Select__MultiValue {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    max-height: 32px;
+    padding: 8px 10px 6px;
+    margin: 6px 6px;
+    border-radius: 8px;
+}
+
+.DS__Select__MultiValue.DS__Select__disabled {
+    pointer-events: none;
+}
+
+.DS__Select__MultiValueLabel {
+    color: #222a37;
+    white-space: nowrap;
+}
+
+.DS__Select__MultiValueRemove {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    margin-left: 6px;
+    pointer-events: inherit;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.DS__Select__ClearIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin-right: 12px;
+    color: #95a0b3;
+    cursor: pointer;
+    outline: none;
+}
+
+.DS__Select__IndicatorsContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.DS__Select__DropdownIndicator {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: inherit;
+    height: inherit;
+    max-height: 54px;
+    color: #222a37;
+    cursor: pointer;
+}
+
+.DS__Select__DropdownIndicator svg {
+    transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+
+    .DS__Select__DropdownIndicator svg {
+        transition: none
+    }
+}
+
+.DS__Select__DropdownIndicator_open svg {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.DS__Select__DropdownIndicator_disabled {
+    color: #95a0b3 !important;
+    cursor: default;
+}
+
+/* --------------- Mobile Popup start --------------- */
+.DS__Select__Search {
+    position: relative;
+    flex-shrink: 0;
+}
+
+@media (max-width: 767px) {
+    .DS__Select__Search {
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        max-height: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #ffffff;
+        border-top: 1px solid #eceff5;
+        transition: max-height 0.15s ease-out
+    }
+
+    .DS__Select__Search_open {
+        max-height: 500px;
+        padding: 9px 8px;
+        transition: max-height 0.25s ease-in;
+    }
+
+    @media screen and (prefers-reduced-motion: reduce) {
+
+        .DS__Select__Search_open {
+            transition: none
+        }
+    }
+
+    .DS__Select__Search_input {
+        display: flex;
+        width: 100%;
+        height: 38px;
+        padding: 0 8px 0 34px;
+        font-size: 14px;
+        background-color: #eceff5;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+    }
+
+    .DS__Select__Search_input::-webkit-input-placeholder {
+        font-size: 14px;
+        line-height: 20px;
+        color: #7a869a;
+    }
+
+    .DS__Select__Search_input:-ms-input-placeholder {
+        font-size: 14px;
+        line-height: 20px;
+        color: #7a869a;
+    }
+
+    .DS__Select__Search_input::placeholder {
+        font-size: 14px;
+        line-height: 20px;
+        color: #7a869a;
+    }
+
+    @supports (-webkit-overflow-scrolling: touch) {
+
+        .DS__Select__Search_input {
+            font-size: 16px
+        }
+
+        .DS__Select__Search_input::-webkit-input-placeholder {
+            font-size: 16px;
+        }
+
+        .DS__Select__Search_input:-ms-input-placeholder {
+            font-size: 16px;
+        }
+
+        .DS__Select__Search_input::placeholder {
+            font-size: 16px;
+        }
+    }
+
+    .DS__Select__Search_icon {
+        position: absolute;
+        top: 50%;
+        left: 18px;
+        color: #222a37;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+}
+
+/* --------------- Mobile Popup end --------------- */
+
+.DS__Select__Group {
+    display: block;
+}
+
+.DS__Select__Group_heading {
+    display: block;
+    height: 44px;
+    padding: 0 12px;
+    margin: 0;
+    font-size: 14px;
+    color: #7a869a;
+}
+
+@media (max-width: 767px) {
+
+    .DS__Select__Group_heading {
+        height: 57px
+    }
+}
+
+.DS__Select__Group_label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.DS__Select__List {
+    position: absolute;
+    z-index: 999;
+    box-sizing: border-box;
+    display: block;
+    flex-grow: 1;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 1px solid #d0d6e1;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 8px 16px -4px rgba(34, 42, 55, 0.13);
+    /* -------- TODO remove ------------ */
+}
+
+@media (max-width: 767px) {
+
+    .DS__Select__List {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        border: none;
+        border-top: 1px solid #eceff5
+    }
+}
+
+.DS__Select__List_theme_b2c .DS__Select__Option__icon {
+    color: #97ba1e;
+}
+
+.DS__Select__List_theme_b2b .DS__Select__Option__icon {
+    color: #00a4ba;
+}
+
+/* -------- TODO remove ------------ */
+
+.DS__Select__List_variant2 {
+    margin: 4px 0 0;
+    border-top: 1px solid #d0d6e1;
+    border-radius: 8px;
+}
+
+.DS__Select__OptionContainer {
+    display: block;
+}
+
+.DS__Select__Option {
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    min-height: 44px;
+    padding: 11px 14px;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+
+    .DS__Select__Option {
+        height: 57px;
+        min-height: 57px;
+        padding: 12px 16px;
+        background-color: #ffffff;
+        border-bottom: 1px solid #eceff5
+    }
+
+    .DS__Select__Option_last {
+        border-bottom: none;
+    }
+
+    .DS__Select__Option_autoHeight {
+        padding: 16px;
+    }
+
+    .DS__Select__Option_focused {
+        background-color: transparent !important;
+    }
+}
+
+.DS__Select__Option_autoHeight {
+    height: auto;
+}
+
+.DS__Select__Option:hover,
+.DS__Select__Option:focus {
+    background-color: #f6f8fc;
+}
+
+.DS__Select__Option_disabled {
+    color: #d0d6e1;
+    pointer-events: none;
+}
+
+.DS__Select__Option_disabled:hover,
+.DS__Select__Option_disabled:focus {
+    background-color: transparent;
+}
+
+.DS__Select__Option_disabled .DS__Select__Option__text_multiple,
+.DS__Select__Option_disabled .DS__Select__Option__text {
+    color: #d0d6e1;
+    cursor: default;
+}
+
+.DS__Select__Option_focused {
+    background-color: #f6f8fc;
+}
+
+.DS__Select__Option_empty {
+    justify-content: center;
+    text-align: center;
+}
+
+.DS__Select__Option_suggestion {
+    padding: 11px 16px;
+}
+
+.DS__Select__Option_suggestion_left {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    color: #d0d6e1;
+}
+
+.DS__Select__Option_suggestion_right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    font-weight: 600;
+    color: #7a869a;
+}
+
+.DS__Select__Option__text {
+    display: block;
+    max-height: 100%;
+    margin-right: auto;
+    font-size: inherit;
+    color: #222a37;
+    cursor: pointer;
+}
+
+.DS__Select__Option__text_multiple {
+    margin-left: 7px;
+    font-size: inherit;
+    line-height: 20px;
+}
+
+.DS__Select__Option__icon {
+    display: flex;
+    align-items: center;
+    margin: 0 2px 0 auto;
+}
+
+.DS__Select__NoOptionsMessage,
+.DS__Select__LoadingMessage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 12px 14px;
+    font-size: 14px;
+    color: #222a37;
+}
+
+@media (max-width: 767px) {
+
+    .DS__Select__NoOptionsMessage,
+    .DS__Select__LoadingMessage {
+        min-height: 57px
+    }
+}
+
+.DS__Select__TrackVertical {
+    top: 6px;
+    right: 6px;
+    bottom: 6px;
+    width: 6px;
+    border-radius: 4px;
+}
+
+.DS__Select__tooltip {
+    display: block;
+    margin: 4px 0 0 16px;
+}
+
+.DS__Select__disable-scroll {
+    overflow: hidden;
+}
+
+.DS__Select__FlexibleHeight {
+    display: block;
+    height: 80px;
+}
+
+.DS__Select__ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.DS__Select__full-width {
+    width: 100%;
+}
+
+.DS__Select__disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+.DS__Select__modal-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.DS__Select__indicator {
+    display: flex;
+    align-self: stretch;
+}
+
+.DS__Select__indicator-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+}
+
+@-webkit-keyframes DS__Select__onAutoFillStart {
+    /* stylelint-disable-next-line block-no-empty */
+    from {
+    }
+}
+
+@keyframes DS__Select__onAutoFillStart {
+    /* stylelint-disable-next-line block-no-empty */
+    from {
+    }
+}
+
+@-webkit-keyframes DS__Select__onAutoFillCancel {
+    /* stylelint-disable-next-line block-no-empty */
+    from {
+    }
+}
+
+@keyframes DS__Select__onAutoFillCancel {
+    /* stylelint-disable-next-line block-no-empty */
+    from {
+    }
+}
+.DS__CheckboxBase__root {
+                          position: relative;
+                          display: inline-flex;
+                      }
+
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input:hover + .DS__CheckboxBase__box,
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input:focus + .DS__CheckboxBase__box,
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input:active + .DS__CheckboxBase__box {
+    border-color: #97ba1e;
+}
+
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input:focus + .DS__CheckboxBase__box {
+    box-shadow: 0 0 0 3px #d4e3ac;
+}
+
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input:active + .DS__CheckboxBase__box {
+    background-color: #f4f9e6;
+}
+
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input:checked + .DS__CheckboxBase__box, .DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input.DS__CheckboxBase__indeterminate + .DS__CheckboxBase__box {
+    background-color: #97ba1e;
+    border-color: #97ba1e;
+}
+
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input:checked:hover + .DS__CheckboxBase__box,
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input:checked:focus + .DS__CheckboxBase__box,
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input.DS__CheckboxBase__indeterminate:hover + .DS__CheckboxBase__box,
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input.DS__CheckboxBase__indeterminate:focus + .DS__CheckboxBase__box {
+    background-color: #81a11a;
+    border-color: #81a11a;
+}
+
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input:checked:active + .DS__CheckboxBase__box, .DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input.DS__CheckboxBase__indeterminate:active + .DS__CheckboxBase__box {
+    background-color: #547012;
+    border-color: #547012;
+}
+
+.DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input:hover + .DS__CheckboxBase__box,
+.DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input:focus + .DS__CheckboxBase__box,
+.DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input:active + .DS__CheckboxBase__box {
+    border-color: #00a4ba;
+}
+
+.DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input:focus + .DS__CheckboxBase__box {
+    box-shadow: 0 0 0 3px #94dee4;
+}
+
+.DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input:active + .DS__CheckboxBase__box {
+    background-color: #e8f9fb;
+}
+
+.DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input:checked + .DS__CheckboxBase__box, .DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input.DS__CheckboxBase__indeterminate + .DS__CheckboxBase__box {
+    background-color: #00a4ba;
+    border-color: #00a4ba;
+}
+
+.DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input:checked:hover + .DS__CheckboxBase__box,
+.DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input:checked:focus + .DS__CheckboxBase__box,
+.DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input.DS__CheckboxBase__indeterminate:hover + .DS__CheckboxBase__box,
+.DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input.DS__CheckboxBase__indeterminate:focus + .DS__CheckboxBase__box {
+    background-color: #0b7483;
+    border-color: #0b7483;
+}
+
+.DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input:checked:active + .DS__CheckboxBase__box, .DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input.DS__CheckboxBase__indeterminate:active + .DS__CheckboxBase__box {
+    background-color: #075c68;
+    border-color: #075c68;
+}
+
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input:checked + .DS__CheckboxBase__box,
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input.DS__CheckboxBase__indeterminate + .DS__CheckboxBase__box,
+.DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input:checked + .DS__CheckboxBase__box,
+.DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input.DS__CheckboxBase__indeterminate + .DS__CheckboxBase__box {
+    color: #ffffff;
+}
+
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input.DS__CheckboxBase__invalid + .DS__CheckboxBase__box, .DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input.DS__CheckboxBase__invalid + .DS__CheckboxBase__box {
+    border-color: #f14d56;
+}
+
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input.DS__CheckboxBase__invalid:hover + .DS__CheckboxBase__box, .DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input.DS__CheckboxBase__invalid:hover + .DS__CheckboxBase__box {
+    border-color: #c13e45;
+}
+
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input.DS__CheckboxBase__invalid:focus + .DS__CheckboxBase__box, .DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input.DS__CheckboxBase__invalid:focus + .DS__CheckboxBase__box {
+    box-shadow: 0 0 0 3px #f7949a;
+}
+
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input.DS__CheckboxBase__invalid:active + .DS__CheckboxBase__box, .DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input.DS__CheckboxBase__invalid:active + .DS__CheckboxBase__box {
+    background-color: #feedee;
+}
+
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input.DS__CheckboxBase__invalid:checked + .DS__CheckboxBase__box, .DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input.DS__CheckboxBase__invalid.DS__CheckboxBase__indeterminate + .DS__CheckboxBase__box, .DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input.DS__CheckboxBase__invalid:checked + .DS__CheckboxBase__box, .DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input.DS__CheckboxBase__invalid.DS__CheckboxBase__indeterminate + .DS__CheckboxBase__box {
+    background-color: #f14d56;
+    border-color: #f14d56;
+}
+
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input.DS__CheckboxBase__invalid:checked:hover + .DS__CheckboxBase__box,
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input.DS__CheckboxBase__invalid:checked:focus + .DS__CheckboxBase__box,
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input.DS__CheckboxBase__invalid.DS__CheckboxBase__indeterminate:hover + .DS__CheckboxBase__box,
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input.DS__CheckboxBase__invalid.DS__CheckboxBase__indeterminate:focus + .DS__CheckboxBase__box,
+.DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input.DS__CheckboxBase__invalid:checked:hover + .DS__CheckboxBase__box,
+.DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input.DS__CheckboxBase__invalid:checked:focus + .DS__CheckboxBase__box,
+.DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input.DS__CheckboxBase__invalid.DS__CheckboxBase__indeterminate:hover + .DS__CheckboxBase__box,
+.DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input.DS__CheckboxBase__invalid.DS__CheckboxBase__indeterminate:focus + .DS__CheckboxBase__box {
+    background-color: #c13e45;
+    border-color: #c13e45;
+}
+
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input.DS__CheckboxBase__invalid:checked:active + .DS__CheckboxBase__box, .DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input.DS__CheckboxBase__invalid.DS__CheckboxBase__indeterminate:active + .DS__CheckboxBase__box, .DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input.DS__CheckboxBase__invalid:checked:active + .DS__CheckboxBase__box, .DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input.DS__CheckboxBase__invalid.DS__CheckboxBase__indeterminate:active + .DS__CheckboxBase__box {
+    background-color: #912e34;
+    border-color: #912e34;
+}
+
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input:disabled + .DS__CheckboxBase__box, .DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input:disabled + .DS__CheckboxBase__box {
+    background-color: #f6f8fc;
+    border-color: #d0d6e1;
+    box-shadow: 0 0 0 0 transparent;
+}
+
+.DS__CheckboxBase__theme_b2c .DS__CheckboxBase__input:checked:disabled + .DS__CheckboxBase__box, .DS__CheckboxBase__theme_b2b .DS__CheckboxBase__input:checked:disabled + .DS__CheckboxBase__box {
+    color: #95a0b3;
+    background-color: #dde3ed;
+    border-color: #dde3ed;
+}
+
+.DS__CheckboxBase__box {
+    box-sizing: border-box;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    color: transparent;
+    cursor: pointer;
+    background: #ffffff;
+    border: 1px solid #95a0b3;
+    border-radius: 3px;
+    box-shadow: 0 0 0 0 transparent;
+    transition: background-color 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease, color 0.3s ease;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+
+    .DS__CheckboxBase__box {
+        transition: none
+    }
+}
+
+.DS__CheckboxBase__input {
+    position: absolute;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.DS__CheckboxBase__input.DS__CheckboxBase__focus-visible + .DS__CheckboxBase__box {
+    outline: 2px auto #577edc;
+    outline-offset: 2px;
+}
+.DS__Checkbox__root {
+                          display: inline-flex;
+                          cursor: pointer;
+                      }
+
+.DS__Checkbox__checkbox {
+    margin-top: 2px;
+}
+
+.DS__Checkbox__text {
+    margin-left: 8px;
+}
+.DS__SelectField__wrapper {
+                          position: relative;
+                          display: block;
+                          font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Arial',
+                          'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+                          sans-serif;
+                      }
+
+.DS__SelectField__wrapper_theme_b2c .DS__SelectField__control__button:focus:not(:disabled) .DS__SelectField__control__button_chevron, .DS__SelectField__wrapper_theme_b2c .DS__SelectField__control__button:hover:not(:disabled) .DS__SelectField__control__button_chevron {
+    color: #97ba1e;
+}
+
+.DS__SelectField__wrapper_theme_b2c .DS__SelectField__control_input_focused,
+.DS__SelectField__wrapper_theme_b2c .DS__SelectField__control_opened {
+    border-color: #97ba1e;
+}
+
+.DS__SelectField__wrapper_theme_b2c .DS__SelectField__control_input_focused .DS__SelectField__control__button, .DS__SelectField__wrapper_theme_b2c .DS__SelectField__control_opened .DS__SelectField__control__button {
+    border-color: #97ba1e;
+}
+
+.DS__SelectField__wrapper_theme_b2b .DS__SelectField__control__button:focus:not(:disabled) .DS__SelectField__control__button_chevron, .DS__SelectField__wrapper_theme_b2b .DS__SelectField__control__button:hover:not(:disabled) .DS__SelectField__control__button_chevron {
+    color: #00a4ba;
+}
+
+.DS__SelectField__wrapper_theme_b2b .DS__SelectField__control_input_focused,
+.DS__SelectField__wrapper_theme_b2b .DS__SelectField__control_opened {
+    border-color: #00a4ba;
+}
+
+.DS__SelectField__wrapper_theme_b2b .DS__SelectField__control_input_focused .DS__SelectField__control__button, .DS__SelectField__wrapper_theme_b2b .DS__SelectField__control_opened .DS__SelectField__control__button {
+    border-color: #00a4ba;
+}
+
+.DS__SelectField__wrapper_invalid .DS__SelectField__control,
+.DS__SelectField__wrapper_invalid .DS__SelectField__control_input_focused,
+.DS__SelectField__wrapper_invalid .DS__SelectField__control_opened {
+    border-color: #f14d56;
+}
+
+.DS__SelectField__wrapper_invalid .DS__SelectField__control .DS__SelectField__control__button, .DS__SelectField__wrapper_invalid .DS__SelectField__control_input_focused .DS__SelectField__control__button, .DS__SelectField__wrapper_invalid .DS__SelectField__control_opened .DS__SelectField__control__button {
+    border-color: #f14d56;
+}
+
+.DS__SelectField__wrapper_size_small .DS__SelectField__control__button {
+    min-height: 40px;
+}
+
+.DS__SelectField__wrapper_size_small .DS__SelectField__input {
+    height: 40px;
+}
+
+.DS__SelectField__control_opened .DS__SelectField__control__button_chevron {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.DS__SelectField__control_selected .DS__SelectField__control__button {
+    justify-content: flex-start;
+}
+
+.DS__SelectField__control_selected .DS__SelectField__control__button_chevron {
+    margin: 0 3px 0 auto;
+}
+
+.DS__SelectField__control_disabled {
+    border-color: #d0d6e1;
+}
+
+.DS__SelectField__control__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 67px;
+    height: 100%;
+    min-height: 56px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 1px solid #d0d6e1;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    outline: none;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.DS__SelectField__control__button_disabled {
+    pointer-events: none;
+    cursor: default;
+    background-color: #f6f8fc;
+    border-right-color: #d0d6e1;
+}
+
+.DS__SelectField__control__button_indicator {
+    margin-left: 7px;
+    font-size: 16px;
+    cursor: inherit;
+}
+
+.DS__SelectField__control__button_indicator_icon {
+    cursor: inherit;
+}
+
+.DS__SelectField__control__button_chevron {
+    display: block;
+    color: #222a37;
+    cursor: inherit;
+    transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+
+    .DS__SelectField__control__button_chevron {
+        transition: none
+    }
+}
+
+.DS__SelectField__control__button_chevron svg {
+    display: block;
+    margin: 0 auto;
+}
+
+.DS__SelectField__input {
+    position: absolute;
+    top: 0px;
+    left: 66px;
+    display: flex;
+    width: calc(100% - 67px);
+    height: 56px;
+    opacity: 1;
+    transition: opacity 0.2s ease;
+}
+
+.DS__SelectField__wrapper .DS__SelectField__input_container {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.DS__SelectField__wrapper_opened .DS__SelectField__input {
+    pointer-events: none;
+    opacity: 0;
+}
+
+.DS__SelectField__wrapper_opened .DS__SelectField__input * {
+    pointer-events: none;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+
+    .DS__SelectField__input {
+        transition: none
+    }
+}
+
+.DS__SelectField__option {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.DS__SelectField__option_leftIcon,
+.DS__SelectField__option_label,
+.DS__SelectField__option_value {
+    cursor: pointer;
+}
+
+.DS__SelectField__option_value {
+    margin-left: 8px;
+    color: #7a869a;
+}
+
+.DS__SelectField__option_disabled {
+    color: #d0d6e1;
+    pointer-events: none;
+    cursor: default;
+}
+.DS__PhoneField__Wrapper,
+                      .DS__PhoneField__Control,
+                      .DS__PhoneField__Input,
+                      .DS__PhoneField__Option,
+                      .DS__PhoneField__Success,
+                      .DS__PhoneField__SubText,
+                      .DS__PhoneField__Tooltip,
+                      .DS__PhoneField__Block {
+                          all: initial;
+                          font-family: var(--font-family);
+                      }
+
+.DS__PhoneField__Wrapper {
+    position: relative;
+    display: block;
+}
+
+.DS__PhoneField__Wrapper_theme_b2c .DS__PhoneField__Control__button:focus .DS__PhoneField__Control__button_chevron, .DS__PhoneField__Wrapper_theme_b2c .DS__PhoneField__Control__button:hover .DS__PhoneField__Control__button_chevron {
+    color: #97ba1e;
+}
+
+.DS__PhoneField__Wrapper_theme_b2c .DS__PhoneField__Control_input_focused,
+.DS__PhoneField__Wrapper_theme_b2c .DS__PhoneField__Control_opened {
+    border-color: #97ba1e;
+}
+
+.DS__PhoneField__Wrapper_theme_b2c .DS__PhoneField__Control_input_focused .DS__PhoneField__Control__button, .DS__PhoneField__Wrapper_theme_b2c .DS__PhoneField__Control_opened .DS__PhoneField__Control__button {
+    border-color: #97ba1e;
+}
+
+.DS__PhoneField__Wrapper_theme_b2b .DS__PhoneField__Control__button:focus .DS__PhoneField__Control__button_chevron, .DS__PhoneField__Wrapper_theme_b2b .DS__PhoneField__Control__button:hover .DS__PhoneField__Control__button_chevron {
+    color: #00a4ba;
+}
+
+.DS__PhoneField__Wrapper_theme_b2b .DS__PhoneField__Control_input_focused,
+.DS__PhoneField__Wrapper_theme_b2b .DS__PhoneField__Control_opened {
+    border-color: #00a4ba;
+}
+
+.DS__PhoneField__Wrapper_theme_b2b .DS__PhoneField__Control_input_focused .DS__PhoneField__Control__button, .DS__PhoneField__Wrapper_theme_b2b .DS__PhoneField__Control_opened .DS__PhoneField__Control__button {
+    border-color: #00a4ba;
+}
+
+.DS__PhoneField__Wrapper_invalid .DS__PhoneField__Control,
+.DS__PhoneField__Wrapper_invalid .DS__PhoneField__Control_input_focused,
+.DS__PhoneField__Wrapper_invalid .DS__PhoneField__Control_opened {
+    border-color: #f14d56;
+}
+
+.DS__PhoneField__Wrapper_invalid .DS__PhoneField__Control .DS__PhoneField__Control__button, .DS__PhoneField__Wrapper_invalid .DS__PhoneField__Control_input_focused .DS__PhoneField__Control__button, .DS__PhoneField__Wrapper_invalid .DS__PhoneField__Control_opened .DS__PhoneField__Control__button {
+    border-color: #f14d56;
+}
+
+.DS__PhoneField__Wrapper_size_small .DS__PhoneField__Control {
+    min-height: 38px;
+}
+
+.DS__PhoneField__Wrapper_size_small .DS__PhoneField__Input {
+    height: 38px;
+}
+
+.DS__PhoneField__Wrapper_opened .DS__PhoneField__Input {
+    pointer-events: none;
+    opacity: 0;
+}
+
+.DS__PhoneField__Wrapper_opened .DS__PhoneField__Input * {
+    pointer-events: none;
+}
+
+.DS__PhoneField__Control {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    min-height: 54px;
+    background-color: #ffffff;
+    border: 1px solid #d0d6e1;
+    border-radius: 8px;
+}
+
+.DS__PhoneField__Control_opened .DS__PhoneField__Control__button_chevron {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.DS__PhoneField__Control_selected .DS__PhoneField__Control__button {
+    justify-content: flex-start;
+}
+
+.DS__PhoneField__Control_selected .DS__PhoneField__Control__button_chevron {
+    margin: 0 3px 0 auto;
+}
+
+.DS__PhoneField__Control_disabled {
+    border-color: #d0d6e1;
+}
+
+.DS__PhoneField__Control__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 67px;
+    height: 100%;
+    min-height: inherit;
+    padding: 1px 6px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-right: 1px solid #d0d6e1;
+    outline: none;
+}
+
+.DS__PhoneField__Control__button_disabled {
+    cursor: default;
+    background-color: #f6f8fc;
+    border-right-color: #d0d6e1;
+}
+
+.DS__PhoneField__Control__button_disabled .DS__PhoneField__Control__button_chevron,
+.DS__PhoneField__Control__button_disabled .DS__PhoneField__Control__button_chevron:focus,
+.DS__PhoneField__Control__button_disabled .DS__PhoneField__Control__button_chevron:hover {
+    color: #d0d6e1 !important;
+}
+
+.DS__PhoneField__Control__button_flag {
+    margin-left: 7px;
+    cursor: inherit;
+}
+
+.DS__PhoneField__Control__button_flag_icon {
+    cursor: inherit;
+}
+
+.DS__PhoneField__Control__button_chevron {
+    display: block;
+    color: #222a37;
+    cursor: inherit;
+    transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+
+    .DS__PhoneField__Control__button_chevron {
+        transition: none
+    }
+}
+
+.DS__PhoneField__Control__button_chevron svg {
+    display: block;
+    margin: 0 auto;
+}
+
+.DS__PhoneField__Input {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    left: 68px;
+    width: calc(100% - 69px);
+    height: 54px;
+    opacity: 1;
+    transition: opacity 0.2s ease;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+
+    .DS__PhoneField__Input {
+        transition: none
+    }
+}
+
+.DS__PhoneField__Option {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.DS__PhoneField__Option_flag,
+.DS__PhoneField__Option_name,
+.DS__PhoneField__Option_code {
+    cursor: inherit;
+}
+
+.DS__PhoneField__Option_code {
+    margin-left: 8px;
+    color: #7a869a;
+}
+
+.DS__PhoneField__Option_disabled {
+    color: #d0d6e1;
+    pointer-events: none;
+    cursor: default;
+}
+
+.DS__PhoneField__Success {
+    color: #97ba1e;
+    fill: #97ba1e;
+}
+
+.DS__PhoneField__Success svg {
+    display: block;
+}
+
+.DS__PhoneField__SubText {
+    display: flex;
+    overflow: hidden;
+}
+
+.DS__PhoneField__Tooltip {
+    display: block;
+    margin-top: 4px;
+    margin-left: 16px;
+    color: #7a869a;
+}
+
+.DS__PhoneField__Tooltip_invalid {
+    color: #f14d56;
+}
+
+.DS__PhoneField__Tooltip_success {
+    color: #81a11a;
+}
+
+.DS__PhoneField__Tooltip_absolute {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 16px;
+    margin: 0;
+}
+
+.DS__PhoneField__Block {
+    display: flex;
+    width: 100%;
+    padding: 14px 16px 16px;
+    margin-top: 6px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #222a37;
+    background-color: #f4f9e6;
+    border-radius: 8px;
+}
+
+.DS__PhoneField__Block_Icon {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    margin-right: 11px;
+    color: #f14d56;
+}
+
+.DS__PhoneField__Block_Text {
+    padding: 0;
+    margin: 0;
+}
+
+.DS__PhoneField__Block_invalid {
+    padding: 16px;
+    background-color: #feedee;
+}
+.DS__Link__root {
+                          position: relative;
+                          text-decoration: none;
+                          cursor: pointer;
+                          transition: color 0.3s ease-in-out;
+                      }
+
+.DS__Link__root.DS__Link__focus-visible {
+    outline: 2px auto #577edc;
+    outline-offset: 2px;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+    .DS__Link__root {
+        transition: none
+    }
+}
+
+.DS__Link__root::before {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: calc(100% + 4px * 2);
+    height: calc(100% + 2px * 2);
+    content: '';
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+    -webkit-transform: translate(-4px, -2px);
+    transform: translate(-4px, -2px);
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+
+    .DS__Link__root::before {
+        transition: none
+    }
+}
+
+.DS__Link__view_secondary {
+    color: #505f79;
+}
+
+.DS__Link__view_secondary:hover {
+    color: #27344b;
+}
+
+.DS__Link__view_secondary:focus {
+    color: #505f79;
+}
+
+.DS__Link__view_secondary:focus::before {
+    background-color: #eceff5;
+}
+
+.DS__Link__view_secondary.DS__Link__loading .DS__Link__text {
+    color: #7a869a;
+}
+
+.DS__Link__view_b2c {
+    color: #97ba1e;
+}
+
+.DS__Link__view_b2c:hover {
+    color: #81a11a;
+}
+
+.DS__Link__view_b2c:focus {
+    color: #97ba1e;
+}
+
+.DS__Link__view_b2c:focus::before {
+    background-color: #f4f9e6;
+}
+
+.DS__Link__view_b2c.DS__Link__loading .DS__Link__text {
+    color: #d4e3ac;
+}
+
+.DS__Link__view_b2b {
+    color: #00a4ba;
+}
+
+.DS__Link__view_b2b:hover {
+    color: #0b7483;
+}
+
+.DS__Link__view_b2b:focus {
+    color: #00a4ba;
+}
+
+.DS__Link__view_b2b:focus::before {
+    background-color: #e8f9fb;
+}
+
+.DS__Link__view_b2b.DS__Link__loading .DS__Link__text {
+    color: #94dee4;
+}
+
+.DS__Link__view_destructive {
+    color: #f14d56;
+}
+
+.DS__Link__view_destructive:hover {
+    color: #c13e45;
+}
+
+.DS__Link__view_destructive:focus {
+    color: #f14d56;
+}
+
+.DS__Link__view_destructive:focus::before {
+    background-color: #feedee;
+}
+
+.DS__Link__view_destructive.DS__Link__loading .DS__Link__text {
+    color: #f7949a;
+}
+
+.DS__Link__view_warning {
+    color: #ff991f;
+}
+
+.DS__Link__view_warning:hover {
+    color: #c87520;
+}
+
+.DS__Link__view_warning:focus {
+    color: #ff991f;
+}
+
+.DS__Link__view_warning:focus::before {
+    background-color: #fff4e9;
+}
+
+.DS__Link__view_info {
+    color: #577edc;
+}
+
+.DS__Link__view_info:hover {
+    color: #395cb1;
+}
+
+.DS__Link__view_info:focus {
+    color: #577edc;
+}
+
+.DS__Link__view_info:focus::before {
+    background-color: #ebf1ff;
+}
+
+.DS__Link__disabled {
+    color: #95a0b3;
+    pointer-events: none;
+}
+
+.DS__Link__loading {
+    pointer-events: none;
+}
+
+.DS__Link__icon {
+    position: relative;
+    top: 0.125em;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+}
+
+.DS__Link__icon.DS__Link__position_left:not(:only-child) {
+    margin-right: 6px;
+}
+
+.DS__Link__icon.DS__Link__position_right:not(:only-child) {
+    margin-left: 6px;
+}
+.DS__AuthorizationGroup__AuthorizationGroup {
+                          display: block;
+                          width: 100%;
+                      }
+
+.DS__AuthorizationGroup__AuthorizationGroup > * {
+    display: block;
+}
+
+.DS__AuthorizationGroup__Form {
+    margin-bottom: 0;
+}
+
+.DS__AuthorizationGroup__AuthorizationGroup > *:not(:last-child), .DS__AuthorizationGroup__Form > *:not(:last-child), .DS__AuthorizationGroup__Fields > *:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.DS__AuthorizationGroup__Heading_noWrap p {
+    margin: 0;
+    font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Arial', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #222a37;
+}
+
+.DS__AuthorizationGroup__Heading_noWrap p:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.DS__AuthorizationGroup__Fields,
+.DS__AuthorizationGroup__Actions {
+    display: flex;
+    flex-direction: column;
+}
+
+.DS__AuthorizationGroup__Actions {
+    align-items: flex-end;
+}
+
+.DS__AuthorizationGroup__Actions > *:not(:first-child) {
+    margin-top: 24px;
+}
+
+.DS__AuthorizationGroup__Bottom {
+    margin-top: 32px;
+}
+.DS__Login__social-name {
+                          display: block;
+                          padding-bottom: 12px;
+                          margin-top: 12px;
+                      }
+
+input::-webkit-credentials-auto-fill-button {
+    position: absolute;
+    right: 0;
+    display: none !important;
+    pointer-events: none;
+    visibility: hidden;
+}
+.DS__PasswordStrength__root {
+                          position: relative;
+                          display: block;
+                      }
+
+@media (max-width: 767px) {
+    .DS__PasswordStrength__root {
+        width: 100%
+    }
+}
+
+.DS__PasswordStrength__tooltip {
+    position: absolute;
+    top: -7px;
+    left: 50%;
+    z-index: 399;
+    box-sizing: border-box;
+    display: none;
+    padding: 6px 9px;
+    background-color: #27344b;
+    border-radius: 4px;
+    -webkit-transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%);
+}
+
+.DS__PasswordStrength__tooltip:before {
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    z-index: 398;
+    width: 6px;
+    height: 6px;
+    content: '';
+    background-color: #27344b;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.DS__PasswordStrength__tooltip-text {
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    white-space: nowrap;
+}
+
+.DS__PasswordStrength__indicator {
+    display: block;
+    width: 100%;
+}
+
+.DS__PasswordStrength__indicator-score0,
+.DS__PasswordStrength__indicator-score1,
+.DS__PasswordStrength__indicator-score2,
+.DS__PasswordStrength__indicator-score3,
+.DS__PasswordStrength__indicator-score4 {
+    height: 4px;
+    margin: 5px 0 7px;
+    border-radius: 4px;
+}
+
+.DS__PasswordStrength__indicator-score0 {
+    background: linear-gradient(to right, #c62828 33%, #ffffff 33%, #ffffff 67%);
+}
+
+.DS__PasswordStrength__indicator-score1 {
+    background: linear-gradient(to right, #f2a900 66%, #ffffff 66%, #ffffff 34%);
+}
+
+.DS__PasswordStrength__indicator-score2 {
+    background-color: #388e3c;
+}
+
+.DS__PasswordStrength__visible {
+    display: block;
+}
+.DS__Popup__root {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            z-index: 1002;
+                            display: flex;
+                            align-items: center;
+                            width: 242px;
+                            padding: 16px;
+                            background: rgba(34, 42, 55, 0.6);
+                            border-radius: 12px;
+                            box-shadow: 0px 8px 16px rgba(34, 42, 55, 0.13);
+                            -webkit-transform: translate(-50%, -50%);
+                            transform: translate(-50%, -50%);
+                        }
+
+.DS__Popup__icon {
+    color: #97ba1e;
+}
+
+.DS__Popup__text {
+    margin-left: 12px;
+    color: #ffffff;
+}
+.DS__CssUtils__color_W100 {
+
+                            color: #ffffff
+                        }
+
+.DS__CssUtils__color_W100-o-90 {
+
+    color: rgba(255, 255, 255, 0.9)
+}
+
+.DS__CssUtils__color_W100-o-70 {
+
+    color: rgba(255, 255, 255, 0.7)
+}
+
+.DS__CssUtils__color_W100-o-60 {
+
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.DS__CssUtils__color_W100-o-50 {
+
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.DS__CssUtils__color_W100-o-15 {
+
+    color: rgba(255, 255, 255, 0.15)
+}
+
+.DS__CssUtils__color_N900 {
+
+    color: #222a37
+}
+
+.DS__CssUtils__color_N500 {
+
+    color: #27344b
+}
+
+.DS__CssUtils__color_N300 {
+
+    color: #505f79
+}
+
+.DS__CssUtils__color_N100 {
+
+    color: #7a869a
+}
+
+.DS__CssUtils__color_N80 {
+
+    color: #95a0b3
+}
+
+.DS__CssUtils__color_N60 {
+
+    color: #d0d6e1
+}
+
+.DS__CssUtils__color_N50 {
+
+    color: #dde3ed
+}
+
+.DS__CssUtils__color_N40 {
+
+    color: #eceff5
+}
+
+.DS__CssUtils__color_N30 {
+
+    color: #f1f3f8
+}
+
+.DS__CssUtils__color_N20 {
+
+    color: #f6f8fc
+}
+
+.DS__CssUtils__color_N900-o-4 {
+
+    color: rgba(34, 42, 55, 0.04)
+}
+
+.DS__CssUtils__color_N900-o-15 {
+
+    color: rgba(34, 42, 55, 0.15)
+}
+
+.DS__CssUtils__color_N900-o-13 {
+
+    color: rgba(34, 42, 55, 0.13)
+}
+
+.DS__CssUtils__color_N900-o-40 {
+
+    color: rgba(34, 42, 55, 0.4)
+}
+
+.DS__CssUtils__color_T900 {
+
+    color: #075c68
+}
+
+.DS__CssUtils__color_T800 {
+
+    color: #0b7483
+}
+
+.DS__CssUtils__color_T600 {
+
+    color: #00a4ba
+}
+
+.DS__CssUtils__color_T600-o-50 {
+
+    color: rgba(0, 164, 186, 0.5)
+}
+
+.DS__CssUtils__color_T250 {
+
+    color: #8ce3ea
+}
+
+.DS__CssUtils__color_T200 {
+
+    color: #94dee4
+}
+
+.DS__CssUtils__color_T50 {
+
+    color: #e8f9fb
+}
+
+.DS__CssUtils__color_G900 {
+
+    color: #547012
+}
+
+.DS__CssUtils__color_G800 {
+
+    color: #81a11a
+}
+
+.DS__CssUtils__color_G600 {
+
+    color: #97ba1e
+}
+
+.DS__CssUtils__color_G600-o-50 {
+
+    color: rgba(151, 186, 30, 0.5)
+}
+
+.DS__CssUtils__color_G200 {
+
+    color: #d4e3ac
+}
+
+.DS__CssUtils__color_G50 {
+
+    color: #f4f9e6
+}
+
+.DS__CssUtils__color_O900 {
+
+    color: #965817
+}
+
+.DS__CssUtils__color_O800 {
+
+    color: #c87520
+}
+
+.DS__CssUtils__color_O600 {
+
+    color: #ff991f
+}
+
+.DS__CssUtils__color_O600-o-50 {
+
+    color: rgba(255, 153, 31, 0.5)
+}
+
+.DS__CssUtils__color_O200 {
+
+    color: #fcd3a9
+}
+
+.DS__CssUtils__color_O50 {
+
+    color: #fff4e9
+}
+
+.DS__CssUtils__color_R900 {
+
+    color: #912e34
+}
+
+.DS__CssUtils__color_R800 {
+
+    color: #c13e45
+}
+
+.DS__CssUtils__color_R600 {
+
+    color: #f14d56
+}
+
+.DS__CssUtils__color_R600-o-50 {
+
+    color: rgba(241, 77, 86, 0.5)
+}
+
+.DS__CssUtils__color_R200 {
+
+    color: #f7949a
+}
+
+.DS__CssUtils__color_R50 {
+
+    color: #feedee
+}
+
+.DS__CssUtils__color_B900 {
+
+    color: #19468d
+}
+
+.DS__CssUtils__color_B800 {
+
+    color: #395cb1
+}
+
+.DS__CssUtils__color_B600 {
+
+    color: #577edc
+}
+
+.DS__CssUtils__color_B200 {
+
+    color: #aabffc
+}
+
+.DS__CssUtils__color_B50 {
+
+    color: #ebf1ff
+}
+
+.DS__CssUtils__color_E900 {
+
+    color: #0e6a5e
+}
+
+.DS__CssUtils__color_E800 {
+
+    color: #1b897a
+}
+
+.DS__CssUtils__color_E600 {
+
+    color: #21a795
+}
+
+.DS__CssUtils__color_E200 {
+
+    color: #a1e1d9
+}
+
+.DS__CssUtils__color_E50 {
+
+    color: #e8faf7
+}
+
+.DS__CssUtils__color_V900 {
+
+    color: #4e3479
+}
+
+.DS__CssUtils__color_V800 {
+
+    color: #62419b
+}
+
+.DS__CssUtils__color_V600 {
+
+    color: #7e57c2
+}
+
+.DS__CssUtils__color_V200 {
+
+    color: #beabe0
+}
+
+.DS__CssUtils__color_V50 {
+
+    color: #f6f0ff
+}
+
+.DS__CssUtils__color_P900 {
+
+    color: #972f47
+}
+
+.DS__CssUtils__color_P800 {
+
+    color: #c94c6a
+}
+
+.DS__CssUtils__color_P600 {
+
+    color: #f85b80
+}
+
+.DS__CssUtils__color_P200 {
+
+    color: #fbadbf
+}
+
+.DS__CssUtils__color_P50 {
+
+    color: #ffedf3
+}
+
+.DS__CssUtils__color_Y900 {
+
+    color: #967500
+}
+
+.DS__CssUtils__color_Y800 {
+
+    color: #e4bc00
+}
+
+.DS__CssUtils__color_Y600 {
+
+    color: #ffdd41
+}
+
+.DS__CssUtils__color_Y200 {
+
+    color: #ffec94
+}
+
+.DS__CssUtils__color_Y50 {
+
+    color: #fffae1
+}
+
+.DS__CssUtils__color_inherit {
+
+    color: inherit
+}
+
+.DS__CssUtils__backgroundColor_W100 {
+
+    background-color: #ffffff
+}
+
+.DS__CssUtils__backgroundColor_W100-o-90 {
+
+    background-color: rgba(255, 255, 255, 0.9)
+}
+
+.DS__CssUtils__backgroundColor_W100-o-70 {
+
+    background-color: rgba(255, 255, 255, 0.7)
+}
+
+.DS__CssUtils__backgroundColor_W100-o-60 {
+
+    background-color: rgba(255, 255, 255, 0.6)
+}
+
+.DS__CssUtils__backgroundColor_W100-o-50 {
+
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+.DS__CssUtils__backgroundColor_W100-o-15 {
+
+    background-color: rgba(255, 255, 255, 0.15)
+}
+
+.DS__CssUtils__backgroundColor_N900 {
+
+    background-color: #222a37
+}
+
+.DS__CssUtils__backgroundColor_N500 {
+
+    background-color: #27344b
+}
+
+.DS__CssUtils__backgroundColor_N300 {
+
+    background-color: #505f79
+}
+
+.DS__CssUtils__backgroundColor_N100 {
+
+    background-color: #7a869a
+}
+
+.DS__CssUtils__backgroundColor_N80 {
+
+    background-color: #95a0b3
+}
+
+.DS__CssUtils__backgroundColor_N60 {
+
+    background-color: #d0d6e1
+}
+
+.DS__CssUtils__backgroundColor_N50 {
+
+    background-color: #dde3ed
+}
+
+.DS__CssUtils__backgroundColor_N40 {
+
+    background-color: #eceff5
+}
+
+.DS__CssUtils__backgroundColor_N30 {
+
+    background-color: #f1f3f8
+}
+
+.DS__CssUtils__backgroundColor_N20 {
+
+    background-color: #f6f8fc
+}
+
+.DS__CssUtils__backgroundColor_N900-o-4 {
+
+    background-color: rgba(34, 42, 55, 0.04)
+}
+
+.DS__CssUtils__backgroundColor_N900-o-15 {
+
+    background-color: rgba(34, 42, 55, 0.15)
+}
+
+.DS__CssUtils__backgroundColor_N900-o-13 {
+
+    background-color: rgba(34, 42, 55, 0.13)
+}
+
+.DS__CssUtils__backgroundColor_N900-o-40 {
+
+    background-color: rgba(34, 42, 55, 0.4)
+}
+
+.DS__CssUtils__backgroundColor_T900 {
+
+    background-color: #075c68
+}
+
+.DS__CssUtils__backgroundColor_T800 {
+
+    background-color: #0b7483
+}
+
+.DS__CssUtils__backgroundColor_T600 {
+
+    background-color: #00a4ba
+}
+
+.DS__CssUtils__backgroundColor_T600-o-50 {
+
+    background-color: rgba(0, 164, 186, 0.5)
+}
+
+.DS__CssUtils__backgroundColor_T250 {
+
+    background-color: #8ce3ea
+}
+
+.DS__CssUtils__backgroundColor_T200 {
+
+    background-color: #94dee4
+}
+
+.DS__CssUtils__backgroundColor_T50 {
+
+    background-color: #e8f9fb
+}
+
+.DS__CssUtils__backgroundColor_G900 {
+
+    background-color: #547012
+}
+
+.DS__CssUtils__backgroundColor_G800 {
+
+    background-color: #81a11a
+}
+
+.DS__CssUtils__backgroundColor_G600 {
+
+    background-color: #97ba1e
+}
+
+.DS__CssUtils__backgroundColor_G600-o-50 {
+
+    background-color: rgba(151, 186, 30, 0.5)
+}
+
+.DS__CssUtils__backgroundColor_G200 {
+
+    background-color: #d4e3ac
+}
+
+.DS__CssUtils__backgroundColor_G50 {
+
+    background-color: #f4f9e6
+}
+
+.DS__CssUtils__backgroundColor_O900 {
+
+    background-color: #965817
+}
+
+.DS__CssUtils__backgroundColor_O800 {
+
+    background-color: #c87520
+}
+
+.DS__CssUtils__backgroundColor_O600 {
+
+    background-color: #ff991f
+}
+
+.DS__CssUtils__backgroundColor_O600-o-50 {
+
+    background-color: rgba(255, 153, 31, 0.5)
+}
+
+.DS__CssUtils__backgroundColor_O200 {
+
+    background-color: #fcd3a9
+}
+
+.DS__CssUtils__backgroundColor_O50 {
+
+    background-color: #fff4e9
+}
+
+.DS__CssUtils__backgroundColor_R900 {
+
+    background-color: #912e34
+}
+
+.DS__CssUtils__backgroundColor_R800 {
+
+    background-color: #c13e45
+}
+
+.DS__CssUtils__backgroundColor_R600 {
+
+    background-color: #f14d56
+}
+
+.DS__CssUtils__backgroundColor_R600-o-50 {
+
+    background-color: rgba(241, 77, 86, 0.5)
+}
+
+.DS__CssUtils__backgroundColor_R200 {
+
+    background-color: #f7949a
+}
+
+.DS__CssUtils__backgroundColor_R50 {
+
+    background-color: #feedee
+}
+
+.DS__CssUtils__backgroundColor_B900 {
+
+    background-color: #19468d
+}
+
+.DS__CssUtils__backgroundColor_B800 {
+
+    background-color: #395cb1
+}
+
+.DS__CssUtils__backgroundColor_B600 {
+
+    background-color: #577edc
+}
+
+.DS__CssUtils__backgroundColor_B200 {
+
+    background-color: #aabffc
+}
+
+.DS__CssUtils__backgroundColor_B50 {
+
+    background-color: #ebf1ff
+}
+
+.DS__CssUtils__backgroundColor_E900 {
+
+    background-color: #0e6a5e
+}
+
+.DS__CssUtils__backgroundColor_E800 {
+
+    background-color: #1b897a
+}
+
+.DS__CssUtils__backgroundColor_E600 {
+
+    background-color: #21a795
+}
+
+.DS__CssUtils__backgroundColor_E200 {
+
+    background-color: #a1e1d9
+}
+
+.DS__CssUtils__backgroundColor_E50 {
+
+    background-color: #e8faf7
+}
+
+.DS__CssUtils__backgroundColor_V900 {
+
+    background-color: #4e3479
+}
+
+.DS__CssUtils__backgroundColor_V800 {
+
+    background-color: #62419b
+}
+
+.DS__CssUtils__backgroundColor_V600 {
+
+    background-color: #7e57c2
+}
+
+.DS__CssUtils__backgroundColor_V200 {
+
+    background-color: #beabe0
+}
+
+.DS__CssUtils__backgroundColor_V50 {
+
+    background-color: #f6f0ff
+}
+
+.DS__CssUtils__backgroundColor_P900 {
+
+    background-color: #972f47
+}
+
+.DS__CssUtils__backgroundColor_P800 {
+
+    background-color: #c94c6a
+}
+
+.DS__CssUtils__backgroundColor_P600 {
+
+    background-color: #f85b80
+}
+
+.DS__CssUtils__backgroundColor_P200 {
+
+    background-color: #fbadbf
+}
+
+.DS__CssUtils__backgroundColor_P50 {
+
+    background-color: #ffedf3
+}
+
+.DS__CssUtils__backgroundColor_Y900 {
+
+    background-color: #967500
+}
+
+.DS__CssUtils__backgroundColor_Y800 {
+
+    background-color: #e4bc00
+}
+
+.DS__CssUtils__backgroundColor_Y600 {
+
+    background-color: #ffdd41
+}
+
+.DS__CssUtils__backgroundColor_Y200 {
+
+    background-color: #ffec94
+}
+
+.DS__CssUtils__backgroundColor_Y50 {
+
+    background-color: #fffae1
+}
+
+.DS__CssUtils__backgroundColor_inherit {
+
+    background-color: inherit
+}
+
+.DS__CssUtils__hidden {
+
+    display: none
+}
+
+.DS__CssUtils__flex {
+
+    display: flex
+}
+
+.DS__CssUtils__block {
+
+    display: block
+}
+
+@media (max-width: 767px) {
+
+    .DS__CssUtils__xs-hidden {
+
+        display: none
+    }
+
+    .DS__CssUtils__xs-flex {
+
+        display: flex
+    }
+
+    .DS__CssUtils__xs-block {
+
+        display: block
+    }
+}
+.DS__SvgIcon__block {
+                          display: block;
+                      }
+
+.DS__SvgIcon__size_auto {
+    width: 100%;
+    height: 100%;
+}
+
+.DS__SvgIcon__size_sm {
+    width: 12px;
+    height: 12px;
+}
+
+.DS__SvgIcon__size_md {
+    width: 20px;
+    height: 20px;
+}
+
+.DS__SvgIcon__size_lg {
+    width: 32px;
+    height: 32px;
+}
+
+.DS__SvgIcon__size_xl {
+    width: 40px;
+    height: 40px;
+}
+.DS__TextBase__root {
+                            margin-top: 0;
+                            margin-bottom: 0;
+                            font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Arial',
+                            'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+                            sans-serif;
+                            text-decoration: inherit;
+                            white-space: pre-wrap;
+                            -webkit-text-size-adjust: none;
+                            -moz-text-size-adjust: none;
+                            text-size-adjust: none;
+                        }
+
+@media print {
+    .DS__TextBase__root {
+        color: #000000
+    }
+}
+
+.DS__TextBase__size_xl {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.DS__TextBase__size_l {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.DS__TextBase__size_m {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.DS__TextBase__size_s {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+}
+
+.DS__TextBase__indent {
+    text-indent: 8px;
+}
+
+.DS__TextBase__alignment_center {
+    text-align: center;
+}
+
+.DS__TextBase__alignment_right {
+    text-align: right;
+}
+
+.DS__TextBase__alignment_left {
+    text-align: left;
+}
+
+.DS__TextBase__noWrap {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+}
+
+.DS__TextBase__block {
+    width: 100%;
+}
+
+.DS__TextBase__weight_semibold {
+    font-weight: 600;
+}
+
+.DS__TextBase__weight_inherit {
+    font-weight: inherit;
+}
+
+.DS__TextBase__display_flex {
+    display: flex;
+}
+
+.DS__TextBase__display_block {
+    display: block;
+}
+
+.DS__TextBase__display_inline {
+    display: inline;
+}
+
+.DS__TextBase__display_inline_block {
+    display: inline-block;
+}
+.DS__Tooltip__root,
+                        .DS__Tooltip__tooltip,
+                        .DS__Tooltip__content,
+                        .DS__Tooltip__arrow {
+                            all: initial;
+                            font-family: var(--font-family);
+                        }
+
+.DS__Tooltip__root {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.DS__Tooltip__tooltip {
+    position: relative;
+    z-index: 999;
+    display: block;
+}
+
+.DS__Tooltip__content {
+    box-sizing: border-box;
+    display: block;
+    padding: 6px 8px;
+    pointer-events: inherit;
+    visibility: inherit;
+    border-radius: 4px;
+}
+
+.DS__Tooltip__theme_error .DS__Tooltip__content {
+    background-color: #f14d56;
+}
+
+.DS__Tooltip__theme_error .DS__Tooltip__arrow {
+    color: #f14d56;
+}
+
+.DS__Tooltip__theme_white .DS__Tooltip__content {
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px rgba(34, 42, 55, 0.13);
+}
+
+.DS__Tooltip__theme_white .DS__Tooltip__arrow {
+    color: #ffffff;
+}
+
+.DS__Tooltip__theme_dark .DS__Tooltip__content {
+    background-color: #222a37;
+}
+
+.DS__Tooltip__theme_dark .DS__Tooltip__arrow {
+    color: #222a37;
+}
+
+.DS__Tooltip__arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    visibility: inherit;
+}
+
+.DS__Tooltip__direction_top,
+.DS__Tooltip__direction_topRight,
+.DS__Tooltip__direction_topLeft {
+    border-top: 4px solid currentColor;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.DS__Tooltip__direction_top {
+    top: 100%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.DS__Tooltip__direction_topLeft {
+    top: 100%;
+    left: 16px;
+}
+
+.DS__Tooltip__direction_topRight {
+    top: 100%;
+    right: 16px;
+}
+
+.DS__Tooltip__direction_bottom,
+.DS__Tooltip__direction_bottomRight,
+.DS__Tooltip__direction_bottomLeft {
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid currentColor;
+    border-left: 4px solid transparent;
+}
+
+.DS__Tooltip__direction_bottom {
+    bottom: 100%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.DS__Tooltip__direction_bottomLeft {
+    bottom: 100%;
+    left: 16px;
+}
+
+.DS__Tooltip__direction_bottomRight {
+    right: 16px;
+    bottom: 100%;
+}
+
+.DS__Tooltip__direction_right,
+.DS__Tooltip__direction_rightTop,
+.DS__Tooltip__direction_rightBottom {
+    border-top: 4px solid transparent;
+    border-right: 4px solid currentColor;
+    border-bottom: 4px solid transparent;
+}
+
+.DS__Tooltip__direction_right {
+    top: 50%;
+    right: 100%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.DS__Tooltip__direction_rightTop {
+    top: 5px;
+    right: 100%;
+}
+
+.DS__Tooltip__direction_rightBottom {
+    right: 100%;
+    bottom: 5px;
+}
+
+.DS__Tooltip__direction_left,
+.DS__Tooltip__direction_leftTop,
+.DS__Tooltip__direction_leftBottom {
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid currentColor;
+}
+
+.DS__Tooltip__direction_left {
+    top: 50%;
+    left: 100%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.DS__Tooltip__direction_leftTop {
+    top: 5px;
+    left: 100%;
+}
+
+.DS__Tooltip__direction_leftBottom {
+    bottom: 5px;
+    left: 100%;
+}
+
+
